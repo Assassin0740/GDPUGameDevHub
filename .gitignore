@@ -1,4 +1,15 @@
+# Exclude all quant, trading, strategy, and cache files
 *.pyc
 __pycache__/
+*.csv
+*.pth
+*.pkl
+*.onnx
+*.bin
+*.model
 *.tmp
 *.log
+_attach_*
+*米业*
+*量化*
+*股票*
