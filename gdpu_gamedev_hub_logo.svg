@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- 源石橙与战术渐变 -->
+    <linearGradient id="originiumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="50%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="pupilGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+    <filter id="glowFilter" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- 1. 外层战术视界圆环 (Boundary Halo) -->
+  <circle cx="256" cy="256" r="204" fill="none" stroke="#0f172a" stroke-width="12" />
+
+  <!-- 战术四分轴刻度微点 -->
+  <circle cx="256" cy="52" r="4" fill="#0f172a" />
+  <circle cx="460" cy="256" r="4" fill="#0f172a" />
+  <circle cx="256" cy="460" r="4" fill="#0f172a" />
+  <circle cx="52" cy="256" r="4" fill="#0f172a" />
+
+  <!-- 2. 圆环内部四颗正宗源石橙菱形矩阵 (Four-Diamond Tactical Star Array) -->
+  
+  <!-- (A) 北方菱形 (North Rhombus) -->
+  <g filter="url(#glowFilter)">
+    <path d="M256 120 L312 176 L256 232 L200 176 Z" fill="url(#originiumGrad)" />
+    <path d="M256 148 L284 176 L256 204 L228 176 Z" fill="url(#pupilGrad)" />
+    <circle cx="256" cy="176" r="5" fill="#ffffff" />
+  </g>
+
+  <!-- (B) 东方菱形 (East Rhombus) -->
+  <g filter="url(#glowFilter)">
+    <path d="M336 200 L392 256 L336 312 L280 256 Z" fill="url(#originiumGrad)" />
+    <path d="M336 228 L364 256 L336 284 L308 256 Z" fill="url(#pupilGrad)" />
+    <circle cx="336" cy="256" r="5" fill="#ffffff" />
+  </g>
+
+  <!-- (C) 南方菱形 (South Rhombus) -->
+  <g filter="url(#glowFilter)">
+    <path d="M256 280 L312 336 L256 392 L200 336 Z" fill="url(#originiumGrad)" />
+    <path d="M256 308 L284 336 L256 364 L228 336 Z" fill="url(#pupilGrad)" />
+    <circle cx="256" cy="336" r="5" fill="#ffffff" />
+  </g>
+
+  <!-- (D) 西方菱形 (West Rhombus) -->
+  <g filter="url(#glowFilter)">
+    <path d="M176 200 L232 256 L176 312 L120 256 Z" fill="url(#originiumGrad)" />
+    <path d="M176 228 L204 256 L176 284 L148 256 Z" fill="url(#pupilGrad)" />
+    <circle cx="176" cy="256" r="5" fill="#ffffff" />
+  </g>
+
+  <!-- 3. 中央四象交汇晶核微星 (Central Core Spark) -->
+  <path d="M256 244 L268 256 L256 268 L244 256 Z" fill="#ffffff" />
+  <circle cx="256" cy="256" r="3" fill="#fb923c" />
+</svg>
