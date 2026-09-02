@@ -2085,29 +2085,21 @@
 
   function detectInitialDate() {
     const path = window.location.pathname;
-    const match = path.match(/\d{4}-\d{2}-\d{2}/);
+    const match = path.match(/2026-08-\d{2}/);
     if (match) {
       return match[0];
-    }
-    if (window.DAILY_NEWS_DATA && window.DAILY_NEWS_DATA.meta && window.DAILY_NEWS_DATA.meta.date) {
-      return window.DAILY_NEWS_DATA.meta.date;
     }
     if (window.DAILY_NEWS_DATA && window.DAILY_NEWS_DATA.date) {
       return window.DAILY_NEWS_DATA.date;
     }
-    if (window.NEWS_ARCHIVE_LIST && Array.isArray(window.NEWS_ARCHIVE_LIST) && window.NEWS_ARCHIVE_LIST.length > 0) {
-      return window.NEWS_ARCHIVE_LIST[0].date;
-    }
-    return "2026-09-02";
+    return "2026-08-31";
   }
 
   function setupArchiveDropdown() {
     const sel = document.getElementById("archiveDropdown");
     if (!sel) return;
 
-    const curDate = (window.DAILY_NEWS_DATA && window.DAILY_NEWS_DATA.meta && window.DAILY_NEWS_DATA.meta.date)
-      || (window.DAILY_NEWS_DATA && window.DAILY_NEWS_DATA.date)
-      || detectInitialDate();
+    const curDate = (window.DAILY_NEWS_DATA && window.DAILY_NEWS_DATA.date) || detectInitialDate();
 
     if (window.NEWS_ARCHIVE_LIST && Array.isArray(window.NEWS_ARCHIVE_LIST)) {
       sel.innerHTML = window.NEWS_ARCHIVE_LIST.map((item, idx) => {
@@ -2123,10 +2115,7 @@
       }).join("");
     } else {
       sel.innerHTML = `
-        <option value="data/2026-09-02.js" ${curDate.includes("09-02") ? 'selected' : ''}>📅 2026-09-02 (今日最新)</option>
-        <option value="data/2026-09-01.js" ${curDate.includes("09-01") ? 'selected' : ''}>📅 2026-09-01 (往期归档)</option>
-        <option value="data/2026-08-31.js" ${curDate.includes("08-31") ? 'selected' : ''}>📅 2026-08-31 (往期归档)</option>
-        <option value="data/2026-08-30.js" ${curDate.includes("08-30") ? 'selected' : ''}>📅 2026-08-30 (往期归档)</option>
+        <option value="data/2026-08-31.js" ${curDate.includes("08-31") ? 'selected' : ''}>📅 2026-08-31 (今日最新)</option>
         <option value="data/2026-08-29.js" ${curDate.includes("08-29") ? 'selected' : ''}>📅 2026-08-29 (往期归档)</option>
         <option value="data/2026-08-28.js" ${curDate.includes("08-28") ? 'selected' : ''}>📅 2026-08-28 (往期归档)</option>
         <option value="data/2026-08-27.js" ${curDate.includes("08-27") ? 'selected' : ''}>📅 2026-08-27 (往期归档)</option>
