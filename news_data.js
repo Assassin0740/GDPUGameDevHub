@@ -1,61 +1,61 @@
 /**
- * 广药 游戏开发情报中枢 · 每日技术情报 - 2026-09-03
+ * 广药 游戏开发情报中枢 · 每日技术情报 - 2026-09-04
  */
 
 window.DAILY_NEWS_DATA = {
   meta: {
-    date: "2026-09-03",
-    weekday: "星期四",
+    date: "2026-09-04",
+    weekday: "星期五",
     title: "广药 游戏开发情报中枢 · 每日技术情报",
     subtitle: "全生态技术演进 · 3A工业化与前沿行业情报",
-    updateTime: "2026-09-03 08:35",
+    updateTime: "2026-09-04 08:40",
     editor: "广药技术中枢 & 豆包极客",
     highlights: [
-      "🚀 Unity 6.6 正式发布：CoreCLR核心组件落地，Unity 6.7 LTS前最后一个非LTS版本",
-      "🎮 《鬼武者：剑之道》媒体评分解禁：IGN 10分满分，M站PS5版86分、Switch2版89分",
-      "💰 米哈游领投《月圆之夜》制作人创业项目，Roguelike新游研发中",
-      "🤖 Game-NPC-Brain-LLM v2.0发布：Gemma-2 2B本地零成本AI大脑，支持Unity/UE/Godot",
-      "📱 Android XR 更新：Unity/Unreal/Godot三大引擎XR支持全面升级"
+      "🤖 GPT-6 Astra 发布：OpenAI称全球最智能模型，计算机操作/软件工程能力大幅跃升",
+      "⚔️ 《鬼武者：剑之道》今日正式发售，试玩版全球下载突破200万次",
+      "💰 Anthropic 将完成150亿美元IPO前信贷融资，腾讯计划发行40亿美元债券",
+      "🔧 Unity 6.6 深度解析：WebGPU生产就绪、硬件光追加速光照烘焙、字典原生序列化",
+      "📈 Godot 生态爆发：GitHub Star突破13.7万，Steam游戏从56款暴涨至1229款"
     ],
     engineStatus: [
-      { name: "Unity 6.6", type: "unity", status: "9月2日正式发布·CoreCLR落地", badge: "最新功能版", color: "indigo" },
-      { name: "Unity 6.3", type: "unity", status: "官方 LTS 长期支持", badge: "LTS 推荐", color: "blue" },
+      { name: "Unity 6.6", type: "unity", status: "9月2日发布·WebGPU生产就绪", badge: "最新功能版", color: "indigo" },
+      { name: "Unity 6.3", type: "unity", status: "官方 LTS 支持至2027年12月", badge: "LTS 推荐", color: "blue" },
       { name: "团结引擎 1.10.2", type: "tuanjie", status: "8月27日版本更新", badge: "全平台适配", color: "cyan" },
       { name: "UE 5.8.2", type: "unreal", status: "Hotfix 稳定性补丁", badge: "UE5工业化", color: "purple" },
       { name: "UE 6", type: "unreal", status: "2027年底 Early Access", badge: "Verse语言", color: "pink" },
-      { name: "Godot 4.4", type: "godot", status: "Jolt物理集成·开源引擎", badge: "轻量开源", color: "emerald" }
+      { name: "Godot 4.4", type: "godot", status: "Star 13.7万·生态爆发", badge: "轻量开源", color: "emerald" }
     ]
   },
   hero: {
-    id: "hero-unity-66-release",
-    category: "engine",
-    categoryName: "引擎前沿 · 头条深度",
-    tag: "🔥 引擎重磅更新",
-    title: "Unity 6.6 正式发布：CoreCLR 核心组件落地，性能/编译/工作流/2D 全面升级",
-    summary: "Unity于9月2日正式发布Unity 6.6，这是四季度Unity 6.7 LTS发布前的最后一个非LTS版本。本次更新最大亮点是实现了作为Unity 7基础的全新CoreCLR核心组件，同时在性能、编译速度、工作流、2D图形、编辑器界面和多平台支持方面带来重大改进。新增'Enter Play'受限模式，进一步优化迭代效率。韩国媒体报道称Unity 6.6标志着开发周期整体改善的关键节点。",
-    image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
-    source: "Developpez / ILovePCBang / Unity",
-    date: "2026-09-02",
-    url: "https://jeux.developpez.com/actu/386721/Unity-6-6-est-desormais-disponible-avec-des-ameliorations-majeures-en-performances-compilation-flux-de-travail-graphismes-2D-interface-et-plateformes/",
+    id: "hero-gpt6-astra-release",
+    category: "ai",
+    categoryName: "AI前沿 · 头条深度",
+    tag: "🔥 今日爆炸新闻",
+    title: "GPT-6 Astra 发布：OpenAI 称全球最智能模型，计算机操作与软件工程能力大幅跃升",
+    summary: "9月4日早间，OpenAI正式发布GPT-6 Astra，官方定调为'全球最智能、最符合人类意图的模型'。Astra集合了多年在预训练、强化学习和模型对齐领域的研究成果，在计算机操作、网页浏览、软件工程、网络安全等领域能力大幅跃升。对游戏开发而言，更强的代码生成、自动化测试和工具调用能力将进一步降低开发门槛，AI驱动的游戏内容生产管线有望迎来新一轮升级。",
+    image: "",
+    source: "凤凰网科技 / OpenAI",
+    date: "2026-09-04",
+    url: "https://tech.ifeng.com/c/8w8QWV0abMf",
     readTime: "4 分钟深度",
-    hotScore: 97,
-    tags: ["Unity 6.6", "CoreCLR", "LTS", "性能优化", "编译速度"],
+    hotScore: 99,
+    tags: ["GPT-6", "OpenAI", "Astra", "AGI", "软件工程", "AI游戏开发"],
     content: [
       {
-        title: "核心更新要点",
+        title: "核心能力跃升",
         type: "list",
         items: [
-          "Unity 6.6正式发布，Unity 6.7 LTS前最后一个非LTS版本；",
-          "实现Unity 7基础的CoreCLR核心组件，为下一代运行时铺路；",
-          "性能、编译速度、工作流、2D图形、编辑器界面全面改进；",
-          "新增'Enter Play'受限模式，优化迭代效率；",
-          "多平台支持升级，覆盖桌面/移动/主机/Web。"
+          "OpenAI官方定调：全球最智能、最符合人类意图的模型；",
+          "计算机操作、网页浏览能力大幅提升；",
+          "软件工程代码生成与调试能力跃升；",
+          "网络安全、多步推理等复杂任务表现增强；",
+          "集合预训练、强化学习、模型对齐多年研究成果。"
         ]
       },
       {
-        title: "开发者建议",
+        title: "对游戏开发的影响",
         type: "text",
-        text: "Unity 6.6作为LTS前的最后一个功能版本，建议生产项目继续使用Unity 6.3 LTS，但技术预研团队可提前评估6.6的CoreCLR性能提升和编译速度改进，为6.7 LTS迁移做准备。CoreCLR的落地意味着Unity 7的运行时架构正在逐步成型，关注C#生态与Unity的深度整合趋势。"
+        text: "GPT-6 Astra的发布对游戏开发影响深远：更强的代码生成能力可加速游戏逻辑编写和Bug修复，计算机操作能力提升意味着AI Agent可以更自主地操作Unity/UE编辑器完成资源管理和场景搭建，网页浏览能力增强使AI能更高效地检索文档和社区解决方案。结合MCP生态，游戏开发的AI自动化管线将从'辅助工具'向'自主协作'演进，中小团队的生产力将获得显著提升。"
       }
     ]
   },
@@ -71,166 +71,167 @@ window.DAILY_NEWS_DATA = {
   items: [
     // ------------------------- 引擎前沿 (Engine) -------------------------
     {
-      id: "unity-66-korean-detail",
+      id: "unity-66-deep-dive",
       category: "engine",
       subcategory: "Unity",
-      title: "Unity 6.6 韩媒深度解析：开发周期整体改善，CoreCLR 为 Unity 7 奠基",
-      summary: "韩国媒体ILovePCBang详细解析Unity 6.6：作为四季度Unity 6.7 LTS前的最后一个非LTS版本，6.6实现了Unity 7基础的CoreCLR核心组件，在开发周期全流程带来改善。文章指出CoreCLR的落地是Unity运行时架构演进的关键里程碑。",
-      source: "ILovePCBang",
+      title: "Unity 6.6 深度解析：WebGPU 生产就绪、硬件光追加速光照烘焙、字典原生序列化",
+      summary: "法媒Developpez深度解析Unity 6.6：WebGPU终于在Web构建中达到生产级质量；新增'Enter Play'受限模式默认仅当前场景；字典原生序列化提升数据持久化效率；光照烘焙系统基于Scriptable Render Pipelines Core和Unified Ray Tracing API，利用硬件光追加速生成lightmap和light probes，烘焙时间显著缩短。",
+      source: "Developpez",
       date: "2026-09-02",
-      url: "https://www.ilovepcbang.com/news/articleView.html?idxno=201346",
+      url: "https://jeux.developpez.com/actu/386721/Unity-6-6-est-desormais-disponible-avec-des-ameliorations-majeures-en-performances-compilation-flux-de-travail-graphismes-2D-interface-et-plateformes/",
       image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
       badge: "深度解析",
       badgeType: "engine",
-      readTime: "3 分钟",
-      hotScore: 88,
-      tags: ["Unity 6.6", "CoreCLR", "Unity 7", "开发周期"],
+      readTime: "4 分钟",
+      hotScore: 90,
+      tags: ["Unity 6.6", "WebGPU", "光照烘焙", "光追", "序列化"],
       content: [
         {
-          title: "解析要点",
+          title: "核心更新",
           type: "list",
           items: [
-            "Unity 6.6是6.7 LTS前最后一个非LTS版本；",
-            "CoreCLR核心组件实现，为Unity 7运行时奠基；",
-            "开发周期全流程改善，编译与迭代效率提升；",
-            "建议技术预研团队评估6.6，为LTS迁移做准备。"
+            "WebGPU在Web构建中达到生产级质量；",
+            "Enter Play受限模式，新项目默认仅当前场景；",
+            "字典原生序列化，提升数据持久化效率；",
+            "光照烘焙基于SRP Core+Unified Ray Tracing API；",
+            "硬件光追加速lightmap/light probes生成。"
           ]
         }
       ]
     },
     {
-      id: "android-xr-three-engines",
+      id: "unity-65-63-lts-status",
       category: "engine",
-      subcategory: "XR",
-      title: "Android XR 更新：Unity / Unreal / Godot 三大引擎 XR 支持全面升级",
-      summary: "Android开发者官方发布XR更新，通过OpenXR标准确保Unity、Unreal Engine和Godot三大引擎获得最佳XR开发工具。Unreal Engine支持现已进入开发者预览版，目标版本5.6.1，集成基于OpenXR并支持AndroidXR厂商特定API。",
-      source: "Android Developers",
-      date: "2026-08-26",
-      url: "https://developer.android.google.cn/blog/posts/android-xr-updates-for-unity-unreal-and-godot",
-      badge: "XR更新",
+      subcategory: "Unity",
+      title: "Unity 版本现状：6.5 Update 功能版 + 6.3 LTS 支持至 2027 年 12 月",
+      summary: "CSDN博主整理2026年9月Unity版本快照：当前有Unity 6.5 Update功能版，同时Unity 6.3 LTS是最新LTS版本，官方支持至2027年12月。文章对比Unity/Unreal/Godot三大引擎的版本现状、学习曲线和适用场景，帮助零基础开发者选择入门引擎。",
+      source: "CSDN",
+      date: "2026-09-01",
+      url: "https://blog.csdn.net/2401_85555433/article/details/164269282",
+      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      badge: "版本指南",
+      badgeType: "engine",
+      readTime: "3 分钟",
+      hotScore: 82,
+      tags: ["Unity 6.5", "Unity 6.3 LTS", "版本选择", "入门指南"],
+      content: [
+        {
+          title: "版本现状",
+          type: "list",
+          items: [
+            "Unity 6.5 Update为当前功能版；",
+            "Unity 6.3 LTS为最新LTS，支持至2027年12月；",
+            "生产项目建议使用LTS版本；",
+            "技术预研可评估6.5/6.6的新特性。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "godot-ecosystem-boom",
+      category: "engine",
+      subcategory: "Godot",
+      title: "Godot 生态爆发：GitHub Star 突破 13.7 万，Steam 游戏从 56 款暴涨至 1229 款",
+      summary: "什么值得买深度分析Godot生态增长：截至2026年GitHub项目Star突破13.7万，六年间Steam上线游戏从56款暴涨至1229款，itch.io平台累计上线作品超3.65万款。Godot凭借完全免费开源和MIT许可证，在独立开发者和中小团队中快速渗透，成为Unity/Unreal之外的第三极。",
+      source: "什么值得买",
+      date: "2026-09-03",
+      url: "https://post.m.smzdm.com/p/a6zq8mqo/",
+      image: "https://aka.doubaocdn.com/s/i7rEWxhsTE",
+      badge: "生态爆发",
+      badgeType: "engine",
+      readTime: "3 分钟",
+      hotScore: 87,
+      tags: ["Godot", "开源引擎", "GitHub Star", "Steam", "独立游戏"],
+      content: [
+        {
+          title: "生态数据",
+          type: "list",
+          items: [
+            "GitHub Star突破13.7万；",
+            "Steam游戏六年从56款暴涨至1229款；",
+            "itch.io累计上线作品超3.65万款；",
+            "MIT完全免费开源，中小团队渗透率快速提升。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "qualcomm-adreno-neural-fusion",
+      category: "engine",
+      subcategory: "移动渲染",
+      title: "高通 Adreno Neural Fusion：AI 超分+帧生成整合进统一图形管线",
+      summary: "高通发布Adreno Neural Fusion技术，将神经网络处理、AI超级分辨率和AI帧生成整合到统一图形管线中，改变场景渲染和优化方式。实际游戏中在提升画质的同时减少伪影、提升帧率稳定性、呈现清晰细节，解决了移动端超分技术长期存在的细节抖动和快速运动伪影问题。",
+      source: "环球网 / 今日头条",
+      date: "2026-09-03",
+      url: "http://m.toutiao.com/group/7681275847877067264/",
+      badge: "AI渲染",
       badgeType: "engine",
       readTime: "2 分钟",
       hotScore: 84,
-      tags: ["Android XR", "OpenXR", "Unity", "Unreal", "Godot"],
+      tags: ["高通", "Adreno", "AI超分", "帧生成", "移动端渲染"],
       content: [
         {
-          title: "更新内容",
+          title: "技术要点",
           type: "list",
           items: [
-            "通过OpenXR标准统一三大引擎XR支持；",
-            "Unreal Engine XR支持进入开发者预览（目标5.6.1）；",
-            "支持AndroidXR厂商特定API；",
-            "独立开发者和大厂均能获得最佳XR工具。"
+            "神经网络处理+AI超分+AI帧生成整合到统一管线；",
+            "硬件单元实现本地AI计算；",
+            "减少伪影、提升帧率稳定性；",
+            "解决移动端超分细节抖动和运动伪影。"
           ]
         }
       ]
     },
     {
-      id: "unity6-graphics-optimization",
+      id: "cpp-custom-engine-blueprint",
       category: "engine",
-      subcategory: "Unity 渲染",
-      title: "Unity 6 图形性能优化官方指南：OnDemandRendering API 按需渲染降本增效",
-      summary: "Unity官方文档详解6000.4版本图形性能优化：使用OnDemandRendering API降低渲染帧率，适用于菜单、暂停界面、回合制游戏等静态内容场景。可在输入时临时提高帧率保持响应性，与Adaptive Performance配合效果更佳，同时覆盖CPU/GPU渲染工作减少。",
-      source: "Unity 官方文档",
-      date: "2026-09-01",
-      url: "https://docs.unity3d.com/6000.4/Documentation/Manual/OptimizingGraphicsPerformance.html",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
-      badge: "官方优化",
-      badgeType: "engine",
-      readTime: "3 分钟",
-      hotScore: 85,
-      tags: ["Unity 6", "图形优化", "OnDemandRendering", "Adaptive Performance"],
-      content: [
-        {
-          title: "优化要点",
-          type: "list",
-          items: [
-            "OnDemandRendering API按需降低渲染帧率；",
-            "适用于菜单/暂停/回合制等静态场景；",
-            "输入时临时提高帧率保持响应性；",
-            "与Adaptive Performance配合效果更佳。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "ue58-realtime-render-guide",
-      category: "engine",
-      subcategory: "Unreal",
-      title: "UE 5.8 实时渲染优化官方指南：移动端性能预算与瓶颈检测工具",
-      summary: "Epic官方发布UE 5.8实时渲染优化指南，详细介绍如何识别并优化移动设备性能，包括性能预算因素、项目打包最佳实践、检测性能瓶颈的工具使用。覆盖Lumen/Nanite在移动端的配置策略，帮助开发者在有限资源下获得最逼真实时渲染效果。",
-      source: "Epic Games 官方文档",
-      date: "2026-08-04",
-      url: "https://dev.epicgames.com/documentation/zh-cn/unreal-engine/guidelines-for-optimizing-rendering-for-real-time-in-unreal-engine",
-      image: "https://aka.doubaocdn.com/s/LYzEV2Xanh",
-      badge: "官方指南",
+      subcategory: "自研引擎",
+      title: "从零构建现代 C++ 自研游戏引擎开发蓝图：渲染/物理/ECS 全流程规划",
+      summary: "技术博客发布现代C++自研游戏引擎完整开发蓝图，涵盖渲染管线（静态/动态批处理、GPU Instancing减少Draw Call）、物理系统、ECS架构、资源管理、输入系统等核心模块。目标是减少CPU到GPU的Draw Call命令，适合想深入理解引擎底层的开发者。",
+      source: "技术博客",
+      date: "2026-09-03",
+      url: "http://hk.pswp.cn/news/911688.shtml",
+      badge: "自研引擎",
       badgeType: "engine",
       readTime: "4 分钟",
-      hotScore: 86,
-      tags: ["UE5.8", "实时渲染", "移动端优化", "性能预算", "Lumen"],
+      hotScore: 81,
+      tags: ["C++", "自研引擎", "渲染管线", "ECS", "Draw Call"],
       content: [
         {
-          title: "指南要点",
+          title: "开发蓝图",
           type: "list",
           items: [
-            "识别并优化移动设备性能的完整指南；",
-            "性能预算因素分析与项目打包最佳实践；",
-            "检测性能瓶颈的工具使用方法；",
-            "Lumen/Nanite移动端配置策略。"
+            "渲染管线：静态/动态批处理、GPU Instancing；",
+            "目标：减少CPU→GPU的Draw Call命令；",
+            "物理系统、ECS架构、资源管理核心模块；",
+            "适合深入理解引擎底层的开发者。"
           ]
         }
       ]
     },
     {
-      id: "three-engines-license-2026",
+      id: "three-engines-zero-base-guide",
       category: "engine",
       subcategory: "引擎对比",
-      title: "2026三大引擎授权模式对比：UE免费+5%分成、Unity订阅制、Godot MIT全免费",
-      summary: "SHAttered发布2026年三大引擎最新对比：UE 5.8为5.x最终大版（免费+5%分成），Unity 6.4为订阅制闭源，Godot 4.7.1为MIT全开源。文章用2026年7月官方数据逐项对比功能、授权、性能，帮助开发者根据项目规模和预算选择合适引擎。",
-      source: "SHAttered",
-      date: "2026-07-29",
-      url: "https://shattered.io/unreal-engine-vs-unity-vs-godot/",
-      badge: "选型对比",
+      title: "2026 三大引擎零基础选型指南：Unity/Unreal/Godot 版本、语言、平台逐项对比",
+      summary: "DEV Community发布2026年三大引擎零基础选型指南，逐项对比Unity（C#、移动端最强）、Unreal（C++/蓝图、AAA画质）、Godot（GDScript/C#、开源免费）的当前版本、编程语言、学习曲线、平台支持和授权模式，帮助新手根据项目类型选择合适引擎。",
+      source: "DEV Community",
+      date: "2026-08-29",
+      url: "https://dev.to/oceanviewgames/which-game-engine-should-you-use-unity-vs-unreal-vs-godot-2026-4ndj",
+      badge: "选型指南",
       badgeType: "engine",
-      readTime: "4 分钟",
-      hotScore: 83,
-      tags: ["引擎对比", "授权模式", "UE5.8", "Unity 6.4", "Godot 4.7"],
-      content: [
-        {
-          title: "授权对比",
-          type: "list",
-          items: [
-            "UE 5.8：免费+5%分成（5.x最终大版）；",
-            "Unity 6.4：订阅制闭源，企业版有最低承诺金；",
-            "Godot 4.7.1：MIT全开源零成本；",
-            "数据基于2026年7月官方发布，选型需结合项目规模。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "unity-ugs-update",
-      category: "engine",
-      subcategory: "Unity 服务",
-      title: "Unity Gaming Services 更新：Google Play Billing Library 升级至 9.0",
-      summary: "Unity游戏服务（UGS）发布更新，Google Play Billing Library升级至9.0，云API版本更新，Cloud Save SDK升级至3.4，Vivox SDK升级至16.11.0。同时更新了最低支持编辑器版本要求，开发者需关注依赖兼容性。",
-      source: "Unity 官方文档",
-      date: "2026-08-20",
-      url: "https://docs.unity.com/en-us/services/release-notes",
-      badge: "服务更新",
-      badgeType: "engine",
-      readTime: "2 分钟",
+      readTime: "3 分钟",
       hotScore: 80,
-      tags: ["Unity", "UGS", "Billing Library", "Cloud Save", "Vivox"],
+      tags: ["引擎对比", "Unity", "Unreal", "Godot", "零基础"],
       content: [
         {
-          title: "更新内容",
+          title: "对比要点",
           type: "list",
           items: [
-            "Google Play Billing Library升级至9.0；",
-            "Cloud Save SDK 3.4、Vivox SDK 16.11.0；",
-            "云API版本同步更新；",
-            "最低支持编辑器版本要求更新，注意依赖兼容。"
+            "Unity：C#，移动端/2D最强，跨平台最广；",
+            "Unreal：C++/蓝图，AAA画质标杆，5%分成；",
+            "Godot：GDScript/C#，MIT全免费，轻量开源；",
+            "按项目类型、团队规模、预算综合选择。"
           ]
         }
       ]
@@ -238,166 +239,165 @@ window.DAILY_NEWS_DATA = {
 
     // ------------------------- 行业热点 (Industry) -------------------------
     {
-      id: "onimusha-review-scores",
+      id: "anthropic-15b-credit",
       category: "industry",
-      subcategory: "游戏评测",
-      title: "《鬼武者：剑之道》媒体评分解禁：IGN 10分满分，M站PS5版86分、Switch2版89分",
-      summary: "卡普空《鬼武者：剑之道》全球媒体评分解禁。IGN给出10分满分，盛赞'叙事与战斗双双拉满的动作游戏杰作'。Metacritic平台PS5版86分（73家好评6家中评），PC版82分，Switch 2版高达89分。GameSpot给出80分，VGC给出3/5分，评价呈现分化。",
-      source: "新浪新闻 / 3DM",
-      date: "2026-09-01",
-      url: "https://www.sina.cn/news/detail/5338358034468062.html",
-      image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
-      badge: "媒体评分",
-      badgeType: "game",
-      readTime: "3 分钟",
-      hotScore: 93,
-      tags: ["鬼武者", "IGN 10分", "Metacritic", "媒体评分", "卡普空"],
-      content: [
-        {
-          title: "评分概况",
-          type: "list",
-          items: [
-            "IGN 10分满分：叙事与战斗双双拉满的杰作；",
-            "Metacritic PS5版86分（73好评6中评）；",
-            "Switch 2版89分，PC版82分，XSX版83分；",
-            "GameSpot 80分，VGC 3/5分，评价有分化。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "onimusha-gamescom-awards",
-      category: "industry",
-      subcategory: "科隆展会",
-      title: "《鬼武者：剑之道》科隆斩获'最佳玩法'与'最佳PlayStation游戏'两项大奖",
-      summary: "在2026科隆游戏展颁奖典礼上，卡普空《鬼武者：剑之道》表现亮眼，一举斩获'最佳玩法'与'最佳PlayStation游戏'两项重磅大奖。官方回应表示感谢玩家与媒体支持。游戏将于9月4日正式发售，媒体高分与展会奖项双重加持。",
-      source: "游民星空",
-      date: "2026-09-01",
-      url: "https://www.gamersky.com/news/258246/",
-      image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
-      badge: "科隆大奖",
-      badgeType: "event",
-      readTime: "2 分钟",
-      hotScore: 89,
-      tags: ["鬼武者", "科隆展", "最佳玩法", "最佳PS游戏", "卡普空"],
-      content: [
-        {
-          title: "获奖情况",
-          type: "list",
-          items: [
-            "科隆游戏展斩获'最佳玩法'大奖；",
-            "同时获得'最佳PlayStation游戏'奖；",
-            "媒体评分与展会奖项双重加持；",
-            "9月4日正式发售，期待值拉满。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "mihaoyue-investment",
-      category: "industry",
-      subcategory: "投融资",
-      title: "米哈游领投《月圆之夜》制作人创业项目：离开大厂想自由做一辈子游戏",
-      summary: "《月圆之夜》制作人小木匠2025年10月离开巨人网络自主创业，12月与真格、Monolith确定合作意向并获天使轮。2026年8月米哈游领投，真格、Monolith继续跟投。团队正在研发一款新的Roguelike游戏，玩家在每个关卡获得奖励强化自己。",
-      source: "游戏葡萄 / 今日头条",
-      date: "2026-09-02",
-      url: "http://m.toutiao.com/group/7680824526682260002/",
-      badge: "米哈游领投",
+      subcategory: "AI 资本",
+      title: "Anthropic 将完成 150 亿美元 IPO 前信贷融资，扫清上市前关键障碍",
+      summary: "据彭博社9月4日报道，Anthropic PBC即将完成将循环信贷额度扩大至150亿美元的计划，扫清了提交备受瞩目的IPO公开申请之前的一个障碍。这是AI行业继英伟达收购Hugging Face传闻后的又一重大资本动作，AI基础设施竞争持续升温。",
+      source: "凤凰网科技 / 彭博社",
+      date: "2026-09-04",
+      url: "https://tech.ifeng.com/c/8w8YkEEp8oq",
+      badge: "IPO融资",
       badgeType: "business",
-      readTime: "3 分钟",
-      hotScore: 87,
-      tags: ["米哈游", "月圆之夜", "小木匠", "Roguelike", "创业融资"],
+      readTime: "2 分钟",
+      hotScore: 90,
+      tags: ["Anthropic", "IPO", "150亿美元", "信贷融资", "AI资本"],
       content: [
         {
-          title: "创业历程",
+          title: "融资要点",
           type: "list",
           items: [
-            "《月圆之夜》制作人小木匠2025年10月离开巨人网络；",
-            "12月获真格、Monolith天使轮；",
-            "2026年8月米哈游领投，真格、Monolith跟投；",
-            "正在研发新Roguelike游戏，关卡奖励强化机制。"
+            "循环信贷额度扩大至150亿美元；",
+            "扫清IPO公开申请前的关键障碍；",
+            "AI基础设施竞争持续升温；",
+            "继英伟达收购HF传闻后的又一资本大动作。"
           ]
         }
       ]
     },
     {
-      id: "orbit-twins-release",
+      id: "tencent-4b-bond",
+      category: "industry",
+      subcategory: "腾讯",
+      title: "腾讯重返债券市场：计划发行约 40 亿美元双币种债券",
+      summary: "TechShots 9月3日报道，腾讯已聘请全球大型银行 orchestrate 大规模双币种债券发行，目标融资约40亿美元。债券包括10年期和20年期美元票据，以及10年期和30年期离岸人民币票据，是腾讯近年来最大规模的债券融资之一。",
+      source: "TechShots",
+      date: "2026-09-03",
+      url: "https://www.techshotsapp.com/business/back-in-the-bond-market-tencent-aims-for-4-billion-cash-injection",
+      badge: "债券融资",
+      badgeType: "business",
+      readTime: "2 分钟",
+      hotScore: 85,
+      tags: ["腾讯", "债券", "40亿美元", "双币种", "融资"],
+      content: [
+        {
+          title: "债券详情",
+          type: "list",
+          items: [
+            "计划发行约40亿美元双币种债券；",
+            "10年/20年期美元票据；",
+            "10年/30年期离岸人民币票据；",
+            "腾讯近年来最大规模债券融资之一。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "primalverse-seed-funding",
+      category: "industry",
+      subcategory: "AI 3D",
+      title: "4D 世界模型公司 PrimalVerse（元昊动力）完成数亿元种子轮融资",
+      summary: "4D世界模型公司PrimalVerse（元昊动力）宣布完成数亿元种子轮融资，联想之星领投，银杏谷资本、啟赋资本、卓源亚洲等跟投，手术机器人领域精锋医疗战略投资。融资将用于4D世界模型基模研发及团队扩充，推进在游戏和机器人领域的应用。",
+      source: "联想之星",
+      date: "2026-09-03",
+      url: "https://www.legendstar.cn/news/479122957945181405?lang=en",
+      badge: "种子轮",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 83,
+      tags: ["PrimalVerse", "4D世界模型", "元昊动力", "联想之星", "AI 3D"],
+      content: [
+        {
+          title: "融资详情",
+          type: "list",
+          items: [
+            "数亿元种子轮，联想之星领投；",
+            "银杏谷资本、啟赋资本、卓源亚洲跟投；",
+            "精锋医疗战略投资；",
+            "用于4D世界模型基模研发，推进游戏/机器人应用。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "gamegum-roblox-funding",
+      category: "industry",
+      subcategory: "Roblox",
+      title: "日本 GameGum 完成 Pre-seed 轮融资，加码 Roblox IP 游戏生态布局",
+      summary: "日本鸟取县境港市游戏开发企业GameGum Co完成Pre-seed轮融资，金额达3000万日元。公司计划将资金全部用于团队扩招、业务扩容和Roblox平台开发体系升级，加速IP游戏化进程。Roblox生态持续吸引全球开发者和资本关注。",
+      source: "新浪财经 / 看点资讯",
+      date: "2026-09-01",
+      url: "https://cj.sina.com.cn/articles/view/2166321755/811f725b02701vyho?froms=ttmp",
+      badge: "Pre-seed",
+      badgeType: "business",
+      readTime: "2 分钟",
+      hotScore: 80,
+      tags: ["GameGum", "Roblox", "IP游戏", "日本", "融资"],
+      content: [
+        {
+          title: "融资用途",
+          type: "list",
+          items: [
+            "Pre-seed轮3000万日元；",
+            "团队扩招、业务扩容；",
+            "Roblox平台开发体系升级；",
+            "加速IP游戏化进程。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "onimusha-launch-day",
       category: "industry",
       subcategory: "游戏发售",
-      title: "《轨道双子星》今日发售：Switch 2 独占双人合作，致敬 80 年代经典动画",
-      summary: "独立团队打造的复古双人合作冒险游戏《轨道双子星》（Orbitals）于9月3日正式发售，任天堂Switch 2平台独占。游戏支持中文及中文配音，致敬80年代经典动画美学，还有线下快闪活动同步进行。是Switch 2首发后又一款独占佳作。",
-      source: "IT之家 / 微博",
-      date: "2026-09-03",
-      url: "https://m.weibo.cn/detail/5338972790457592",
+      title: "《鬼武者：剑之道》今日正式发售，试玩版全球累计下载突破 200 万次",
+      summary: "卡普空《鬼武者：剑之道》于9月4日正式发售，登陆PS5/Xbox Series/Switch 2/PC全平台。主机版北京时间零点解锁，PC版中午12点开放。官方宣布试玩版全球累计下载量突破200万次，开发团队同步公布社区联动成果。M站PS5版86分，成为卡普空今年又一高分作品。",
+      source: "游侠网 / 二柄",
+      date: "2026-09-04",
+      url: "http://www.ali213.net/news/115633/",
+      image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
       badge: "今日发售",
       badgeType: "game",
       readTime: "2 分钟",
-      hotScore: 84,
-      tags: ["轨道双子星", "Switch 2", "双人合作", "独占", "复古动画"],
+      hotScore: 92,
+      tags: ["鬼武者", "卡普空", "发售", "试玩版200万", "全平台"],
       content: [
         {
-          title: "游戏亮点",
+          title: "发售信息",
           type: "list",
           items: [
-            "9月3日发售，Switch 2平台独占；",
-            "复古双人合作冒险，致敬80年代经典动画；",
-            "支持中文及中文配音；",
-            "线下快闪活动同步进行。"
+            "9月4日全平台发售，主机版0点/PC版12点解锁；",
+            "试玩版全球下载突破200万次；",
+            "M站PS5版86分，卡普空今年又一高分作；",
+            "登陆PS5/Xbox Series/Switch 2/PC。"
           ]
         }
       ]
     },
     {
-      id: "game-companies-vast-investment",
+      id: "onimusha-unlock-time",
       category: "industry",
-      subcategory: "AI 3D",
-      title: "游戏厂商密集入股 AI 3D 公司 VAST：半年累计融资 50 亿，完美世界/三七互娱入局",
-      summary: "《科创板日报》报道，游戏厂商正密集入股AI 3D公司VAST。VAST完成B轮和B+轮融资合计约30亿元，产业投资方包括完美世界、蓝色光标、三七互娱、延趣游戏等，不到半年累计融资约50亿元，创下AI 3D领域融资纪录。Tripo已接入网易《蛋仔派对》。",
-      source: "科创板日报 / 东方财富",
+      subcategory: "游戏发售",
+      title: "《鬼武者：剑之道》全球解锁时间公布：主机版 9/4 零点，PC 版 9/4 中午 12 点",
+      summary: "卡普空公布《鬼武者：剑之道》全球解锁时间表：主机版（PS5/Xbox Series/Switch 2）于北京时间9月4日零点正式解锁，PC版（Steam/Epic/Microsoft Store）则在同日中午12点开放游玩。通常版售价8,780日元起，豪华版含额外内容。",
+      source: "二柄 / Capcom",
       date: "2026-09-02",
-      url: "https://caifuhao.eastmoney.com/news/20260902115529363022180",
-      image: "https://aka.doubaocdn.com/s/b6bwxj9xD8",
-      badge: "产业资本",
-      badgeType: "ai",
+      url: "https://diershoubing.com/game/241328/%E9%AC%BC%E6%AD%A6%E8%80%85%E5%89%91%E4%B9%8B%E9%81%93/news",
+      image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
+      badge: "解锁时间",
+      badgeType: "game",
       readTime: "2 分钟",
-      hotScore: 86,
-      tags: ["VAST", "Tripo", "AI 3D", "完美世界", "三七互娱", "蛋仔派对"],
+      hotScore: 83,
+      tags: ["鬼武者", "解锁时间", "卡普空", "PC版", "主机版"],
       content: [
         {
-          title: "投资格局",
+          title: "解锁安排",
           type: "list",
           items: [
-            "VAST半年累计融资约50亿元，创AI 3D纪录；",
-            "完美世界、三七互娱、延趣游戏等产业资本入局；",
-            "Tripo已接入网易《蛋仔派对》3D模型拆分；",
-            "游戏厂商加速布局AI 3D内容生产管线。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "best-llm-game-dev-2026",
-      category: "industry",
-      subcategory: "AI 工具",
-      title: "2026 游戏开发 7 款最佳 LLM 对比：长上下文、截图引导、成本逐项实测",
-      summary: "SoonLab发布2026年游戏开发最佳LLM对比报告，覆盖7款主流大模型在游戏开发场景的表现。Moonshot Kimi K3开源模型支持长上下文和截图引导优化，API定价为缓存命中$0.30/M token、缓存未命中$3/M、输出$15/M。报告逐项对比上下文窗口、代码生成、成本和适用场景。",
-      source: "SoonLab",
-      date: "2026-09-02",
-      url: "https://www.soonlab.ai/blog/best-llm-for-game-development/",
-      badge: "LLM对比",
-      badgeType: "ai",
-      readTime: "4 分钟",
-      hotScore: 85,
-      tags: ["LLM", "游戏开发", "Kimi K3", "大模型对比", "成本分析"],
-      content: [
-        {
-          title: "对比要点",
-          type: "list",
-          items: [
-            "7款主流LLM在游戏开发场景逐项对比；",
-            "Kimi K3开源，长上下文+截图引导优化；",
-            "API定价：缓存命中$0.30/M，输出$15/M token；",
-            "按上下文窗口、代码生成、成本推荐适用场景。"
+            "主机版：北京时间9月4日零点解锁；",
+            "PC版：北京时间9月4日中午12点开放；",
+            "通常版8,780日元起；",
+            "豪华版含额外内容。"
           ]
         }
       ]
@@ -405,141 +405,141 @@ window.DAILY_NEWS_DATA = {
 
     // ------------------------- 热门游戏 (Games) -------------------------
     {
-      id: "onimusha-ign-10-review",
-      category: "games",
-      subcategory: "卡普空",
-      title: "IGN 满分评测《鬼武者：剑之道》：战斗系统足以载入史册，攻防快感前所未见",
-      summary: "IGN为《鬼武者：剑之道》打出10分满分，评测指出本作同时完成两件事：讲好了令人动容的武士故事，打造了足以载入史册的动作战斗系统。主角宫本武藏拥有轻攻击/重攻击/短连段，攻击与冲刺均不消耗体力，防守端涵盖弹反、闪避和'一闪'反击。",
-      source: "IGN / 今日头条",
-      date: "2026-09-01",
-      url: "http://m.toutiao.com/group/7680532234088776230/",
-      image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
-      badge: "IGN 10分",
-      badgeType: "game",
-      readTime: "3 分钟",
-      hotScore: 91,
-      tags: ["鬼武者", "IGN", "满分评测", "战斗系统", "一闪"],
-      content: [
-        {
-          title: "评测亮点",
-          type: "list",
-          items: [
-            "IGN 10分：叙事与战斗双双拉满的杰作；",
-            "宫本武藏轻/重攻击+短连段，不消耗体力；",
-            "防守端：弹反、闪避、'一闪'反击系统；",
-            "BOSS战被媒体盛赞为壮观。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "onimusha-score-controversy",
+      id: "onimusha-famitsu-34",
       category: "games",
       subcategory: "游戏评测",
-      title: "《鬼武者》评分争议：IGN 总部满分 vs 日本 7 分德国 6 分，差异根源在哪",
-      summary: "《鬼武者：剑之道》媒体评分引发讨论：IGN总部给出10分满分，但日本媒体仅7分、德国媒体仅6分。Metacritic PS5版62家媒体均分86，PC版17家均分82，Opencritic均分85，GameSpot 8分。分析认为IGN满分源于评测者对剑戟动作的主观偏好，主流媒体普遍定位为'佳作'。",
-      source: "什么值得买",
-      date: "2026-09-02",
-      url: "http://m.toutiao.com/group/7680874357152891443/",
-      image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
-      badge: "评分争议",
-      badgeType: "game",
-      readTime: "2 分钟",
-      hotScore: 85,
-      tags: ["鬼武者", "评分争议", "IGN", "Metacritic", "媒体差异"],
-      content: [
-        {
-          title: "争议分析",
-          type: "list",
-          items: [
-            "IGN总部10分 vs 日本7分 vs 德国6分；",
-            "Metacritic PS5版86分，PC版82分；",
-            "IGN满分源于评测者对剑戟动作的主观偏好；",
-            "主流媒体普遍定位为'佳作'而非'神作'。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "onimusha-pc-score-detail",
-      category: "games",
-      subcategory: "卡普空",
-      title: "《鬼武者：剑之道》M站 PC 版均分 85：GameSpot 80 分，VGC 3/5 分",
-      summary: "3DM报道《鬼武者：剑之道》Metacritic PC版均分85分，外媒GameSpot给出80分好评，VGC给出3/5分。游戏延续系列极致动作玩法，'一闪'反击系统是核心特色，采用真人影星外貌作为主角形象。XSX版83分，各平台评价整体正面。",
-      source: "3DM游戏网",
+      title: "《鬼武者：剑之道》Fami 通 34 分（9/9/8/8），止步'黄金殿堂'",
+      summary: "日本Fami通为《鬼武者：剑之道》打出34分（9/9/8/8），止步'黄金殿堂'（35分以上）。编辑普遍认可战斗系统的扎实手感和'一闪'反击的爽快感，但在探索深度和重复战斗方面有所保留。本作成为系列重启后值得关注的动作新作。",
+      source: "游侠网 / Fami通",
       date: "2026-09-01",
-      url: "https://m.3dmgame.com/news/202609/3951971.html",
+      url: "http://www.ali213.net/news/115633/",
       image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
-      badge: "PC版评分",
+      badge: "Fami通34分",
       badgeType: "game",
       readTime: "2 分钟",
-      hotScore: 83,
-      tags: ["鬼武者", "Metacritic", "PC版", "GameSpot", "一闪"],
+      hotScore: 84,
+      tags: ["鬼武者", "Fami通", "34分", "黄金殿堂", "评测"],
       content: [
         {
           title: "评分详情",
           type: "list",
           items: [
-            "Metacritic PC版均分85分；",
-            "GameSpot 80分好评，VGC 3/5分；",
-            "'一闪'反击系统为核心特色；",
-            "采用真人影星外貌作为主角形象。"
+            "Fami通34分（9/9/8/8），止步黄金殿堂；",
+            "战斗系统扎实手感获认可；",
+            "'一闪'反击爽快感受好评；",
+            "探索深度和重复战斗方面有所保留。"
           ]
         }
       ]
     },
     {
-      id: "onimusha-switch2-89",
+      id: "onimusha-metacritic-series-high",
       category: "games",
-      subcategory: "卡普空",
-      title: "《鬼武者：剑之道》Switch 2 版 M 站 89 分：全平台最高，6 家媒体全好评",
-      summary: "游侠网报道《鬼武者：剑之道》Metacritic各平台评分：PS5版86分、PC版82分、Switch 2版高达89分（6家媒体全好评）、XSX版83分。Switch 2版成为全平台评分最高版本，媒体盛赞BOSS战壮观，整体收获业界颇为正面的反响。",
-      source: "游侠网",
+      subcategory: "游戏评测",
+      title: "《鬼武者：剑之道》M 站 85 分追平系列最高，与《鬼武者 3》并列第一",
+      summary: "Yomimono报道《鬼武者：剑之道》Metacritic均分85分，追平系列最高纪录（由《鬼武者3》保持）。基于80+篇PS5评测，媒体普遍盛赞以弹反为核心的战斗系统、各种鬼武器的运用以及BOSS战的关卡设计。部分评测指出小BOSS重复出现和中后期难度曲线突兀的问题。",
+      source: "Yomimono / Inven Global",
       date: "2026-09-01",
-      url: "https://3g.ali213.net/news/html/1035693.html",
+      url: "https://yomimono.id/onimusha-way-of-the-sword-reviewers-hail-a-series-high-metascore-of-85",
       image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
-      badge: "Switch2最高",
+      badge: "系列最高",
       badgeType: "game",
       readTime: "2 分钟",
-      hotScore: 84,
-      tags: ["鬼武者", "Switch 2", "Metacritic 89", "全平台最高", "BOSS战"],
+      hotScore: 85,
+      tags: ["鬼武者", "Metacritic", "85分", "系列最高", "鬼武者3"],
       content: [
         {
-          title: "各平台评分",
+          title: "评测共识",
           type: "list",
           items: [
-            "Switch 2版89分（6家全好评），全平台最高；",
-            "PS5版86分，PC版82分，XSX版83分；",
-            "媒体盛赞BOSS战壮观；",
-            "整体收获业界颇为正面的反响。"
+            "M站85分追平系列最高（鬼武者3）；",
+            "弹反核心战斗系统获普遍盛赞；",
+            "鬼武器运用和BOSS战设计受好评；",
+            "小BOSS重复、中后期难度曲线被指出。"
           ]
         }
       ]
     },
     {
-      id: "onimusha-ichigeki-system",
+      id: "onimusha-review-roundup",
       category: "games",
-      subcategory: "卡普空",
-      title: "《鬼武者：剑之道》'一闪'战斗系统深度解析：完美时机触发的爽快反击",
-      summary: "3DM深度解析《鬼武者：剑之道》核心'一闪'系统：在敌人攻击瞬间精准按键触发完美反击，造成巨大伤害并带有华丽演出。IGN评测称战斗系统足以载入史册，攻击与冲刺不消耗体力的设计让攻防节奏极为流畅，配合弹反和闪避形成多层次战斗体验。",
-      source: "3DM游戏网",
+      subcategory: "游戏评测",
+      title: "《鬼武者：剑之道》评测汇总：战斗系统是绝对主角，OpenCritic 推荐度 94%",
+      summary: "GameDaily发布鬼武者评测汇总：Metacritic 86分，OpenCritic 85分、94%评论家推荐。所有评测一致认为战斗系统是本作绝对主角——弹反、一闪、鬼武器切换构成的攻防博弈极具深度。宫本武藏角色塑造和京都视觉还原也获得正面评价。",
+      source: "GameDaily",
       date: "2026-09-01",
-      url: "https://m.3dmgame.com/news/202609/3951957.html",
+      url: "https://gamedaily.com/games/onimusha-way-of-the-sword-review-roundup",
       image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
-      badge: "战斗解析",
+      badge: "评测汇总",
+      badgeType: "game",
+      readTime: "2 分钟",
+      hotScore: 83,
+      tags: ["鬼武者", "评测汇总", "OpenCritic", "战斗系统", "宫本武藏"],
+      content: [
+        {
+          title: "评测共识",
+          type: "list",
+          items: [
+            "Metacritic 86分，OpenCritic 85分/94%推荐；",
+            "战斗系统是绝对主角；",
+            "弹反+一闪+鬼武器切换构成深度攻防；",
+            "宫本武藏角色和京都视觉还原获好评。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "onimusha-reverse-delay",
+      category: "games",
+      subcategory: "游戏发售",
+      title: "《鬼武者：剑之道》反向跳票：从 9 月 25 日提前至 9 月 4 日发售",
+      summary: "Gagadget报道《鬼武者：剑之道》从原定9月25日反向跳票提前至9月4日发售，Metacritic 86分、OpenCritic 86分、94%评论家推荐。这是卡普空时隔20年的鬼武者系列正统新作，媒体普遍认为这次重启值得等待。",
+      source: "Gagadget",
+      date: "2026-09-02",
+      url: "https://gagadget.com/en/724073-onimusha-way-of-the-sword-reviews-are-in-and-capcom-has-done-it-again/",
+      image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
+      badge: "反向跳票",
       badgeType: "game",
       readTime: "2 分钟",
       hotScore: 82,
-      tags: ["鬼武者", "一闪", "战斗系统", "弹反", "动作游戏"],
+      tags: ["鬼武者", "反向跳票", "卡普空", "9月4日", "系列重启"],
       content: [
         {
-          title: "战斗系统",
+          title: "发售信息",
           type: "list",
           items: [
-            "'一闪'：敌人攻击瞬间精准按键触发完美反击；",
-            "攻击与冲刺不消耗体力，攻防节奏流畅；",
-            "弹反+闪避+一闪形成多层次防守；",
-            "IGN称战斗系统足以载入史册。"
+            "从原定9月25日提前至9月4日（反向跳票）；",
+            "Metacritic 86分，OpenCritic 86分；",
+            "94%评论家推荐；",
+            "时隔20年的系列正统新作。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "onimusha-jp-player-reactions",
+      category: "games",
+      subcategory: "玩家反馈",
+      title: "日本玩家《鬼武者》首日感想汇总：探索与强化要素丰富，'开心的悲鸣'",
+      summary: "日本游戏速报站GameTokka汇总《鬼武者：剑之道》首日玩家感想：探索要素和强化系统比预期丰富，玩家表示'探索太广了，开心的悲鸣'。战斗手感获得普遍认可，但也有玩家指出部分场景引导不足和难度波动。游戏今日正式发售。",
+      source: "GameTokka",
+      date: "2026-09-04",
+      url: "https://gametokka.com/onimusyabyakuerev090426/",
+      image: "https://aka.doubaocdn.com/s/C6AlRgq0MI",
+      badge: "首日反馈",
+      badgeType: "game",
+      readTime: "2 分钟",
+      hotScore: 81,
+      tags: ["鬼武者", "日本玩家", "首日感想", "探索", "强化系统"],
+      content: [
+        {
+          title: "玩家反馈",
+          type: "list",
+          items: [
+            "探索和强化要素比预期丰富；",
+            "玩家戏称'探索太广了，开心的悲鸣'；",
+            "战斗手感获普遍认可；",
+            "部分场景引导不足和难度波动被指出。"
           ]
         }
       ]
@@ -547,109 +547,111 @@ window.DAILY_NEWS_DATA = {
 
     // ------------------------- 开源宝库 (Open Source) -------------------------
     {
-      id: "repo-game-npc-brain-llm",
+      id: "repo-heron-rl-llm",
       category: "opensource",
       subcategory: "AI NPC",
-      title: "Game-NPC-Brain-LLM v2.0：Gemma-2 2B 本地零成本 AI 大脑，支持 Unity/UE/Godot",
-      summary: "gugu-2/Game-NPC-Brain-LLM发布v2.0，是一个完整的本地零API成本AI NPC引擎。基于Gemma-2 2B + Coqui XTTS-v2，支持Unity、Unreal Engine 5和Godot 4。相比竞品每次API调用$0.01，本引擎100%本地运行零成本，9月2日仍有活跃更新。",
+      title: "HeRoN：RL+LLM 混合框架实现自适应 NPC 行为，功能分离+批评式精炼",
+      summary: "Seldre99/HeRoN是开源的强化学习+大语言模型混合NPC框架，通过功能分离和批评式精炼（critique-based refinement）整合RL与LLM，解决传统规则方法缺乏适应性、RL训练效率低、LLM幻觉和上下文漂移等问题。架构包含Helper-Reviewer-NPC三层，9月2日仍有更新。",
       source: "GitHub",
       date: "2026-09-02",
-      url: "https://github.com/gugu-2/Game-NPC-Brain-LLM",
-      badge: "AI NPC引擎",
+      url: "https://github.com/Seldre99/HeRoN",
+      badge: "AI框架",
       badgeType: "ai",
       readTime: "2 分钟",
-      hotScore: 88,
-      tags: ["AI NPC", "Gemma-2", "本地运行", "Unity", "UE5", "Godot"],
+      hotScore: 85,
+      tags: ["HeRoN", "RL", "LLM", "AI NPC", "自适应行为"],
       content: [
         {
-          title: "项目特点",
+          title: "框架特点",
           type: "list",
           items: [
-            "完整的本地零API成本AI NPC引擎v2.0；",
-            "基于Gemma-2 2B + Coqui XTTS-v2语音；",
-            "支持Unity、UE5、Godot 4三大引擎；",
-            "100%本地运行，竞品$0.01/次调用，本项目零成本。"
+            "RL+LLM混合框架，功能分离+批评式精炼；",
+            "解决规则方法缺适应性、RL训练低效、LLM幻觉；",
+            "Helper-Reviewer-NPC三层架构；",
+            "实现连贯且策略自适应的NPC行为。"
           ]
         }
       ]
     },
     {
-      id: "repo-opengame",
+      id: "repo-excaliburjs",
       category: "opensource",
-      subcategory: "AI 生成",
-      title: "OpenGame：端到端 AI 生成网页游戏框架，一条 Prompt 生成可玩游戏+源码",
-      summary: "SmiLerich/opengame是一个开源Agentic Coding框架，可从单条Prompt端到端生成网页游戏。2026年4月正式发布，提供可玩Demo画廊——每个游戏由AI从Prompt生成，悬停预览玩法，点击查看在线版本或完整源码归档，9月2日仍有更新。",
+      subcategory: "Web 引擎",
+      title: "Excalibur.js：友好的 TypeScript 2D Web 游戏引擎，Canvas/WebGL 渲染",
+      summary: "excaliburjs/Excalibur是一个友好的TypeScript 2D游戏引擎，专为Web平台设计，支持Canvas和WebGL渲染。提供完整的游戏循环、场景管理、精灵动画、碰撞检测、输入处理等API，9月3日仍有活跃更新，适合前端开发者快速构建2D网页游戏。",
       source: "GitHub",
-      date: "2026-09-02",
-      url: "https://github.com/SmiLerich/opengame",
-      badge: "AI生成游戏",
-      badgeType: "ai",
-      readTime: "2 分钟",
-      hotScore: 86,
-      tags: ["OpenGame", "AI生成", "网页游戏", "Agentic", "端到端"],
-      content: [
-        {
-          title: "框架能力",
-          type: "list",
-          items: [
-            "从单条Prompt端到端生成网页游戏；",
-            "可玩Demo画廊，悬停预览玩法；",
-            "每个游戏提供在线版本和完整源码；",
-            "2026年4月正式发布，arXiv论文可查。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "repo-open-party-lab",
-      category: "opensource",
-      subcategory: "派对游戏",
-      title: "Open Party Lab：开源浏览器派对游戏平台，手机当手柄+AI 辅助小游戏 SDK",
-      summary: "Hartwich/Open-Party-Lab是开源浏览器派对游戏平台，支持共享主机屏幕、手机控制器、权威服务器逻辑和可复用小游戏SDK。专为AI辅助社区开发设计，支持本地多人和在线派对，9月1日仍有活跃更新。",
-      source: "GitHub",
-      date: "2026-09-01",
-      url: "https://github.com/Hartwich/Open-Party-Lab",
-      badge: "派对游戏",
-      badgeType: "game",
-      readTime: "2 分钟",
-      hotScore: 82,
-      tags: ["派对游戏", "浏览器", "手机控制器", "AI辅助", "开源"],
-      content: [
-        {
-          title: "平台特点",
-          type: "list",
-          items: [
-            "开源浏览器派对游戏平台；",
-            "共享主机屏幕+手机控制器；",
-            "权威服务器逻辑+可复用小游戏SDK；",
-            "专为AI辅助社区开发设计。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "repo-qtmesheditor",
-      category: "opensource",
-      subcategory: "3D 工具",
-      title: "QtMeshEditor：免费 3D 资产工具，合并动画/40+ 格式转换/AI 编辑材质",
-      summary: "fernandotonon/QtMeshEditor是面向独立游戏开发者的免费3D资产工具，支持合并动画、40+种3D格式互转、AI辅助材质编辑。基于Qt开发，支持glTF/FBX/OGRE等格式，9月2日仍有更新，是独立开发者处理3D资产的实用工具。",
-      source: "GitHub",
-      date: "2026-09-02",
-      url: "https://github.com/fernandotonon/QtMeshEditor",
-      badge: "3D工具",
+      date: "2026-09-03",
+      url: "https://github.com/excaliburjs/Excalibur",
+      badge: "Web引擎",
       badgeType: "engine",
       readTime: "2 分钟",
       hotScore: 81,
-      tags: ["3D工具", "QtMeshEditor", "格式转换", "AI材质", "独立开发"],
+      tags: ["Excalibur.js", "TypeScript", "2D引擎", "WebGL", "网页游戏"],
       content: [
         {
-          title: "工具功能",
+          title: "引擎特点",
           type: "list",
           items: [
-            "免费3D资产工具，面向独立开发者；",
-            "合并动画、40+种3D格式互转；",
-            "AI辅助材质编辑；",
-            "支持glTF/FBX/OGRE等主流格式。"
+            "TypeScript 2D Web游戏引擎；",
+            "支持Canvas和WebGL渲染；",
+            "完整游戏循环、场景管理、精灵动画、碰撞检测；",
+            "适合前端开发者快速构建2D网页游戏。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "repo-mcp-unity",
+      category: "opensource",
+      subcategory: "MCP",
+      title: "mcp-unity：MCP 插件连接 Unity 编辑器，支持 Cursor/Claude Code/Codex",
+      summary: "CoderGamester/mcp-unity是连接Unity编辑器的Model Context Protocol插件，专为Cursor、Claude Code、Codex、Windsurf等IDE和AI工具设计。通过MCP协议让AI助手能够读取Unity项目结构、操作场景和资源，实现AI辅助Unity开发工作流，8月26日仍有更新。",
+      source: "GitHub",
+      date: "2026-08-26",
+      url: "https://github.com/CoderGamester/mcp-unity",
+      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      badge: "MCP插件",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 84,
+      tags: ["mcp-unity", "MCP", "Unity", "Cursor", "Claude Code", "AI开发"],
+      content: [
+        {
+          title: "插件功能",
+          type: "list",
+          items: [
+            "MCP插件连接Unity编辑器；",
+            "支持Cursor/Claude Code/Codex/Windsurf；",
+            "AI助手可读取项目结构、操作场景和资源；",
+            "实现AI辅助Unity开发工作流。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "repo-ue4-local-llm-chat",
+      category: "opensource",
+      subcategory: "UE AI",
+      title: "UE4-LocalLLM-Chat：本地大模型接入 UE4 完整方案，qwen2.5:7b+Ollama+FastAPI",
+      summary: "CSDN博主开源UE4-LocalLLM-Chat完整方案，将本地大语言模型（qwen2.5:7b）接入UE4.27游戏。三层架构：服务端Python/FastAPI/Ollama负责LLM推理与会话管理，UE4客户端通过HTTP请求获取回复，实现消费级硬件上的真实AI对话能力，零API调用成本。",
+      source: "CSDN / GitHub",
+      date: "2026-09-01",
+      url: "https://blog.csdn.net/zxh1592000/article/details/161343004",
+      image: "https://aka.doubaocdn.com/s/LYzEV2Xanh",
+      badge: "本地LLM",
+      badgeType: "ai",
+      readTime: "3 分钟",
+      hotScore: 86,
+      tags: ["UE4", "本地LLM", "qwen2.5", "Ollama", "FastAPI", "零成本"],
+      content: [
+        {
+          title: "方案架构",
+          type: "list",
+          items: [
+            "本地qwen2.5:7b模型，消费级硬件可运行；",
+            "三层架构：Python/FastAPI/Ollama服务端；",
+            "UE4客户端HTTP请求获取回复；",
+            "零API调用成本，数据本地安全。"
           ]
         }
       ]
@@ -657,85 +659,85 @@ window.DAILY_NEWS_DATA = {
 
     // ------------------------- 实战教程 (Tutorials) -------------------------
     {
-      id: "tut-unity-perf-notes",
+      id: "tut-high-perf-3d-engine",
       category: "tutorials",
-      subcategory: "Unity 性能",
-      title: "Unity 性能优化实战笔记：Draw Call 批处理/光照烘焙/纹理压缩全流程",
-      summary: "CSDN博主整理Unity性能优化完整笔记：渲染优化涵盖静态批处理、动态批处理、GPU Instancing、纹理图集；光照优化使用光照贴图烘焙、减少实时光源；内存优化涵盖纹理压缩、资源卸载、对象池。附具体参数配置和常见瓶颈排查方法。",
+      subcategory: "渲染",
+      title: "高性能 3D 游戏引擎全攻略：Compute Shader 视锥剔除/GPU 实例化/PBR 材质",
+      summary: "CSDN技术博客详解高性能3D游戏引擎渲染管线：基于Compute Shader的视锥剔除、GPU实例化渲染、多级细节纹理（Mipmapping）、PBR材质、动态全局光照方案。附现代OpenGL渲染管线代码示例，涵盖从底层API到高级渲染技术的完整路径。",
       source: "CSDN",
-      date: "2026-09-01",
-      url: "https://blog.csdn.net/2302_76776557/article/details/146568627",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
-      badge: "性能优化",
-      badgeType: "engine",
-      readTime: "4 分钟",
-      hotScore: 84,
-      tags: ["Unity", "性能优化", "Draw Call", "光照烘焙", "对象池"],
-      content: [
-        {
-          title: "优化清单",
-          type: "list",
-          items: [
-            "渲染：静态/动态批处理、GPU Instancing、纹理图集；",
-            "光照：光照贴图烘焙、减少实时光源、禁用阴影；",
-            "内存：纹理压缩、资源卸载、对象池复用；",
-            "附具体参数配置和瓶颈排查方法。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "tut-aaa-perf-optimization",
-      category: "tutorials",
-      subcategory: "AAA 优化",
-      title: "AAA 游戏引擎性能优化完整指南：降低延迟/物理优化/Unity+UE C++ 技术详解",
-      summary: "Dre Dyson发布AAA游戏引擎性能优化完整指南，覆盖从延迟分析到物理优化的全流程。Day 4-14深入Unreal C++优化和Unity差异点，包括对象池、数据导向设计、内存布局、多线程调度等经过验证的技术，适合有 shipped 项目经验的开发者。",
-      source: "Dre Dyson",
-      date: "2026-06-03",
-      url: "https://dredyson.com/how-i-mastered-aaa-game-engine-performance-optimization-a-complete-step-by-step-guide-to-reducing-latency-optimizing-physics-and-unlocking-proven-c-techniques-in-unreal-engine-and-unity/",
-      image: "https://aka.doubaocdn.com/s/LYzEV2Xanh",
-      badge: "AAA优化",
-      badgeType: "engine",
-      readTime: "5 分钟",
-      hotScore: 85,
-      tags: ["AAA", "性能优化", "Unreal C++", "Unity", "延迟优化", "数据导向"],
-      content: [
-        {
-          title: "指南结构",
-          type: "list",
-          items: [
-            "Day 1-3：延迟分析与基础优化建立信心；",
-            "Day 4-14：Unreal C++优化与Unity差异点；",
-            "对象池、数据导向设计、内存布局优化；",
-            "多线程调度与物理优化的验证技术。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "tut-mobile-perf-tencent",
-      category: "tutorials",
-      subcategory: "手游优化",
-      title: "手游性能优化实战：Unity 次世代手游从 25 帧到稳定 60 帧的核心方案",
-      summary: "腾讯云开发者社区分享次世代Unity手游优化实战：优化前帧率波动25-35帧、发热严重、中低端机闪退。CPU优化合并静态模型使Draw Call从2200降至800，AI检测频率从每帧改为每8帧，CPU负载从75%降至40%。GPU优化涵盖中低端机贴图降级和特效裁剪。",
-      source: "腾讯云开发者社区",
-      date: "2026-04-16",
-      url: "https://cloud.tencent.com/developer/article/2655874",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
-      badge: "手游优化",
+      date: "2026-09-02",
+      url: "https://blog.csdn.net/2401_86601498/article/details/149690233",
+      badge: "渲染管线",
       badgeType: "engine",
       readTime: "4 分钟",
       hotScore: 83,
-      tags: ["手游优化", "Unity", "Draw Call", "CPU优化", "GPU优化", "60帧"],
+      tags: ["3D引擎", "Compute Shader", "视锥剔除", "GPU实例化", "PBR"],
       content: [
         {
-          title: "优化成果",
+          title: "技术要点",
           type: "list",
           items: [
-            "优化前25-35帧波动，优化后稳定60帧；",
-            "CPU：Draw Call 2200→800，AI检测每帧→每8帧；",
-            "CPU负载75%→40%；",
-            "GPU：中低端机贴图降级+特效裁剪，解决闪退。"
+            "Compute Shader视锥剔除；",
+            "GPU实例化渲染减少Draw Call；",
+            "Mipmapping多级细节纹理；",
+            "PBR材质+动态全局光照方案；",
+            "附OpenGL渲染管线代码示例。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "tut-open-world-shooter-arch",
+      category: "tutorials",
+      subcategory: "架构",
+      title: "全平台大世界战术射击游戏架构揭秘：模块化分层/流式加载/双端协同渲染",
+      summary: "CSDN博主系统阐述全平台大世界战术射击游戏开发框架：模块化分层架构、自动化工具链、双端协同渲染、流式场景加载、分布式开发流程。核心挑战是跨PC/移动端统一框架实现'一次开发全端适配'，同时应对超大世界资源管理和极致性能分级。",
+      source: "CSDN",
+      date: "2026-09-02",
+      url: "https://blog.csdn.net/qq_33060405/article/details/152029973",
+      badge: "架构揭秘",
+      badgeType: "engine",
+      readTime: "4 分钟",
+      hotScore: 82,
+      tags: ["大世界", "战术射击", "架构", "流式加载", "跨平台"],
+      content: [
+        {
+          title: "架构要点",
+          type: "list",
+          items: [
+            "模块化分层架构+自动化工具链；",
+            "双端协同渲染+流式场景加载；",
+            "跨PC/移动端统一框架；",
+            "超大世界资源管理+性能分级；",
+            "分布式开发流程支持海量团队协作。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "tut-frame-budgets-profiler",
+      category: "tutorials",
+      subcategory: "Unity 性能",
+      title: "Google Play × Unity 直播课：Frame Budgets/Draw Calls/Profiler 性能优化实战",
+      summary: "Google Play与Unity联合举办线上直播课程（9月30日），主题为'Frame Budgets, Draw Calls, and the Unity Profiler'。课程讲解如何使用帧预算、Draw Call分析和Unity Profiler识别和解决常见性能问题，分析场景性能、调查CPU使用和渲染开销，实用优化技术减少不必要的计算。",
+      source: "Google Play Games / Unity",
+      date: "2026-09-30",
+      url: "https://googleplaygamedev.unity.com/pages/live-sessions",
+      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      badge: "直播课程",
+      badgeType: "engine",
+      readTime: "2 分钟",
+      hotScore: 80,
+      tags: ["Google Play", "Unity", "Frame Budget", "Profiler", "性能优化"],
+      content: [
+        {
+          title: "课程内容",
+          type: "list",
+          items: [
+            "9月30日直播：Frame Budgets与Unity Profiler；",
+            "使用帧预算和Draw Call分析定位性能问题；",
+            "分析场景性能、CPU使用和渲染开销；",
+            "实用优化技术减少不必要计算。"
           ]
         }
       ]
@@ -743,164 +745,166 @@ window.DAILY_NEWS_DATA = {
 
     // ------------------------- AI前沿 (AI) -------------------------
     {
-      id: "ai-npc-from-tool-to-human",
+      id: "ai-lpm-character-system",
       category: "ai",
       subcategory: "AI NPC",
-      title: "游戏 NPC 装了一辈子'工具人'，大模型要让它真正'成人'了",
-      summary: "什么值得买深度文章分析大模型如何改变游戏NPC：本质是将'预设-匹配'范式转变为'理解-生成'范式。传统行为树是感知→匹配预设→触发行为，大模型驱动的NPC是感知→理解语义→结合角色设定→生成合理反应。当玩家说'你这把剑不错'，NPC能理解并做出个性化回应。",
-      source: "什么值得买",
-      date: "2026-08-22",
-      url: "https://post.m.smzdm.com/p/aggxpx5d/",
-      badge: "AI NPC",
+      title: "LPM 风格 AI 角色系统：长效记忆/人格锁定/低延迟口语化三大核心技术",
+      summary: "CSDN博主深入解析在UE4中构建LPM风格AI角色系统的三大核心技术：长效记忆（向量库存储历史交互）、人格锁定（系统提示词+角色卡确保一致性）、低延迟口语化（流式输出+语气调整）。面向有UE4开发经验的工程师，提供完整实现思路和代码框架。",
+      source: "CSDN",
+      date: "2026-05-18",
+      url: "https://blog.csdn.net/zxh1592000/article/details/161194192",
+      image: "https://aka.doubaocdn.com/s/LYzEV2Xanh",
+      badge: "AI角色",
       badgeType: "ai",
       readTime: "4 分钟",
       hotScore: 84,
-      tags: ["AI NPC", "大模型", "行为树", "理解生成", "游戏叙事"],
+      tags: ["LPM", "AI角色", "长效记忆", "人格锁定", "低延迟", "UE4"],
       content: [
         {
-          title: "范式转变",
+          title: "三大技术",
           type: "list",
           items: [
-            "传统：感知→匹配预设→触发行为（状态机/行为树）；",
-            "大模型：感知→理解语义→结合角色设定→生成反应；",
-            "NPC能理解玩家话语的隐含意图并个性化回应；",
-            "从'工具人'迈向有记忆、有性格的'成人'。"
+            "长效记忆：向量库存储历史交互上下文；",
+            "人格锁定：系统提示词+角色卡确保一致性；",
+            "低延迟口语化：流式输出+语气调整；",
+            "面向UE4工程师的完整实现框架。"
           ]
         }
       ]
     },
     {
-      id: "ai-opensource-models-games",
+      id: "ai-10-npc-systems",
       category: "ai",
-      subcategory: "AI 模型",
-      title: "2026 最佳开源生成式 AI 游戏模型指南：语音/图像/3D 全链路选型",
-      summary: "Cinevva发布2026最佳开源生成式AI游戏模型指南，覆盖语音生成（Qwen3-TTS支持3秒声音克隆、10种语言，Apache 2.0；Chatterbox支持情绪控制）、图像生成、3D模型生成等全链路。语音生成已超越'游戏够用'门槛，小团队也能实现自然语音叙事。",
-      source: "Cinevva",
-      date: "2026-07-01",
-      url: "https://app.cinevva.com/guides/frontier-gen-ai-models",
-      badge: "AI模型指南",
+      subcategory: "AI NPC",
+      title: "2026 十大 AI NPC 对话系统对比：功能/定价/适用场景逐项评测",
+      summary: "Aivexify发布2026年十大AI NPC对话系统对比指南，覆盖主流AI对话中间件的功能、定价和适用场景。文章指出NPC对话是游戏下一个前沿，开放世界RPG中AI驱动的NPC能提供动态交互体验。对比维度包括上下文窗口、记忆系统、语音集成、成本和部署方式。",
+      source: "Aivexify",
+      date: "2026-06-06",
+      url: "https://aivexify.com/10-best-ai-npc-conversation-systems/",
+      badge: "系统对比",
+      badgeType: "ai",
+      readTime: "3 分钟",
+      hotScore: 81,
+      tags: ["AI NPC", "对话系统", "对比评测", "定价", "开放世界"],
+      content: [
+        {
+          title: "对比维度",
+          type: "list",
+          items: [
+            "十大AI NPC对话系统功能/定价/场景对比；",
+            "上下文窗口、记忆系统、语音集成；",
+            "成本和部署方式逐项评测；",
+            "NPC对话被视为游戏下一个前沿。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "ai-minecraft-llm-npc",
+      category: "ai",
+      subcategory: "AI 研究",
+      title: "arXiv 研究：Minecraft 中 LLM 驱动 NPC 协作完成任务，人类+2 AI 组队实验",
+      summary: "arXiv论文研究人类玩家与LLM驱动NPC在Minecraft中的协作任务完成。研究人员设计了一个迷你游戏，玩家与两个GPT-4驱动的NPC合作完成任务，分析LLM NPC在协作中的沟通、决策和适应性表现。论文为AI NPC在开放世界游戏中的部署提供了实证数据。",
+      source: "arXiv",
+      date: "2024-07-04",
+      url: "https://arxiv.org/pdf/2407.03460",
+      badge: "学术研究",
+      badgeType: "ai",
+      readTime: "3 分钟",
+      hotScore: 80,
+      tags: ["Minecraft", "LLM NPC", "协作任务", "GPT-4", "arXiv"],
+      content: [
+        {
+          title: "研究设计",
+          type: "list",
+          items: [
+            "Minecraft中人类+2个GPT-4 NPC协作完成任务；",
+            "分析LLM NPC的沟通、决策和适应性；",
+            "为AI NPC开放世界部署提供实证数据；",
+            "生成式AI在游戏开发中应用持续增长。"
+          ]
+        }
+      ]
+    },
+    {
+      id: "ai-unity7-npc-future",
+      category: "ai",
+      subcategory: "AI 趋势",
+      title: "Unity 7 与 AI NPC 如何改变游戏：从 InZOI 到 PUBG 的 AI 应用全景",
+      summary: "土耳其游戏媒体GAME+分析Unity 7和AI NPC如何改变游戏行业，盘点5款AI突出的游戏：InZOI（模拟人生类AI模拟）、PUBG（AI队友）、Dead Meat（解谜AI）、Total War: PHARAOH（策略AI）等。文章探讨AI从工具到游戏核心玩法的转变趋势。",
+      source: "GAME+",
+      date: "2026-09-03",
+      url: "https://gameplus.com.tr/blog/yapay-zeka-oyunlari-nasil-degistiriyor-unity-7-ve-ai-npc-ler",
+      badge: "AI趋势",
       badgeType: "ai",
       readTime: "3 分钟",
       hotScore: 82,
-      tags: ["开源AI", "Qwen3-TTS", "语音生成", "图像生成", "3D生成"],
+      tags: ["Unity 7", "AI NPC", "InZOI", "PUBG", "AI游戏"],
       content: [
         {
-          title: "模型推荐",
+          title: "AI应用全景",
           type: "list",
           items: [
-            "Qwen3-TTS：3秒声音克隆、10种语言、Apache 2.0；",
-            "Chatterbox：情绪控制、5秒克隆、23种语言、MIT；",
-            "语音生成已超越'游戏够用'门槛；",
-            "小团队可实现自然语音叙事和情感表达。"
+            "InZOI：模拟人生类AI模拟；",
+            "PUBG：AI队友自适应；",
+            "Dead Meat：解谜AI；",
+            "Total War: PHARAOH：策略AI；",
+            "AI从开发工具向游戏核心玩法转变。"
           ]
         }
       ]
     },
     {
-      id: "fab-gen-ai-plugin",
+      id: "ai-canvas-to-ai-dev",
       category: "ai",
-      subcategory: "UE 生态",
-      title: "Fab 平台 Gen AI 插件更新：支持 GPT-5.5 / Claude 4.7 / Gemini 3.1 / Grok 4.1",
-      summary: "Fab平台上架全新Gen AI插件，支持所有主流LLM API：OpenAI GPT-5.5、Anthropic Claude Sonnet/Opus/Haiku 4.7、Google Gemini 3.1 flash/pro、XAI Grok 4.1 Fast、DeepSeek v3.2。附带完整C++源码，支持OpenAI兼容模式无缝切换阿里云等国产模型。",
-      source: "Fab / Epic",
-      date: "2026-09-02",
-      url: "https://www.fab.com/listings/68e7f092-1fea-4e6d-8d31-c6b96b06a02e",
-      image: "https://aka.doubaocdn.com/s/LYzEV2Xanh",
-      badge: "Fab插件",
-      badgeType: "ai",
-      readTime: "2 分钟",
-      hotScore: 83,
-      tags: ["Fab", "Gen AI", "GPT-5.5", "Claude 4.7", "Gemini 3.1", "UE"],
+      subcategory: "前端游戏",
+      title: "从 Canvas 像素级渲染到 AI 驱动开发：前端 2D 游戏与数据可视化实战指南",
+      summary: "稀土掘金文章解析前端2D游戏开发全流程：从Canvas绘图底层原理到requestAnimationFrame游戏循环，再到2026年AI辅助开发流程——Vite工程初始化+Git版本控制+AI头脑风暴+代码生成。以'飞机大战'为例展示标准研发流程，AI在原型设计和代码生成环节显著提升效率。",
+      source: "稀土掘金",
+      date: "2026-06-16",
+      url: "https://juejin.cn/post/7651438340354048052",
+      badge: "前端游戏",
+      badgeType: "tutorials",
+      readTime: "3 分钟",
+      hotScore: 79,
+      tags: ["Canvas", "前端游戏", "AI驱动开发", "Vite", "飞机大战"],
       content: [
         {
-          title: "插件能力",
+          title: "开发流程",
           type: "list",
           items: [
-            "支持GPT-5.5、Claude 4.7、Gemini 3.1、Grok 4.1；",
-            "附带完整C++源码；",
-            "OpenAI兼容模式，无缝切换国产模型；",
-            "适用于UE项目的AI对话/NPC/内容生成。"
+            "Canvas绘图底层原理+requestAnimationFrame循环；",
+            "Vite工程初始化+Git版本控制；",
+            "AI头脑风暴+代码生成辅助开发；",
+            "以'飞机大战'为例展示完整流程。"
           ]
         }
       ]
     },
     {
-      id: "ai-npc-api-comparison",
+      id: "ai-unity-addressables-deep",
       category: "ai",
-      subcategory: "AI API",
-      title: "2026 游戏 AI NPC 对话 API 选型：OpenRouter 替代方案成本低 30-50%",
-      summary: "Intelli Verse X发布游戏AI NPC对话API对比指南，推荐OpenRouter替代方案：内置记忆与RAG（无需Pinecone/Weaviate）、原生支持流式输出和200K上下文、头像生成。成本$0.24/M token，比OpenRouter生产环境低30-50%，美国本土数据合规。",
-      source: "Intelli Verse X",
-      date: "2026-07-28",
-      url: "https://intelli-verse-x.ai/blogs/openrouter-alternative-game-ai-npc-dialogue-apis",
-      badge: "API选型",
-      badgeType: "ai",
-      readTime: "2 分钟",
-      hotScore: 80,
-      tags: ["AI NPC", "API", "OpenRouter", "RAG", "成本优化"],
-      content: [
-        {
-          title: "方案优势",
-          type: "list",
-          items: [
-            "内置记忆与RAG，无需额外向量数据库；",
-            "原生流式输出+200K上下文窗口；",
-            "成本$0.24/M token，比OpenRouter低30-50%；",
-            "美国本土数据驻留，合规就绪。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "sits2026-ai-npc-engineering",
-      category: "ai",
-      subcategory: "AI 工程",
-      title: "SITS2026 大会披露：AI Agent 游戏 NPC 三大工程实践与性能拐点数据",
-      summary: "CSDN博主整理SITS2026奇点智能技术大会AI Agent游戏NPC应用分享：首次系统性将LLM推理、记忆向量库与实时环境感知模块耦合应用于开放世界NPC。NPC可基于玩家历史交互、当前场景和角色设定做出超越传统状态机的行为决策，披露了三大不可复制的工程实践和性能拐点数据。",
-      source: "CSDN / SITS2026",
-      date: "2026-04-13",
-      url: "https://blog.csdn.net/DevPath/article/details/160111983",
-      badge: "大会分享",
-      badgeType: "ai",
+      subcategory: "Unity 资源",
+      title: "Unity Addressables 资源管理系统深度解析：从原理到实战的完整指南",
+      summary: "Unity官方开发者社区发布Addressables资源管理系统深度教程，全面解析其核心原理、异步加载机制、资源打包策略、内存管理和热更新方案。Addressables是Unity现代资源管理的标准方案，掌握它对大型游戏项目的性能和可维护性至关重要。",
+      source: "Unity 官方文档",
+      date: "2026-09-01",
+      url: "https://docs.unity3d.com/Packages/com.unity.addressables@2.2/manual/index.html",
+      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      badge: "资源管理",
+      badgeType: "engine",
       readTime: "4 分钟",
       hotScore: 81,
-      tags: ["SITS2026", "AI Agent", "NPC", "LLM", "记忆向量库", "工程实践"],
+      tags: ["Unity", "Addressables", "资源管理", "异步加载", "热更新"],
       content: [
         {
-          title: "工程实践",
+          title: "教程要点",
           type: "list",
           items: [
-            "LLM推理+记忆向量库+实时环境感知三模块耦合；",
-            "NPC基于玩家历史交互和当前场景做决策；",
-            "超越传统状态机与行为树的响应边界；",
-            "披露三大工程实践与性能拐点数据。"
-          ]
-        }
-      ]
-    },
-    {
-      id: "ai-whispers-from-star",
-      category: "ai",
-      subcategory: "AI 游戏",
-      title: "Awesome AI Game 榜单更新：《Whispers from the Star》登顶 AI NPC 游戏热度榜",
-      summary: "awesome-ai-game榜单2026年6月更新，《Whispers from the Star》位列AI NPC游戏热度榜首。游戏中玩家引导被困在外星的Stella，通过实时语音和文字交流，玩家的话语决定她的生死，被评为当前AI NPC游戏的最高水准标杆。榜单按热度排序并附评测结论。",
-      source: "GitHub / awesome-ai-game",
-      date: "2026-09-03",
-      url: "https://github.com/bowen-aigame/awesome-ai-game",
-      badge: "AI游戏榜",
-      badgeType: "game",
-      readTime: "2 分钟",
-      hotScore: 82,
-      tags: ["AI游戏", "Whispers from the Star", "AI NPC", "awesome-list", "实时语音"],
-      content: [
-        {
-          title: "榜单亮点",
-          type: "list",
-          items: [
-            "《Whispers from the Star》登顶AI NPC热度榜；",
-            "实时语音+文字交流，玩家话语决定角色生死；",
-            "被评为当前AI NPC游戏最高水准标杆；",
-            "榜单按热度排序，附评测结论。"
+            "Addressables核心原理与异步加载机制；",
+            "资源打包策略与依赖管理；",
+            "内存管理与卸载策略；",
+            "热更新方案与实战案例。"
           ]
         }
       ]
