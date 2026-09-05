@@ -489,6 +489,7 @@ window.DAILY_NEWS_DATA = {
       source: "产业世界",
       date: "2026-05-31",
       url: "https://www.inwwin.com.cn/1192/view-1119173-1.html",
+      image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=900&auto=format&fit=crop&q=80",
       badge: "市场报告",
       badgeType: "business",
       readTime: "3 分钟",
@@ -517,6 +518,7 @@ window.DAILY_NEWS_DATA = {
       source: "证券时报",
       date: "2026-02-09",
       url: "https://www.stcn.com/article/detail/3634491.html",
+      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&auto=format&fit=crop&q=80",
       badge: "趋势分析",
       badgeType: "business",
       readTime: "2 分钟",
@@ -915,8 +917,4 @@ window.DAILY_NEWS_DATA = {
       hotScore: 80,
       tags: ["原神", "LoRA微调", "角色对话", "LLM", "AI角色"],
       content: [
-        { title: "项目特点", type: "list", items: ["基于LoRA微调的原神角色指令模型", "大语言模型微调实现角色风格化对话", "用角色对话数据训练特定人设和语气", "游戏AI角色个性化实用参考", "开源可复现的训练方案"] }
-      ]
-    }
-  ]
-};
+        { title: "项目特点", type: "list", items: ["基于LoRA微调的原神角色指令模型", "大语言模型微调实现角色风格化对话", "用角色对话数据训练特定人�

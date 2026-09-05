@@ -489,6 +489,7 @@ window.DAILY_NEWS_DATA = {
       source: "产业世界",
       date: "2026-05-31",
       url: "https://www.inwwin.com.cn/1192/view-1119173-1.html",
+      image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=900&auto=format&fit=crop&q=80",
       badge: "市场报告",
       badgeType: "business",
       readTime: "3 分钟",
