@@ -400,6 +400,7 @@ window.DAILY_NEWS_DATA = {
       source: "抖音 / 游戏出海实战",
       date: "2026-09-03",
       url: "https://www.iesdouyin.com/share/video/7681226409146125614",
+      image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=900&auto=format&fit=crop&q=80",
       badge: "出海复盘",
       badgeType: "business",
       readTime: "3 分钟",
