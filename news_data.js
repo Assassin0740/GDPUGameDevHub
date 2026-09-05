@@ -843,6 +843,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub / AI开源热榜",
       date: "2026-09-03",
       url: "https://github.com/unslothai/unsloth",
+      image: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?w=900&auto=format&fit=crop&q=80",
       badge: "LLM微调",
       badgeType: "ai",
       readTime: "2 分钟",
