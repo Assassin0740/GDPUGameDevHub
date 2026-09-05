@@ -607,6 +607,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub",
       date: "2026-06-29",
       url: "https://github.com/lschiweck/LLM-NPC-Agents",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900&auto=format&fit=crop&q=80",
       badge: "AI框架",
       badgeType: "ai",
       readTime: "2 分钟",
