@@ -137,7 +137,7 @@ window.DAILY_NEWS_DATA = {
       source: "Unity Academy",
       date: "2026-07-10",
       url: "https://academy.unity.com/courses/shader-graph-fundamentals",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=900&auto=format&fit=crop&q=80",
       badge: "系统课程",
       badgeType: "engine",
       readTime: "3 分钟",
