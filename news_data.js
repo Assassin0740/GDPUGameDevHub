@@ -899,7 +899,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub",
       date: "2026-08-30",
       url: "https://github.com/Nichathan-Gaming/Unity-Shader-Graph-With-Canvas-Overlay",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=900&auto=format&fit=crop&q=80",
       badge: "Unity工具",
       badgeType: "engine",
       readTime: "2 分钟",
