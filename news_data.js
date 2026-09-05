@@ -873,5 +873,42 @@ window.DAILY_NEWS_DATA = {
         }
       ]
     }
+    {
+      id: "repo-unity-shadergraph-canvas-overlay",
+      category: "opensource",
+      subcategory: "Unity 工具",
+      title: "Unity-Shader-Graph-With-Canvas-Overlay：ShaderGraph 与 Canvas 叠加渲染开源方案",
+      summary: "Nichathan-Gaming开源项目，展示如何在Unity中实现ShaderGraph与Canvas Overlay叠加渲染，涵盖透明材质设置、Alpha值获取、Multiply节点连接、Graph Inspector中Surface Type切换为Transparent等关键步骤，8月30日仍有更新。",
+      source: "GitHub",
+      date: "2026-08-30",
+      url: "https://github.com/Nichathan-Gaming/Unity-Shader-Graph-With-Canvas-Overlay",
+      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      badge: "Unity工具",
+      badgeType: "engine",
+      readTime: "2 分钟",
+      hotScore: 79,
+      tags: ["Unity", "ShaderGraph", "Canvas Overlay", "透明渲染", "开源"],
+      content: [
+        { title: "实现要点", type: "list", items: ["ShaderGraph与Canvas Overlay叠加渲染", "透明材质设置与Alpha值获取", "Multiply节点连接Base Color", "Surface Type切换为Transparent", "Blending Mode自动设为Alpha"] }
+      ]
+    },
+    {
+      id: "ai-genshin-character-instruction",
+      category: "ai",
+      subcategory: "AI 角色",
+      title: "Genshin-Impact-Character-Instruction：原神角色指令微调模型，LoRA 训练游戏角色对话",
+      summary: "svjack开源项目，基于LoRA微调的原神角色指令模型，通过大语言模型微调实现游戏角色风格化对话生成。展示如何用角色对话数据微调LLM使AI输出符合特定角色人设和语气，是游戏AI角色个性化的实用参考方案。",
+      source: "GitHub",
+      date: "2026-06-29",
+      url: "https://github.com/svjack/Genshin-Impact-Character-Instruction",
+      badge: "角色微调",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 80,
+      tags: ["原神", "LoRA微调", "角色对话", "LLM", "AI角色"],
+      content: [
+        { title: "项目特点", type: "list", items: ["基于LoRA微调的原神角色指令模型", "大语言模型微调实现角色风格化对话", "用角色对话数据训练特定人设和语气", "游戏AI角色个性化实用参考", "开源可复现的训练方案"] }
+      ]
+    }
   ]
 };
