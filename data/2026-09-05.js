@@ -371,6 +371,7 @@ window.DAILY_NEWS_DATA = {
       source: "界面新闻 / 新浪财经",
       date: "2026-07-28",
       url: "https://finance.sina.com.cn/jjxw/2026-07-28/doc-inikkhkc0328583.shtml.md",
+      image: "https://aka.doubaocdn.com/s/oC7uFJZg0R",
       badge: "腾讯并购",
       badgeType: "business",
       readTime: "3 分钟",
