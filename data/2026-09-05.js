@@ -696,6 +696,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitCode / AtomGit",
       date: "2026-06-08",
       url: "https://gitcode.csdn.net/6a263dac662f9a54cb7b33f7.html",
+      image: "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=900&auto=format&fit=crop&q=80",
       badge: "完整指南",
       badgeType: "engine",
       readTime: "4 分钟",
