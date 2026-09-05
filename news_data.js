@@ -108,7 +108,7 @@ window.DAILY_NEWS_DATA = {
       source: "Unity 官方文档",
       date: "2026-04-29",
       url: "https://docs.unity.cn/cn/Packages-cn/com.unity.shadergraph@14.1/manual/Shader-Graph-Sample-Feature-Examples.html",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      image: "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?w=900&auto=format&fit=crop&q=80",
       badge: "官方文档",
       badgeType: "engine",
       readTime: "3 分钟",
