@@ -460,6 +460,7 @@ window.DAILY_NEWS_DATA = {
       source: "抖音 / 新游盘点",
       date: "2026-09-03",
       url: "https://www.iesdouyin.com/share/video/7681216107612556594",
+      image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=900&auto=format&fit=crop&q=80",
       badge: "新游上线",
       badgeType: "game",
       readTime: "2 分钟",
