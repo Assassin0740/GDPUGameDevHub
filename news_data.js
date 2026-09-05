@@ -195,7 +195,7 @@ window.DAILY_NEWS_DATA = {
       source: "CSDN",
       date: "2026-04-12",
       url: "https://blog.csdn.net/mogreat/article/details/160089395",
-      image: "https://aka.doubaocdn.com/s/LYzEV2Xanh",
+      image: "https://aka.doubaocdn.com/s/kUC46GIZ1O",
       badge: "零基础入门",
       badgeType: "engine",
       readTime: "3 分钟",
