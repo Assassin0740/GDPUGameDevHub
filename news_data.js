@@ -518,6 +518,7 @@ window.DAILY_NEWS_DATA = {
       source: "证券时报",
       date: "2026-02-09",
       url: "https://www.stcn.com/article/detail/3634491.html",
+      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&auto=format&fit=crop&q=80",
       badge: "趋势分析",
       badgeType: "business",
       readTime: "2 分钟",
