@@ -33,7 +33,7 @@ window.DAILY_NEWS_DATA = {
     tag: "🔥 行业并购",
     title: "Take-Two 9.56 亿美元收购 Codemasters：赛车游戏巨头敲定现金加股票交易",
     summary: "据Bloomberg报道，Take-Two Interactive已与英国游戏开发商Codemasters签署最终协议，以9.56亿美元现金加股票完成收购。此前Codemasters确认收到Take-Two约9.6亿美元非约束性报价，双方迅速达成确定性交易。Codemasters旗下拥有《尘埃》《F1》《GRID》等经典赛车IP，此次收购将大幅增强Take-Two在赛车游戏品类的布局，与EA的《极品飞车》形成直接竞争。",
-    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=900&auto=format&fit=crop&q=80",
+    image: "https://aka.doubaocdn.com/s/oC7uFJZg0R",
     source: "TEXXR / Bloomberg",
     date: "2026-09-04",
     url: "https://texxr.com/959854/take-two-acquires-codemasters-for-956m",
