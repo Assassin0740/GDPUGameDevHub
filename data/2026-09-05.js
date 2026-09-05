@@ -255,6 +255,7 @@ window.DAILY_NEWS_DATA = {
       source: "36氪 / iFinD",
       date: "2026-09-02",
       url: "https://36kr.com/p/3964909544611331",
+      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=900&auto=format&fit=crop&q=80",
       badge: "半年报",
       badgeType: "business",
       readTime: "3 分钟",
