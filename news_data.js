@@ -872,6 +872,7 @@ window.DAILY_NEWS_DATA = {
       source: "NGA / 九游会",
       date: "2026-08-28",
       url: "https://bbs.nga.cn/tongchuan/rlig/feed/ltgMfORH.htm",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=900&auto=format&fit=crop&q=80",
       badge: "AI引擎开源",
       badgeType: "ai",
       readTime: "2 分钟",
