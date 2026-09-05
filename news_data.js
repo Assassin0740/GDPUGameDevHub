@@ -431,6 +431,7 @@ window.DAILY_NEWS_DATA = {
       source: "澎湃新闻 / 无畏契约官方",
       date: "2026-09-05",
       url: "https://m.thepaper.cn/newsDetail_forward_34001085",
+      image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&auto=format&fit=crop&q=80",
       badge: "电竞赛事",
       badgeType: "event",
       readTime: "2 分钟",
