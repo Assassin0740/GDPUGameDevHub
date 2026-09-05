@@ -814,6 +814,7 @@ window.DAILY_NEWS_DATA = {
       source: "CSDN",
       date: "2026-08-13",
       url: "https://blog.csdn.net/gitblog_00993/article/details/151809912",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&auto=format&fit=crop&q=80",
       badge: "本地AI",
       badgeType: "ai",
       readTime: "3 分钟",
