@@ -636,6 +636,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub",
       date: "2026-08-09",
       url: "https://github.com/game1024/OpenSpeedy",
+      image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=900&auto=format&fit=crop&q=80",
       badge: "游戏工具",
       badgeType: "engine",
       readTime: "2 分钟",
