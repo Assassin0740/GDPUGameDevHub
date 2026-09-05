@@ -224,7 +224,7 @@ window.DAILY_NEWS_DATA = {
       source: "CSDN",
       date: "2026-08-12",
       url: "https://blog.csdn.net/commshare/article/details/151763449",
-      image: "https://aka.doubaocdn.com/s/LYzEV2Xanh",
+      image: "https://aka.doubaocdn.com/s/ufhSJUFwjh",
       badge: "速通指南",
       badgeType: "engine",
       readTime: "3 分钟",
