@@ -578,6 +578,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub",
       date: "2026-09-05",
       url: "https://github.com/Trainerx7979/LlmSandbox",
+      image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=900&auto=format&fit=crop&q=80",
       badge: "AI沙盒",
       badgeType: "ai",
       readTime: "2 分钟",
