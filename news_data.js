@@ -313,6 +313,7 @@ window.DAILY_NEWS_DATA = {
       source: "新浪财经 / WIND",
       date: "2026-09-04",
       url: "http://m.toutiao.com/group/7681523383263150634/",
+      image: "https://images.unsplash.com/photo-1587560699334-cc4ff634909a?w=900&auto=format&fit=crop&q=80",
       badge: "估值分析",
       badgeType: "business",
       readTime: "2 分钟",
