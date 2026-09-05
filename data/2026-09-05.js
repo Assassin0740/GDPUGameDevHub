@@ -342,6 +342,7 @@ window.DAILY_NEWS_DATA = {
       source: "证券日报 / Wind",
       date: "2026-09-04",
       url: "http://m.toutiao.com/group/7681654174790009394/",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=900&auto=format&fit=crop&q=80",
       badge: "市场行情",
       badgeType: "business",
       readTime: "2 分钟",
