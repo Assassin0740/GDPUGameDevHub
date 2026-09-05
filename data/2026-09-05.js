@@ -872,8 +872,8 @@ window.DAILY_NEWS_DATA = {
           ]
         }
       ]
-    }
-    {
+    },
+{
       id: "repo-unity-shadergraph-canvas-overlay",
       category: "opensource",
       subcategory: "Unity 工具",
