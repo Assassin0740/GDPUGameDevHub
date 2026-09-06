@@ -694,6 +694,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub",
       date: "2026-09-04",
       url: "https://github.com/Salama-Malek/RetroHack-Salama-Edition",
+      image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=900&auto=format&fit=crop&q=80",
       badge: "浏览器游戏",
       badgeType: "game",
       readTime: "2 分钟",
