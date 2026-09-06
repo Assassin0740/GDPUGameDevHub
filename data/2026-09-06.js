@@ -713,7 +713,7 @@ window.DAILY_NEWS_DATA = {
       source: "什么值得买",
       date: "2026-09-03",
       url: "https://post.m.smzdm.com/p/arz2pmvw/",
-      image: "https://aka.doubaocdn.com/s/LYzEV2Xanh",
+      image: "https://aka.doubaocdn.com/s/kUC46GIZ1O",
       badge: "UE AI对比",
       badgeType: "engine",
       readTime: "3 分钟",
