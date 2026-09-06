@@ -431,6 +431,7 @@ window.DAILY_NEWS_DATA = {
       source: "A9VG电玩部落",
       date: "2026-09-01",
       url: "https://bbs.a9vg.com/upfile/get/d09db10d0cafd324ddae5da83520a538/forum.php?mobile=2&mod=viewthread&tid=9072413",
+      image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=900&auto=format&fit=crop&q=80",
       badge: "9月推荐",
       badgeType: "game",
       readTime: "4 分钟",
@@ -932,4 +933,11 @@ window.DAILY_NEWS_DATA = {
             "AI agent平台构建实时对话角色；",
             "支持语音交互和知识基础；",
             "Unreal Engine官方插件；",
-            "NPC理解上下文/回答问题/执�
+            "NPC理解上下文/回答问题/执行动作；",
+            "游戏AI角色落地成熟方案。"
+          ]
+        }
+      ]
+    }
+  ]
+};
