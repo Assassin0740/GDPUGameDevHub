@@ -930,6 +930,7 @@ window.DAILY_NEWS_DATA = {
       source: "SwitchTools",
       date: "2026-09-02",
       url: "https://www.switchtools.io/tool/convai",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=900&auto=format&fit=crop&q=80",
       badge: "AI平台",
       badgeType: "ai",
       readTime: "2 分钟",
