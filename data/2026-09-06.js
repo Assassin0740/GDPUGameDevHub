@@ -607,6 +607,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub",
       date: "2026-09-03",
       url: "https://github.com/bowen-aigame/awesome-ai-game",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=900&auto=format&fit=crop&q=80",
       badge: "精选列表",
       badgeType: "ai",
       readTime: "2 分钟",
@@ -936,4 +937,11 @@ window.DAILY_NEWS_DATA = {
             "AI agent平台构建实时对话角色；",
             "支持语音交互和知识基础；",
             "Unreal Engine官方插件；",
-            "NPC理解上下文/回答问题/�
+            "NPC理解上下文/回答问题/执行动作；",
+            "游戏AI角色落地成熟方案。"
+          ]
+        }
+      ]
+    }
+  ]
+};
