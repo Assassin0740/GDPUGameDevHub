@@ -636,6 +636,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub",
       date: "2026-09-05",
       url: "https://github.com/4ian/GDevelop",
+      image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900&auto=format&fit=crop&q=80",
       badge: "开源引擎",
       badgeType: "engine",
       readTime: "2 分钟",
