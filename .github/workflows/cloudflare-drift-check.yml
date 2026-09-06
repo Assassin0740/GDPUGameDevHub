@@ -1,0 +1,120 @@
+name: Cloudflare deploy drift check
+
+# 每 6 小时比对一次：Cloudflare 线上内容 vs 仓库 main 分支。
+# 当 Cloudflare 因积分耗尽暂停生产部署时，自动开 Issue 告警；恢复同步后自动关闭。
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  drift-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Local fingerprint
+        id: local
+        run: echo "fp=$(sha256sum news_data.js | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+
+      - name: Live fingerprint
+        id: live
+        continue-on-error: true
+        run: |
+          FP=$(curl -fsSL --max-time 30 "https://gdpu-gamedev-hub.netlify.app/news_data.js" | sha256sum | cut -d' ' -f1)
+          echo "fp=$FP" >> "$GITHUB_OUTPUT"
+
+      - name: Alert on drift
+        if: >-
+          always()
+          && steps.local.outputs.fp != ''
+          && steps.live.outputs.fp != ''
+          && steps.local.outputs.fp != steps.live.outputs.fp
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const local = process.env.LOCAL_FP;
+            const live  = process.env.LIVE_FP;
+            const title = '[Cloudflare 部署落后] 线上内容与 GitHub 不一致';
+            const fallback = `https://${context.repo.owner}.github.io/${context.repo.repo}/`;
+            const body = [
+              'Cloudflare Pages 上的 `news_data.js` 与仓库 `main` 分支不一致，生产部署未同步。',
+              '',
+              '最常见原因：**Cloudflare 积分耗尽，生产部署被暂停**（站点仍在线，但不再部署新提交）。',
+              '',
+              '| 项目 | SHA-256 |',
+              '| --- | --- |',
+              `| GitHub \`main\` | \`${local}\` |`,
+              `| 线上 (Cloudflare) | \`${live}\` |`,
+              '',
+              '### 应急方案',
+              '',
+              `本站已同步部署到 GitHub Pages，可直接切换到备用地址：`,
+              '',
+              fallback,
+              '',
+              '### 恢复时间',
+              '',
+              'Free 计划积分在**每月 1 日**刷新，届时部署会自动恢复，本告警也会自动关闭。'
+            ].join('\n');
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open'
+            });
+            const existing = issues.find(i => i.title === title);
+
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: '再次检测到线上内容与 GitHub 不一致。\n\n' + body
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+            }
+        env:
+          LOCAL_FP: ${{ steps.local.outputs.fp }}
+          LIVE_FP: ${{ steps.live.outputs.fp }}
+
+      - name: Close alert when in sync
+        if: >-
+          always()
+          && steps.local.outputs.fp != ''
+          && steps.local.outputs.fp == steps.live.outputs.fp
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = '[Cloudflare 部署落后] 线上内容与 GitHub 不一致';
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open'
+            });
+            for (const i of issues.filter(x => x.title === title)) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: i.number,
+                body: '✅ Cloudflare 线上内容已与 GitHub 同步，告警关闭。'
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: i.number,
+                state: 'closed'
+              });
+            }
