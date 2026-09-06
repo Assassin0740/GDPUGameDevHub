@@ -518,6 +518,7 @@ window.DAILY_NEWS_DATA = {
       source: "GamingBolt",
       date: "2026-09-02",
       url: "https://gamingbolt.com/15-biggest-games-launching-in-september-2026",
+      image: "https://aka.doubaocdn.com/s/4qpjxEaUzy",
       badge: "发售盘点",
       badgeType: "game",
       readTime: "4 分钟",
@@ -546,6 +547,7 @@ window.DAILY_NEWS_DATA = {
       source: "抖音 / 3A大作前瞻",
       date: "2026-09-04",
       url: "https://www.iesdouyin.com/share/video/7681609806125405930",
+      image: "https://aka.doubaocdn.com/s/G8Zea8acIg",
       badge: "大作前瞻",
       badgeType: "game",
       readTime: "3 分钟",
@@ -576,6 +578,7 @@ window.DAILY_NEWS_DATA = {
       source: "GitHub",
       date: "2026-09-05",
       url: "https://github.com/NeoXider/CoreAI",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=900&auto=format&fit=crop&q=80",
       badge: "AI游戏框架",
       badgeType: "ai",
       readTime: "2 分钟",
@@ -933,11 +936,4 @@ window.DAILY_NEWS_DATA = {
             "AI agent平台构建实时对话角色；",
             "支持语音交互和知识基础；",
             "Unreal Engine官方插件；",
-            "NPC理解上下文/回答问题/执行动作；",
-            "游戏AI角色落地成熟方案。"
-          ]
-        }
-      ]
-    }
-  ]
-};
+            "NPC理解上下文/回答问题/�
