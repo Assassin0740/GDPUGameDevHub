@@ -166,6 +166,7 @@ window.DAILY_NEWS_DATA = {
       source: "Android Developers",
       date: "2026-08-26",
       url: "https://developer.android.google.cn/blog/posts/android-xr-updates-for-unity-unreal-and-godot",
+      image: "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=900&auto=format&fit=crop&q=80",
       badge: "XR官方",
       badgeType: "engine",
       readTime: "3 分钟",
@@ -800,7 +801,7 @@ window.DAILY_NEWS_DATA = {
       source: "Unity Learn",
       date: "2026-09-04",
       url: "https://learn.unity.com/tutorial/part-3-4-getting-the-most-out-of-burst?version=2022.3",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=900&auto=format&fit=crop&q=80",
       badge: "Burst优化",
       badgeType: "engine",
       readTime: "3 分钟",
@@ -928,11 +929,4 @@ window.DAILY_NEWS_DATA = {
             "AI agent平台构建实时对话角色；",
             "支持语音交互和知识基础；",
             "Unreal Engine官方插件；",
-            "NPC理解上下文/回答问题/执行动作；",
-            "游戏AI角色落地成熟方案。"
-          ]
-        }
-      ]
-    }
-  ]
-};
+            "NPC理解上下文/回答问题/�

@@ -800,7 +800,7 @@ window.DAILY_NEWS_DATA = {
       source: "Unity Learn",
       date: "2026-09-04",
       url: "https://learn.unity.com/tutorial/part-3-4-getting-the-most-out-of-burst?version=2022.3",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=900&auto=format&fit=crop&q=80",
       badge: "Burst优化",
       badgeType: "engine",
       readTime: "3 分钟",
