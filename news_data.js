@@ -843,6 +843,7 @@ window.DAILY_NEWS_DATA = {
       source: "凤凰网科技",
       date: "2026-09-05",
       url: "https://tech.ifeng.com/c/8w9CZwjjof5",
+      image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=900&auto=format&fit=crop&q=80",
       badge: "GPT-6实测",
       badgeType: "ai",
       readTime: "3 分钟",

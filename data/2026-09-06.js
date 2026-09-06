@@ -843,6 +843,7 @@ window.DAILY_NEWS_DATA = {
       source: "凤凰网科技",
       date: "2026-09-05",
       url: "https://tech.ifeng.com/c/8w9CZwjjof5",
+      image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=900&auto=format&fit=crop&q=80",
       badge: "GPT-6实测",
       badgeType: "ai",
       readTime: "3 分钟",
@@ -871,6 +872,7 @@ window.DAILY_NEWS_DATA = {
       source: "AI D-A-M-N",
       date: "2026-09-02",
       url: "https://ai-damn.com/nvidia-and-stanford-unleash-open-source-gaming-ai-that-masters-1-000-titles-1766963010862",
+      image: "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=900&auto=format&fit=crop&q=80",
       badge: "开源AI",
       badgeType: "ai",
       readTime: "2 分钟",
@@ -940,11 +942,4 @@ window.DAILY_NEWS_DATA = {
             "AI agent平台构建实时对话角色；",
             "支持语音交互和知识基础；",
             "Unreal Engine官方插件；",
-            "NPC理解上下文/回答问题/执行动作；",
-            "游戏AI角色落地成熟方案。"
-          ]
-        }
-      ]
-    }
-  ]
-};
+            "NPC理解上下文/回答问题/�
