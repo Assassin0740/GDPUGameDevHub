@@ -37,7 +37,11 @@ if not errorlevel 1 (
 echo.
 echo   ----------------------------------------------------
 echo.
-echo      公网访问地址 (手机 / 外网):
+echo      ① 正式地址 (推荐 · 证书合法 · 手机不报"不安全"):
+echo.
+echo          https://gdpugamedevhub.pages.dev/
+echo.
+echo      ② 临时预览 (自签名证书 · 手机会报"不安全", 仅临时自测用):
 echo.
 echo          https://frp-use.com:32892/
 echo.
@@ -49,23 +53,24 @@ echo   ----------------------------------------------------
 echo.
 echo      使用须知:
 echo.
-echo        1. 必须用 https://
-echo           用 http:// 会被 SakuraFrp 拒绝，返回 501
+echo        1. 对外正式分享 / 手机打开，请用 ① 的 Cloudflare Pages 地址
+echo           (gdpugamedevhub.pages.dev) —— 证书合法，绝不会报"不安全"。
 echo.
-echo        2. 证书为自签名
-echo           手机会提示"连接不安全"
-echo           点 高级 - 继续访问 即可正常打开
+echo        2. ② 的 frp-use.com:32892 是 SakuraFrp 内网穿透，隧道服务端
+echo           使用自签名证书，浏览器必然提示"连接不安全"。这是证书问题，
+echo           本地无法消除，仅临时自测可用，点 高级-继续访问 即可。
 echo.
-echo        3. 手机无需与电脑在同一 WiFi
+echo        3. frp 必须用 https://，用 http:// 会被 SakuraFrp 拒绝(501)。
 echo.
-echo        4. 关闭本窗口不会停止服务器
-echo           需要停止时请运行 stop-tunnel.bat
+echo        4. 手机无需与电脑在同一 WiFi。
+echo.
+echo        5. 关闭本窗口不会停止服务器，停止请运行 stop-tunnel.bat。
 echo.
 echo   ----------------------------------------------------
 echo.
 
-choice /c YN /n /m "  是否在浏览器中打开公网地址? (Y=是 / N=否): "
-if not errorlevel 2 start "" https://frp-use.com:32892/
+choice /c YN /n /m "  是否在浏览器中打开正式地址(gdpugamedevhub.pages.dev)? (Y=是 / N=否): "
+if not errorlevel 2 start "" https://gdpugamedevhub.pages.dev/
 
 echo.
 echo   按任意键关闭本窗口...
