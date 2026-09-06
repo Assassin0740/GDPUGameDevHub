@@ -771,7 +771,7 @@ window.DAILY_NEWS_DATA = {
       source: "CSDN",
       date: "2026-04-29",
       url: "https://blog.csdn.net/ByteShoal/article/details/160622257",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=900&auto=format&fit=crop&q=80",
       badge: "性能实战",
       badgeType: "engine",
       readTime: "4 分钟",
