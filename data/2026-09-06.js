@@ -255,6 +255,7 @@ window.DAILY_NEWS_DATA = {
       source: "新浪财经",
       date: "2026-09-02",
       url: "https://finance.sina.com.cn/wm/2026-09-02/doc-iniqmfsw4612575.shtml.md",
+      image: "https://aka.doubaocdn.com/s/oC7uFJZg0R",
       badge: "市场分析",
       badgeType: "business",
       readTime: "3 分钟",
@@ -929,4 +930,11 @@ window.DAILY_NEWS_DATA = {
             "AI agent平台构建实时对话角色；",
             "支持语音交互和知识基础；",
             "Unreal Engine官方插件；",
-            "NPC理解上下文/回答问题/�
+            "NPC理解上下文/回答问题/执行动作；",
+            "游戏AI角色落地成熟方案。"
+          ]
+        }
+      ]
+    }
+  ]
+};
