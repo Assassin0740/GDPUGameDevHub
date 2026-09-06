@@ -310,7 +310,7 @@ window.DAILY_NEWS_DATA = {
       source: "抖音 / 游戏引擎观察",
       date: "2026-09-01",
       url: "https://www.iesdouyin.com/share/video/7680506645541047567",
-      image: "https://aka.doubaocdn.com/s/i7rEWxhsTE",
+      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&auto=format&fit=crop&q=80",
       badge: "腾讯布局",
       badgeType: "business",
       readTime: "2 分钟",
@@ -367,7 +367,7 @@ window.DAILY_NEWS_DATA = {
       source: "36氪",
       date: "2026-09-01",
       url: "https://36kr.com/p/3964267974008322",
-      image: "https://aka.doubaocdn.com/s/b6bwxj9xD8",
+      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=900&auto=format&fit=crop&q=80",
       badge: "深度报道",
       badgeType: "business",
       readTime: "4 分钟",
@@ -929,10 +929,4 @@ window.DAILY_NEWS_DATA = {
             "支持语音交互和知识基础；",
             "Unreal Engine官方插件；",
             "NPC理解上下文/回答问题/执行动作；",
-            "游戏AI角色落地成熟方案。"
-          ]
-        }
-      ]
-    }
-  ]
-};
+            "游戏AI角色落地成熟

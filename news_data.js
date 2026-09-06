@@ -310,7 +310,7 @@ window.DAILY_NEWS_DATA = {
       source: "抖音 / 游戏引擎观察",
       date: "2026-09-01",
       url: "https://www.iesdouyin.com/share/video/7680506645541047567",
-      image: "https://aka.doubaocdn.com/s/i7rEWxhsTE",
+      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=900&auto=format&fit=crop&q=80",
       badge: "腾讯布局",
       badgeType: "business",
       readTime: "2 分钟",
