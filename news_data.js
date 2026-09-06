@@ -933,35 +933,6 @@ window.DAILY_NEWS_DATA = {
           ]
         }
       ]
-    },
-    {
-      id: "unity-programming-best-practices",
-      category: "ai",
-      subcategory: "性能优化",
-      title: "Unity 编程最佳实践官方文档：避免不必要的 Update，考虑 ECS 架构提升扩展性",
-      summary: "Unity官方文档更新编程最佳实践，指出常见坏模式是许多MonoBehaviour脚本都有不必要的Update函数运行，或运行时内存占用过高。缓解方案包括考虑使用ECS数据导向架构提升大量实体的可扩展性，如果使用MonoBehaviour架构则应优化Update调用频率和内存分配，文档还涵盖对象池和事件驱动设计。",
-      source: "Unity 官方文档",
-      date: "2026-08-31",
-      url: "https://docs.unity3d.com/Manual/programming-best-practices.html",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
-      badge: "官方文档",
-      badgeType: "engine",
-      readTime: "3 分钟",
-      hotScore: 79,
-      tags: ["Unity", "最佳实践", "ECS", "MonoBehaviour", "对象池"],
-      content: [
-        {
-          title: "实践要点",
-          type: "list",
-          items: [
-            "避免不必要的Update函数运行；",
-            "考虑ECS架构提升大量实体扩展性；",
-            "MonoBehaviour架构优化Update频率；",
-            "减少运行时内存分配；",
-            "对象池和事件驱动设计推荐。"
-          ]
-        }
-      ]
     }
   ]
 };
