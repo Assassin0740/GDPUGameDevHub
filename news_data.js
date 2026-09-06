@@ -223,7 +223,7 @@ window.DAILY_NEWS_DATA = {
       source: "DEV Community",
       date: "2026-08-29",
       url: "https://dev.to/oceanviewgames/which-game-engine-should-you-use-unity-vs-unreal-vs-godot-2026-4ndj",
-      image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=900&auto=format&fit=crop&q=80",
       badge: "英文对比",
       badgeType: "engine",
       readTime: "3 分钟",
