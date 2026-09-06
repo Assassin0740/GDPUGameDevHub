@@ -284,6 +284,7 @@ window.DAILY_NEWS_DATA = {
       source: "南方都市报 / 今日头条",
       date: "2026-09-04",
       url: "http://m.toutiao.com/group/7681591117036585472/",
+      image: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=900&auto=format&fit=crop&q=80",
       badge: "中报分析",
       badgeType: "business",
       readTime: "3 分钟",
@@ -341,6 +342,7 @@ window.DAILY_NEWS_DATA = {
       source: "财联社 / 国家新闻出版署",
       date: "2026-08-31",
       url: "http://m.toutiao.com/group/7680167702995960363/",
+      image: "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=900&auto=format&fit=crop&q=80",
       badge: "版号放量",
       badgeType: "business",
       readTime: "2 分钟",
@@ -930,11 +932,4 @@ window.DAILY_NEWS_DATA = {
             "AI agent平台构建实时对话角色；",
             "支持语音交互和知识基础；",
             "Unreal Engine官方插件；",
-            "NPC理解上下文/回答问题/执行动作；",
-            "游戏AI角色落地成熟方案。"
-          ]
-        }
-      ]
-    }
-  ]
-};
+            "NPC理解上下文/回答问题/执�
