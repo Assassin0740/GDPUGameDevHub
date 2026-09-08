@@ -897,41 +897,42 @@ window.DAILY_NEWS_DATA = {
       ]
     },
     {
-      "id": "repo-openspeedy",
+      "id": "repo-unity-dots-sample",
       "category": "opensource",
-      "subcategory": "工具",
-      "title": "OpenSpeedy：开源游戏变速器，Windows 平台全局速度调节",
-      "summary": "game1024/OpenSpeedy是开源游戏速度修改器，支持Windows平台全局调节游戏运行速度，可用于练习节奏型操作、加速重复任务或慢放分析关卡。TypeScript实现，9月7日在GitHub gamedev分类活跃更新，是游戏测试与速通练习的实用小工具。",
-      "source": "GitHub",
-      "date": "2026-09-07",
-      "url": "https://github.com/game1024/OpenSpeedy",
-      "badge": "实用工具",
+      "subcategory": "Unity 示例",
+      "title": "Unity 官方 DOTSSample 活跃更新：ECS 完整示例工程与编辑器调优指南",
+      "summary": "Unity-Technologies/DOTSSample是Unity官方维护的DOTS完整示例工程，9月5日仍有更新。README给出编辑器内运行优化建议：关闭编辑器attaching、关闭Jobs Leak Detection、关闭Burst Safety Checks与Jobs Debugger可显著提升示例运行性能。是学习ECS大规模实体系统的首选官方参考工程。",
+      "source": "GitHub / Unity Technologies",
+      "date": "2026-09-05",
+      "url": "https://github.com/Unity-Technologies/DOTSSample",
+      "image": "https://aka.doubaocdn.com/s/KPsgp8dIF3",
+      "badge": "官方示例",
       "badgeType": "engine",
       "readTime": "2 分钟",
-      "hotScore": 77,
+      "hotScore": 79,
       "tags": [
-        "OpenSpeedy",
-        "游戏变速",
-        "Windows",
-        "TypeScript",
-        "速通工具"
+        "DOTSSample",
+        "Unity",
+        "ECS示例",
+        "Burst",
+        "性能调优"
       ],
       "content": [
         {
-          "title": "工具功能",
+          "title": "工程要点",
           "type": "list",
           "items": [
-            "全局调节游戏运行速度；",
-            "Windows平台支持；",
-            "适合练习节奏型操作；",
-            "速通与关卡分析辅助；",
-            "9月7日活跃更新。"
+            "Unity官方DOTS完整示例工程；",
+            "9月5日活跃更新；",
+            "编辑器内运行优化建议；",
+            "关闭Burst Safety/Jobs Debugger提速；",
+            "学习ECS大规模实体首选参考。"
           ]
         },
         {
           "title": "摘要速读",
           "type": "text",
-          "text": "game1024/OpenSpeedy是开源游戏速度修改器，支持Windows平台全局调节游戏运行速度，可用于练习节奏型操作、加速重复任务或慢放分析关卡。TypeScript实现，9月7日在GitHub gamedev分类活跃更新，是游戏测试与速通练习的实用小工具。"
+          "text": "Unity-Technologies/DOTSSample是Unity官方维护的DOTS完整示例工程，9月5日仍有更新。README给出编辑器内运行优化建议：关闭编辑器attaching、关闭Jobs Leak Detection、关闭Burst Safety Checks与Jobs Debugger可显著提升示例运行性能。是学习ECS大规模实体系统的首选官方参考工程。"
         }
       ]
     },
