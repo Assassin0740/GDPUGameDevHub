@@ -516,6 +516,7 @@ window.DAILY_NEWS_DATA = {
       "source": "新浪财经 / 今日头条",
       "date": "2026-09-08",
       "url": "http://m.toutiao.com/group/7682973808919167531/",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
       "badge": "世界模型",
       "badgeType": "event",
       "readTime": "2 分钟",
@@ -754,6 +755,7 @@ window.DAILY_NEWS_DATA = {
       "source": "GitHub",
       "date": "2026-09-07",
       "url": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
       "badge": "精选清单",
       "badgeType": "ai",
       "readTime": "2 分钟",
@@ -833,6 +835,7 @@ window.DAILY_NEWS_DATA = {
       "source": "GitHub",
       "date": "2026-09-05",
       "url": "https://github.com/MonoGame/MonoGame",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
       "badge": "经典框架",
       "badgeType": "engine",
       "readTime": "2 分钟",
@@ -1137,10 +1140,4 @@ window.DAILY_NEWS_DATA = {
         {
           "title": "摘要速读",
           "type": "text",
-          "text": "CD Projekt确认正在将AI作为开发工具使用，但同时明确表示没有意图完全依赖AI制作游戏。公司强调其开发团队仍保持「人主导」的制作方式，在游戏行业AI角色日益重要的背景下，CDPR的表态代表了3A大厂对AI辅助与人类创意边界的审慎态度。"
-        }
-      ]
-    }
-  ]
-}
-;
+          "text": "CD Projekt确认正在将AI作为开发工具使用，但同时明确表示没有意图完全依赖AI制作游戏。公司强调其开发团队仍保持「人主导」的制作方式，在游戏行业AI角色日益重要的背景下，CDPR�
