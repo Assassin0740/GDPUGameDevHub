@@ -1060,45 +1060,7 @@ window.DAILY_NEWS_DATA = {
         }
       ]
     },
-    {
-      "id": "ai-ubisoft-farcry7",
-      "category": "ai",
-      "subcategory": "行业争议",
-      "title": "育碧被曝在《孤岛惊魂 7》内测生成式 AI，引发行业争论",
-      "summary": "据行业消息人士透露，育碧一直使用未发布的《孤岛惊魂7》版本作为生成式AI技术的试验场。考虑到育碧此前对AI的立场曾引发争议，该消息在行业内引发讨论：生成式AI在3A项目中应从哪个环节介入、如何与艺术家工作流共存，成为焦点议题。",
-      "source": "AI D-A-M-N",
-      "date": "2026-09-07",
-      "url": "https://ai-damn.com/ubisoft-s-far-cry-7-ai-experiment-sparks-industry-debate-1779768480347",
-      "badge": "AI争议",
-      "badgeType": "hot",
-      "readTime": "2 分钟",
-      "hotScore": 83,
-      "tags": [
-        "育碧",
-        "孤岛惊魂7",
-        "生成式AI",
-        "行业争议",
-        "3A制作"
-      ],
-      "content": [
-        {
-          "title": "事件要点",
-          "type": "list",
-          "items": [
-            "育碧在未发布孤岛惊魂7内测AI；",
-            "生成式AI作为试验场；",
-            "引发行业对AI边界讨论；",
-            "AI与艺术家工作流共存成焦点；",
-            "消息来自行业内部人士。"
-          ]
-        },
-        {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "据行业消息人士透露，育碧一直使用未发布的《孤岛惊魂7》版本作为生成式AI技术的试验场。考虑到育碧此前对AI的立场曾引发争议，该消息在行业内引发讨论：生成式AI在3A项目中应从哪个环节介入、如何与艺术家工作流共存，成为焦点议题。"
-        }
-      ]
-    },
+
     {
       "id": "ai-playco-playbot",
       "category": "ai",
