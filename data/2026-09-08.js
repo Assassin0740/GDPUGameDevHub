@@ -407,29 +407,29 @@ window.DAILY_NEWS_DATA = {
       ]
     },
     {
-      id: "tencent-netease-70-percent",
+      id: "kakao-games-ai-backend",
       category: "industry",
-      subcategory: "市场分析",
-      title: "腾讯+网易游戏收入合计占比接近七成，行业大盘呈结构性增长",
-      summary: "新浪财经报道：上半年腾讯单家厂商游戏收入已接近游戏行业国内外销售收入总和的一半，加上网易后两家公司合计占比接近七成。行业大盘增长很大程度上代表头部厂商增长，属于结构性增长——中长尾产品并未普惠，增量高度集中于少数长青产品与平台级新品。",
-      source: "新浪财经",
-      date: "2026-09-02",
-      url: "https://finance.sina.com.cn/wm/2026-09-02/doc-iniqmfsw4612575.shtml.md",
-      badge: "市场份额",
+      subcategory: "投融资",
+      title: "卡卡奥游戏 3000 亿韩元弹药押注 AI 后端：2400 亿第三方配股+600 亿无息 CB",
+      summary: "据韩国Popcorn News报道，卡卡奥游戏（Kakao Games）通过2400亿韩元第三方配股增资与600亿韩元无息可转债确保约3000亿韩元资金，除偿还借款外将优先投向AI后端能力建设。公司已开展10余起投资，AI基础设施与游戏运营智能化的押注意图明确。",
+      source: "Popcorn News（韩国）",
+      date: "2026-09-07",
+      url: "http://www.popcornnews.net/news/articleView.html?idxno=131875",
+      badge: "AI投资",
       badgeType: "business",
       readTime: "2 分钟",
       hotScore: 80,
-      tags: ["腾讯", "网易", "占比七成", "结构性增长", "头部集中"],
+      tags: ["Kakao Games", "3000亿韩元", "AI后端", "配股增资", "游戏投资"],
       content: [
         {
-          title: "数据要点",
+          title: "融资结构",
           type: "list",
           items: [
-            "腾讯游戏收入接近行业总销一半；",
-            "腾讯+网易合计占比近七成；",
-            "大盘增长属结构性增长；",
-            "中长尾产品未获普惠；",
-            "增量集中于长青产品与平台级新品。"
+            "2400亿韩元第三方配股增资；",
+            "600亿韩元无息可转债；",
+            "合计约3000亿韩元弹药；",
+            "偿还借款+成长投资并行；",
+            "优先押注AI后端能力。"
           ]
         }
       ]
