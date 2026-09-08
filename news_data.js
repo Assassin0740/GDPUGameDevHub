@@ -436,6 +436,7 @@ window.DAILY_NEWS_DATA = {
       "source": "南方都市报 / 今日头条",
       "date": "2026-09-08",
       "url": "http://m.toutiao.com/group/7682933023653904934/",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
       "badge": "中报盘点",
       "badgeType": "business",
       "readTime": "3 分钟",
