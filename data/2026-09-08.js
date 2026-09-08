@@ -544,45 +544,7 @@ window.DAILY_NEWS_DATA = {
         }
       ]
     },
-    {
-      "id": "kakao-games-ai-backend",
-      "category": "industry",
-      "subcategory": "投融资",
-      "title": "卡卡奥游戏 3000 亿韩元弹药押注 AI 后端：2400 亿第三方配股+600 亿无息 CB",
-      "summary": "据韩国Popcorn News报道，卡卡奥游戏（Kakao Games）通过2400亿韩元第三方配股增资与600亿韩元无息可转债确保约3000亿韩元资金，除偿还借款外将优先投向AI后端能力建设。公司已开展10余起投资，AI基础设施与游戏运营智能化的押注意图明确。",
-      "source": "Popcorn News（韩国）",
-      "date": "2026-09-07",
-      "url": "http://www.popcornnews.net/news/articleView.html?idxno=131875",
-      "badge": "AI投资",
-      "badgeType": "business",
-      "readTime": "2 分钟",
-      "hotScore": 80,
-      "tags": [
-        "Kakao Games",
-        "3000亿韩元",
-        "AI后端",
-        "配股增资",
-        "游戏投资"
-      ],
-      "content": [
-        {
-          "title": "融资结构",
-          "type": "list",
-          "items": [
-            "2400亿韩元第三方配股增资；",
-            "600亿韩元无息可转债；",
-            "合计约3000亿韩元弹药；",
-            "偿还借款+成长投资并行；",
-            "优先押注AI后端能力。"
-          ]
-        },
-        {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "据韩国Popcorn News报道，卡卡奥游戏（Kakao Games）通过2400亿韩元第三方配股增资与600亿韩元无息可转债确保约3000亿韩元资金，除偿还借款外将优先投向AI后端能力建设。公司已开展10余起投资，AI基础设施与游戏运营智能化的押注意图明确。"
-        }
-      ]
-    },
+
     {
       "id": "zhongkui-face-cast",
       "category": "games",
