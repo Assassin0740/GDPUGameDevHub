@@ -835,6 +835,7 @@ window.DAILY_NEWS_DATA = {
       "source": "GitHub",
       "date": "2026-09-05",
       "url": "https://github.com/MonoGame/MonoGame",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
       "badge": "经典框架",
       "badgeType": "engine",
       "readTime": "2 分钟",
