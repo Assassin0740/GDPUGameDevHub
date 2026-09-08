@@ -678,6 +678,7 @@ window.DAILY_NEWS_DATA = {
       "source": "抖音 / 索尼",
       "date": "2026-09-04",
       "url": "https://www.iesdouyin.com/share/video/7681536691378687282",
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
       "badge": "State of Play",
       "badgeType": "event",
       "readTime": "2 分钟",
