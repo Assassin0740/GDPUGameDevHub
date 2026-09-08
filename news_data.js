@@ -638,6 +638,7 @@ window.DAILY_NEWS_DATA = {
       "source": "A9VG",
       "date": "2026-09-01",
       "url": "https://www.a9vg.com/article/244409",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
       "badge": "发售日历",
       "badgeType": "game",
       "readTime": "3 分钟",
