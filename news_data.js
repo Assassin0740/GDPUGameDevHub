@@ -637,29 +637,29 @@ window.DAILY_NEWS_DATA = {
       ]
     },
     {
-      id: "repo-qtmesh-editor",
+      id: "repo-openspeedy",
       category: "opensource",
-      subcategory: "3D 工具",
-      title: "QtMeshEditor：独立开发者免费 3D 资产工具，合并动画+40 余种格式转换+AI 材质",
-      summary: "fernandotonon/QtMeshEditor是面向独立游戏开发者的免费3D资产工具：可合并动画、在40多种3D格式间转换（glTF/FBX/OBJ等）、用AI编辑材质，基于Qt与Ogre3D，9月7日活跃更新。解决独立开发者在Mixamo动画与引擎资源之间的格式兼容痛点。",
+      subcategory: "工具",
+      title: "OpenSpeedy：开源游戏变速器，Windows 平台全局速度调节",
+      summary: "game1024/OpenSpeedy是开源游戏速度修改器，支持Windows平台全局调节游戏运行速度，可用于练习节奏型操作、加速重复任务或慢放分析关卡。TypeScript实现，9月7日在GitHub gamedev分类活跃更新，是游戏测试与速通练习的实用小工具。",
       source: "GitHub",
       date: "2026-09-07",
-      url: "https://github.com/fernandotonon/QtMeshEditor",
-      badge: "3D工具",
+      url: "https://github.com/game1024/OpenSpeedy",
+      badge: "实用工具",
       badgeType: "engine",
       readTime: "2 分钟",
-      hotScore: 79,
-      tags: ["QtMeshEditor", "3D资产", "格式转换", "动画合并", "AI材质"],
+      hotScore: 77,
+      tags: ["OpenSpeedy", "游戏变速", "Windows", "TypeScript", "速通工具"],
       content: [
         {
-          title: "工具能力",
+          title: "工具功能",
           type: "list",
           items: [
-            "合并动画与骨骼；",
-            "40+种3D格式转换；",
-            "AI编辑材质；",
-            "基于Qt与Ogre3D；",
-            "独立开发者免费使用。"
+            "全局调节游戏运行速度；",
+            "Windows平台支持；",
+            "适合练习节奏型操作；",
+            "速通与关卡分析辅助；",
+            "9月7日活跃更新。"
           ]
         }
       ]
