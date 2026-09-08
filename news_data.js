@@ -558,7 +558,7 @@ window.DAILY_NEWS_DATA = {
       "source": "九游 / 17173",
       "date": "2026-09-07",
       "url": "https://a.9game.cn/hshzk/gonglue-0-2/",
-      "image": "https://images.pexels.com/photos/7032138/pexels-photo-7032138.jpeg",
+      "image": "https://img1.gamersky.com/upimg/pic/2026/09/06/origin_202609060919593166.png", // 黑神话钟馗·角色脸模配图（游民星空，2026-09-06）
       "badge": "脸模公布",
       "badgeType": "game",
       "readTime": "2 分钟",
@@ -598,7 +598,7 @@ window.DAILY_NEWS_DATA = {
       "source": "17173 游戏网 / 新浪微博",
       "date": "2026-09-08",
       "url": "https://www.sina.cn/media/1893762192",
-      "image": "https://images.pexels.com/photos/30639094/pexels-photo-30639094.jpeg",
+      "image": "https://q4.itc.cn/q_70/images03/20260820/9671c7f63d554faaaf2b0fbe942b6a1d.png", // 冯骥杨奇黑神话钟馗开发心得（搜狐，2026-08-20）
       "badge": "开发心得",
       "badgeType": "game",
       "readTime": "3 分钟",
