@@ -396,6 +396,7 @@ window.DAILY_NEWS_DATA = {
       "source": "证券时报",
       "date": "2026-08-21",
       "url": "https://www.stcn.com/article/detail/4095596.html",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
       "badge": "Q2财报",
       "badgeType": "business",
       "readTime": "2 分钟",
