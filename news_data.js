@@ -786,36 +786,31 @@ window.DAILY_NEWS_DATA = {
       ]
     },
     {
-      id: "tut-dots20-perf",
+      id: "tut-dots-best-practices",
       category: "tutorials",
       subcategory: "Unity DOTS",
-      title: "DOTS 2.0 性能跃迁实战：绕过 Burst 编译陷阱、修复 ECS 内存抖动",
-      summary: "CSDN博主发布DOTS 2.0性能调优实战手册，由20年Unity专家撰写：通过AoS→SoA→ECS三级结构演进实现内存布局革命，组件数据按类型连续存储，实体ID仅为索引整数。文章给出5个关键调优节点，演示Burst编译job遍历10M Transform组件、修复ECS内存抖动、实现3.7倍帧率提升的完整过程。",
-      source: "CSDN",
-      date: "2026-09-03",
-      url: "https://blog.csdn.net/ByteShoal/article/details/160622257",
+      title: "Unity 官方 DOTS 最佳实践 Part 3.1：实现基础——Profiler 与 Console 常驻工作流",
+      summary: "Unity Learn官方DOTS最佳实践课程Part 3.1讲解实现阶段基础：ECS开发时应常驻Unity CPU Profiler（建议Timeline视图）与Console窗口，Console快速提示job安全系统违规或临时native内存泄漏，Profiler定位可能造成性能问题的system。课程还覆盖Burst与Job safety的开发期工作流。",
+      source: "Unity Learn",
+      date: "2026-09-05",
+      url: "https://learn.unity.com/course/dots-best-practices/unit/part-3-implementation-and-optimization/tutorial/part-3-1-implementation-fundamentals",
       image: "https://aka.doubaocdn.com/s/KPsgp8dIF3",
-      badge: "性能调优",
+      badge: "官方最佳实践",
       badgeType: "engine",
-      readTime: "5 分钟",
-      hotScore: 84,
-      tags: ["DOTS 2.0", "Burst", "ECS内存", "SoA", "3.7倍帧率"],
+      readTime: "3 分钟",
+      hotScore: 81,
+      tags: ["DOTS", "最佳实践", "Profiler", "Job Safety", "Burst"],
       content: [
         {
-          title: "调优节点",
+          title: "开发期工作流",
           type: "list",
           items: [
-            "AoS→SoA→ECS三级结构演进；",
-            "组件数据按类型连续存储；",
-            "绕过Burst编译陷阱；",
-            "修复ECS内存抖动；",
-            "实现3.7倍帧率提升。"
+            "CPU Profiler常驻（Timeline视图）；",
+            "Console窗口常开；",
+            "快速提示job安全系统违规；",
+            "识别临时native内存泄漏；",
+            "Profiler定位性能问题system。"
           ]
-        },
-        {
-          title: "核心原理",
-          type: "text",
-          text: "传统面向对象模型中对象散列分布导致缓存未命中率高，DOTS通过数据连续存储让CPU缓存命中率最大化——这是ECS性能优势的本质。实战中先分析Profiler定位热点，再针对性使用Burst与Job，避免盲目全量改造。"
         }
       ]
     },
