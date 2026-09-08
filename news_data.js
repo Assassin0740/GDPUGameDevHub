@@ -69,7 +69,7 @@ window.DAILY_NEWS_DATA = {
     "tag": "🔥 黑神话：钟馗",
     "title": "《黑神话：钟馗》脸模阵容公布、李光复加盟，冯骥杨奇发文分享十年开发心得",
     "summary": "游戏科学《黑神话：钟馗》热度持续攀升：继15分钟实机演示后，官方公布数位角色脸模，主角钟馗由戴智利担任，实机演示中手持鸡腿的老者由国家一级演员李光复饰演，真人面部捕捉打造东方志怪脸谱。冯骥、杨奇双双发布长文，冯骥整理出游戏科学内部十条开发原则，强调「先打动自己再寻求共鸣」「可体验版本胜过纸面文档」「好玩是不可妥协的底线」。",
-    "image": "https://images.pexels.com/photos/14010688/pexels-photo-14010688.jpeg",
+    "image": "https://img2-tc.tapimg.com/moment/etag/FoASHkn_E7GmE5yFosf3N7q_-Ncc_20260904152131.png", // 黑神话钟馗·女水鬼真人脸模对比（tapimg 直链，2026-09-04，用户指定）
     "source": "17173 / 九游 / 游戏科学",
     "date": "2026-09-07",
     "url": "https://www.taptap.cn/app/771327/topic",
