@@ -476,6 +476,7 @@ window.DAILY_NEWS_DATA = {
       "source": "伽马数据 / 南方都市报",
       "date": "2026-09-07",
       "url": "http://m.toutiao.com/group/7682749756180382250/",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80",
       "badge": "AI投资",
       "badgeType": "business",
       "readTime": "2 分钟",
