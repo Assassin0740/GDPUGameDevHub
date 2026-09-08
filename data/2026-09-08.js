@@ -742,45 +742,7 @@ window.DAILY_NEWS_DATA = {
         }
       ]
     },
-    {
-      "id": "repo-tecs-ecs",
-      "category": "opensource",
-      "subcategory": "ECS 框架",
-      "title": "tecs：LuaJIT Typed、GPU-driven 的 ECS 框架，专为人类与 AI 协作设计",
-      "summary": "tecs-dev/tecs是用Rust编写的ECS框架，宣称「Build games with LuaJIT Typed. GPU-driven. Designed for humans and AI.」——支持LuaJIT Typed脚本、GPU驱动渲染，并面向AI辅助开发场景设计，9月6日仍在GitHub gamedev分类活跃更新。是ECS架构探索的新锐项目。",
-      "source": "GitHub",
-      "date": "2026-09-06",
-      "url": "https://github.com/tecs-dev/tecs",
-      "badge": "ECS框架",
-      "badgeType": "engine",
-      "readTime": "2 分钟",
-      "hotScore": 80,
-      "tags": [
-        "tecs",
-        "ECS",
-        "LuaJIT",
-        "GPU-driven",
-        "Rust"
-      ],
-      "content": [
-        {
-          "title": "项目特点",
-          "type": "list",
-          "items": [
-            "Rust实现的ECS框架；",
-            "LuaJIT Typed脚本支持；",
-            "GPU驱动渲染；",
-            "为人类与AI协作设计；",
-            "9月6日活跃更新。"
-          ]
-        },
-        {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "tecs-dev/tecs是用Rust编写的ECS框架，宣称「Build games with LuaJIT Typed. GPU-driven. Designed for humans and AI.」——支持LuaJIT Typed脚本、GPU驱动渲染，并面向AI辅助开发场景设计，9月6日仍在GitHub gamedev分类活跃更新。是ECS架构探索的新锐项目。"
-        }
-      ]
-    },
+
     {
       "id": "repo-awesome-gpt6-astra",
       "category": "opensource",
