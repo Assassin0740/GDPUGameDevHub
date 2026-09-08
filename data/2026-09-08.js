@@ -1020,46 +1020,7 @@ window.DAILY_NEWS_DATA = {
         }
       ]
     },
-    {
-      "id": "tut-unity-perf-guide",
-      "category": "tutorials",
-      "subcategory": "Unity 性能",
-      "title": "Unity 性能优化全攻略：CPU 到 GPU 的五大维度极致提速",
-      "summary": "CSDN博主发布Unity性能优化系统化指南，覆盖CPU、GPU、内存、包体、加载五大维度：以Unity Profiler为核心的分析工具链、CPU侧脚本与GC优化、GPU侧渲染管线与Shader优化、内存池与资源卸载、包体裁剪与AssetBundle策略、场景加载异步化。是全面的性能优化知识地图。",
-      "source": "CSDN",
-      "date": "2026-08-08",
-      "url": "https://blog.csdn.net/qq_33060405/article/details/163596092",
-      "image": "https://aka.doubaocdn.com/s/KPsgp8dIF3",
-      "badge": "性能优化",
-      "badgeType": "engine",
-      "readTime": "4 分钟",
-      "hotScore": 80,
-      "tags": [
-        "Unity性能",
-        "CPU",
-        "GPU",
-        "内存",
-        "包体优化"
-      ],
-      "content": [
-        {
-          "title": "五大维度",
-          "type": "list",
-          "items": [
-            "CPU：脚本与GC优化；",
-            "GPU：渲染管线与Shader；",
-            "内存：池化与资源卸载；",
-            "包体：裁剪与AssetBundle；",
-            "加载：场景异步化。"
-          ]
-        },
-        {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "CSDN博主发布Unity性能优化系统化指南，覆盖CPU、GPU、内存、包体、加载五大维度：以Unity Profiler为核心的分析工具链、CPU侧脚本与GC优化、GPU侧渲染管线与Shader优化、内存池与资源卸载、包体裁剪与AssetBundle策略、场景加载异步化。是全面的性能优化知识地图。"
-        }
-      ]
-    },
+
     {
       "id": "ai-fortnite-npc-tool",
       "category": "ai",
