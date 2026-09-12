@@ -1,1157 +1,1100 @@
 /**
- * 广药 游戏开发情报中枢 · 每日技术情报 - 2026-09-08
+ * 广药 游戏开发情报中枢 · 每日技术情报 - 2026-09-12
  */
 
 window.DAILY_NEWS_DATA = {
-  "meta": {
-    "date": "2026-09-08",
-    "weekday": "星期二",
-    "title": "广药 游戏开发情报中枢 · 每日技术情报",
-    "subtitle": "全生态技术演进 · 3A工业化与前沿行业情报",
-    "updateTime": "2026-09-08 10:50",
-    "editor": "广药技术中枢 & 豆包极客",
-    "highlights": [
-      "🎮 《黑神话：钟馗》公布数位角色脸模：国家一级演员李光复加盟，冯骥杨奇同步发布开发心得长文",
-      "💰 网易2026年Q2净收入301亿元同比增7.9%；22家A股游戏公司中报营收645.87亿增20.2%，二八效应加剧",
-      "🤖 堡垒之夜推出AI驱动NPC定制工具，20行提示词即可生成自定义NPC；Playco发布GPT-6 Astra游戏开发IDE",
-      "🔧 Godot 4.7.2 修复稳定性问题；Redot 26.3 Beta 1 发布，引入Structs/Traits/可空静态类型",
-      "⚡ Unity 6.6 将 WebGPU 移出实验阶段；张一鸣复出督战字节世界模型，瞄准游戏实时生成"
+  meta: {
+    date: "2026-09-12",
+    weekday: "星期六",
+    title: "广药 游戏开发情报中枢 · 每日技术情报",
+    subtitle: "全生态技术演进 · 3A工业化与前沿行业情报",
+    updateTime: "2026-09-12 08:40",
+    editor: "广药技术中枢 & 豆包极客",
+    highlights: [
+      "🏆 Godot 首次在 GMTK Game Jam 超越 Unity：47% 参赛作品使用 Godot，Unity 降至 34%",
+      "🔧 Godot 4.8 dev 5 发布：Mip-level 纹理流送、2D 编辑器工具栏重做等新特性上线",
+      "🤖 Ramen 发布 Aura 1.0：面向 Unity/UE 的 AI 开发 Agent，Verification Agent + 持久项目记忆",
+      "💰 完美世界《异环》全球流水破 20 亿，Q3 起逐步释放业绩",
+      "📰 游戏厂商重拳打击泄密内鬼：米哈游、腾讯、叠纸纷纷通过法律手段维权"
     ],
-    "engineStatus": [
-      {
-        "name": "Unity 6.6",
-        "type": "unity",
-        "status": "9/1正式发布·WebGPU移出实验阶段",
-        "badge": "最新版",
-        "color": "indigo"
-      },
-      {
-        "name": "Unity 6.3 LTS",
-        "type": "unity",
-        "status": "官方LTS支持至2027年12月",
-        "badge": "LTS 推荐",
-        "color": "blue"
-      },
-      {
-        "name": "团结引擎 1.10.2",
-        "type": "tuanjie",
-        "status": "8/27新版·微信小游戏生态",
-        "badge": "全平台适配",
-        "color": "cyan"
-      },
-      {
-        "name": "UE 5.8.2",
-        "type": "unreal",
-        "status": "Hotfix维护·Unreal Fest持续输出",
-        "badge": "UE5工业化",
-        "color": "purple"
-      },
-      {
-        "name": "Godot 4.7.2",
-        "type": "godot",
-        "status": "9/3修复版·跨平台稳定性提升",
-        "badge": "轻量开源",
-        "color": "emerald"
-      },
-      {
-        "name": "Redot 26.3",
-        "type": "godot",
-        "status": "9/1 Beta 1·三大社区高需特性",
-        "badge": "Godot分支",
-        "color": "pink"
-      }
+    engineStatus: [
+      { name: "Unity 6.6", type: "unity", status: "9/1正式发布·WebGPU移出实验阶段", badge: "最新版", color: "indigo" },
+      { name: "Unity 6.3 LTS", type: "unity", status: "官方LTS支持至2027年12月", badge: "LTS 推荐", color: "blue" },
+      { name: "团结引擎 1.10.3", type: "tuanjie", status: "9/9新版·创世版9月内测", badge: "全平台适配", color: "cyan" },
+      { name: "UE 5.8.2", type: "unreal", status: "Hotfix维护·Inside Unreal直播", badge: "UE5工业化", color: "purple" },
+      { name: "Godot 4.8 dev5", type: "godot", status: "9/10开发快照·Mip纹理流送", badge: "开发版", color: "emerald" },
+      { name: "Godot 4.7.2", type: "godot", status: "最新稳定版·GMTK Game Jam登顶", badge: "轻量开源", color: "pink" }
     ]
   },
-  "hero": {
-    "id": "hero-black-myth-zhongkui-cast",
-    "category": "games",
-    "categoryName": "热门游戏 · 头条深度",
-    "tag": "🔥 黑神话：钟馗",
-    "title": "《黑神话：钟馗》脸模阵容公布、李光复加盟，冯骥杨奇发文分享十年开发心得",
-    "summary": "游戏科学《黑神话：钟馗》热度持续攀升：继15分钟实机演示后，官方公布数位角色脸模，主角钟馗由戴智利担任，实机演示中手持鸡腿的老者由国家一级演员李光复饰演，真人面部捕捉打造东方志怪脸谱。冯骥、杨奇双双发布长文，冯骥整理出游戏科学内部十条开发原则，强调「先打动自己再寻求共鸣」「可体验版本胜过纸面文档」「好玩是不可妥协的底线」。",
-    "image": "https://img2-tc.tapimg.com/moment/etag/FoASHkn_E7GmE5yFosf3N7q_-Ncc_20260904152131.png", // 黑神话钟馗·女水鬼真人脸模对比（tapimg 直链，2026-09-04，用户指定）
-    "source": "17173 / 九游 / 游戏科学",
-    "date": "2026-09-07",
-    "url": "https://www.taptap.cn/app/771327/topic",
-    "readTime": "4 分钟深度",
-    "hotScore": 96,
-    "tags": [
-      "黑神话钟馗",
-      "脸模",
-      "李光复",
-      "冯骥",
-      "游戏科学",
-      "开发心得"
-    ],
-    "content": [
+  hero: {
+    id: "hero-godot-gmtk-surpass-unity",
+    category: "engine",
+    categoryName: "引擎前沿 · 头条深度",
+    tag: "🏆 历史性时刻",
+    title: "Godot 首次在 GMTK Game Jam 超越 Unity：47% 作品用开源引擎，Unity 降至 34%",
+    summary: "2026年GMTK Game Jam创下历史纪录：在10511件提交作品中，47%（约4900款）使用Godot引擎开发，Unity首次跌至第二位仅占34%（约3600款）。这是GMTK Game Jam举办九年来Godot首次超越Unity，标志着开源游戏引擎在独立开发者生态中的影响力达到新高度。GameMaker以5%位列第三，Unreal Engine占3%。Godot 4.x系列的持续成熟、MIT免费协议、以及轻量高效的特性正在加速独立开发者迁移。",
+    image: "",
+    source: "PlayGround.ru / GMTK Game Jam 官方统计",
+    date: "2026-09-09",
+    url: "https://www.playground.ru/misc/news/godot_vpervye_oboshel_unity_na_gmtk_game_jam_pochti_polovina_vseh_igr_sozdana_na_otkrytom_dvizhke-1862976",
+    readTime: "4 分钟深度",
+    hotScore: 97,
+    tags: ["Godot", "GMTK Game Jam", "Unity", "开源引擎", "独立游戏", "历史性超越"],
+    content: [
       {
-        "title": "本轮披露要点",
-        "type": "list",
-        "items": [
-          "主角钟馗脸模由戴智利担任；",
-          "国家一级演员李光复饰演手持鸡腿老者；",
-          "首支预告小厨娘脸模为满月；",
-          "15分钟实机演示累计热度超800万；",
-          "冯骥公开游戏科学内部十条开发原则。"
+        title: "核心数据",
+        type: "list",
+        items: [
+          "10511件提交作品，Godot占47%（约4900款）；",
+          "Unity占34%（约3600款），首次跌至第二；",
+          "GameMaker占5%，Unreal Engine占3%；",
+          "GMTK Game Jam举办九年来Godot首次登顶；",
+          "Godot 4.x系列成熟度显著提升驱动迁移。"
         ]
       },
       {
-        "title": "行业启示",
-        "type": "text",
-        "text": "游戏科学在悟空发售后两年推出钟馗实机，展现的是工业化管线与真人表演捕捉体系的成熟。冯骥的十条开发原则——「可体验版本胜过纸面文档」「好玩是不可妥协的底线」——正在成为国产3A团队的方法论共识。对开发者而言，钟馗的长剑+符箓+弹反战斗设计，以及21:9电影化实机录制，都是值得拆解的战斗与镜头语言样本。"
+        title: "行业影响分析",
+        type: "text",
+        text: "Godot在全球最大独立游戏开发赛事中超越Unity，是开源引擎生态的里程碑事件。驱动因素包括：Godot 4.x系列渲染与编辑器能力的大幅提升、MIT协议零成本无收入分成、轻量安装包与快速启动体验、以及社区资产的持续丰富。对引擎行业而言，这意味着独立开发者的选择正在从「默认Unity」转向「按需选择」，Godot在2D和轻量3D领域已具备极强竞争力。对商业引擎厂商而言，独立开发者生态的流失将长期影响人才储备与技术口碑。"
       }
     ]
   },
-  "categories": [
-    {
-      "id": "all",
-      "name": "全部资讯",
-      "icon": "🔥",
-      "desc": "汇总今日游戏开发全生态情报"
-    },
-    {
-      "id": "engine",
-      "name": "引擎前沿",
-      "icon": "🔧",
-      "desc": "Unity / 团结引擎 / 虚幻引擎 / Godot / 渲染技术"
-    },
-    {
-      "id": "industry",
-      "name": "行业热点",
-      "icon": "📰",
-      "desc": "大厂动向 / 财报 / 投融资 / 市场分析"
-    },
-    {
-      "id": "games",
-      "name": "热门游戏",
-      "icon": "🎮",
-      "desc": "黑神话钟馗 / 新作发售 / 直面会预告"
-    },
-    {
-      "id": "opensource",
-      "name": "开源宝库",
-      "icon": "⭐",
-      "desc": "GitHub 精选开源库 / 工具链 / 引擎框架"
-    },
-    {
-      "id": "tutorials",
-      "name": "实战教程",
-      "icon": "📚",
-      "desc": "DOTS / C# / 性能优化 / 架构设计"
-    },
-    {
-      "id": "ai",
-      "name": "AI前沿",
-      "icon": "🤖",
-      "desc": "AI NPC / 智能体 / 生成式AI / 大模型工具"
-    }
+  categories: [
+    { id: "all", name: "全部资讯", icon: "🔥", desc: "汇总今日游戏开发全生态情报" },
+    { id: "engine", name: "引擎前沿", icon: "🔧", desc: "Unity / 团结引擎 / 虚幻引擎 / Godot / 渲染技术" },
+    { id: "industry", name: "行业热点", icon: "📰", desc: "大厂动向 / 财报 / 投融资 / 市场分析" },
+    { id: "games", name: "热门游戏", icon: "🎮", desc: "新作发售 / 展会发布 / 热门追踪" },
+    { id: "opensource", name: "开源宝库", icon: "⭐", desc: "GitHub 精选开源库 / 工具链 / 引擎框架" },
+    { id: "tutorials", name: "实战教程", icon: "📚", desc: "DOTS / C# / 性能优化 / 架构设计" },
+    { id: "ai", name: "AI前沿", icon: "🤖", desc: "AI NPC / 智能体 / 生成式AI / 大模型工具" }
   ],
-  "items": [
+  items: [
     {
-      "id": "unity-66-webgpu",
-      "category": "engine",
-      "subcategory": "Unity 渲染",
-      "title": "Unity 6.6 将 WebGPU 移出实验阶段：浏览器渲染管线迈入生产就绪",
-      "summary": "Unity于9月1日发布Unity 6.6，作为6.7 LTS前的最后一个Supported版本。其Web Graphics团队将WebGPU移出实验阶段并默认关闭——意味着API已具备生产稳定性承诺，但团队仍建议开发者主动评估后再启用。WebGPU将为Unity的WebAssembly导出提供更现代的GPU抽象，替代WebGL的下一代浏览器渲染路径。",
-      "source": "Cinevva / Unity",
-      "date": "2026-09-01",
-      "url": "https://app.cinevva.com/news/2026-09-01-unity-6-6-webgpu-production",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
-      "badge": "WebGPU",
-      "badgeType": "engine",
-      "readTime": "3 分钟",
-      "hotScore": 84,
-      "tags": [
-        "Unity 6.6",
-        "WebGPU",
-        "浏览器渲染",
-        "WASM",
-        "生产就绪"
-      ],
-      "content": [
+      id: "godot-48-dev5",
+      category: "engine",
+      subcategory: "Godot",
+      title: "Godot 4.8 dev 5 发布：Mip-level 纹理流送、2D 编辑器工具栏重做",
+      summary: "Godot Engine发布4.8 dev5开发快照，带来Mip-level纹理流送系统、alpha test覆盖保留、2D编辑器工具栏全面重做等新特性。这是4.8系列的第五个开发快照，功能密度显著高于前几个dev版本，4.8正式版预计将在渲染管线和编辑器体验上有较大提升。",
+      source: "Godot Engine 官方论坛",
+      date: "2026-09-10",
+      url: "https://forum.godotengine.org/t/dev-snapshot-godot-4-8-dev-5/144030",
+      image: "",
+      badge: "开发快照",
+      badgeType: "engine",
+      readTime: "3 分钟",
+      hotScore: 88,
+      tags: ["Godot 4.8", "dev5", "纹理流送", "2D编辑器", "开源引擎"],
+      content: [
         {
-          "title": "核心变化",
-          "type": "list",
-          "items": [
-            "WebGPU移出实验阶段；",
-            "默认关闭，需主动启用评估；",
-            "6.7 LTS前的最后一个Supported版本；",
-            "为WASM导出提供下一代GPU抽象；",
-            "替代WebGL的浏览器渲染路径。"
+          title: "新特性一览",
+          type: "list",
+          items: [
+            "Mip-level纹理流送系统；",
+            "Alpha test覆盖保留优化；",
+            "2D编辑器工具栏全面重做；",
+            "4.8系列第五个开发快照；",
+            "功能密度高于前几个dev版本。"
           ]
         },
         {
-          "title": "开发者建议",
-          "type": "text",
-          "text": "WebGPU出实验阶段意味着API稳定性承诺，但团队仍建议项目自行验证兼容性后再切默认启用。对做WebGL导出游戏的团队，建议在6.6上跑一遍WebGPU路径的渲染与内存管理回归测试。"
+          title: "开发者建议",
+          type: "text",
+          text: "dev版本适合提前评估4.8新特性，但不建议用于生产项目。关注纹理流送对移动端和Web导出的性能影响，以及2D工具栏重做对工作流的改变。4.8正式版预计将在渲染效率和编辑器体验上有明显提升。"
         }
       ]
     },
     {
-      "id": "unity-65-vs-63-lts",
-      "category": "engine",
-      "subcategory": "Unity 版本",
-      "title": "Unity 6.5 还是 6.3 LTS？生产项目版本选型参考指南",
-      "summary": "Makaka Games发布版本选型指南：生产环境项目应使用LTS版本（6.3或即将到来的6.7），而新项目推荐Unity 6.6——它于9月1日发布，包含快速进入Play模式、内容目录、图形改进等特性。指南详解各版本特性与风险，帮助开发者在「最新功能」与「生产稳定」之间做权衡。",
-      "source": "Makaka Games",
-      "date": "2026-09-04",
-      "url": "https://makaka.org/unity-tutorials/best-version",
-      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
-      "badge": "版本选型",
-      "badgeType": "engine",
-      "readTime": "3 分钟",
-      "hotScore": 80,
-      "tags": [
-        "Unity 6.5",
-        "Unity 6.3 LTS",
-        "版本选型",
-        "生产稳定",
-        "新项目"
-      ],
-      "content": [
+      id: "tuanjie-1103-release",
+      category: "engine",
+      subcategory: "团结引擎",
+      title: "团结引擎 1.10.3 版本更新发布，微信小游戏生态持续优化",
+      summary: "Unity中国发布团结引擎1.10.3版本更新，持续优化微信小游戏性能与稳定性。团结引擎作为Unity中国特供版本，聚焦国内平台适配与小游戏生态，1.10.x系列在图形性能、包体优化和开发者工具链上持续迭代。",
+      source: "Unity 官方开发者社区",
+      date: "2026-09-09",
+      url: "https://unity.cn/releases/full/202",
+      image: "",
+      badge: "版本更新",
+      badgeType: "engine",
+      readTime: "2 分钟",
+      hotScore: 80,
+      tags: ["团结引擎", "1.10.3", "微信小游戏", "Unity中国", "性能优化"],
+      content: [
         {
-          "title": "选型建议",
-          "type": "list",
-          "items": [
-            "生产环境项目用LTS（6.3/6.7）；",
-            "新项目推荐6.6体验最新特性；",
-            "6.6含快速进入Play模式/内容目录；",
-            "图形改进与质量提升；",
-            "评估升级影响面后再迁移。"
+          title: "版本要点",
+          type: "list",
+          items: [
+            "团结引擎1.10.3正式发布；",
+            "微信小游戏性能与稳定性优化；",
+            "图形性能持续迭代；",
+            "包体优化与工具链改进；",
+            "国内平台适配聚焦。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "Makaka Games发布版本选型指南：生产环境项目应使用LTS版本（6.3或即将到来的6.7），而新项目推荐Unity 6.6——它于9月1日发布，包含快速进入Play模式、内容目录、图形改进等特性。指南详解各版本特性与风险，帮助开发者在「最新功能」与「生产稳定」之间做权衡。"
+          title: "摘要速读",
+          type: "text",
+          text: "Unity中国发布团结引擎1.10.3版本更新，持续优化微信小游戏性能与稳定性。团结引擎作为Unity中国特供版本，聚焦国内平台适配与小游戏生态，1.10.x系列在图形性能、包体优化和开发者工具链上持续迭代。"
         }
       ]
     },
     {
-      "id": "godot-472-stability",
-      "category": "engine",
-      "subcategory": "Godot",
-      "title": "Godot 4.7.2 修复版发布：桌面/移动/Web 导出稳定性全面提升",
-      "summary": "Godot Engine发布4.7.2维护版本，修复自4.7.0以来报告的稳定性和易用性问题，精炼编辑器与Linux/macOS/Windows/Android/iOS/HTML5导出管线，不破坏与既有4.x版本的兼容性。该版本延续4.7系列「Lights, Camera, Action」的功能主线，是当前4.x生产项目的推荐升级目标。",
-      "source": "Git Times",
-      "date": "2026-09-03",
-      "url": "https://gittimes.com/editions/2026-09-03/godot-4-7-2-fixes-bugs-improves-stability-across-desktop-mobile-and-web-exports/",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
-      "badge": "维护版",
-      "badgeType": "engine",
-      "readTime": "2 分钟",
-      "hotScore": 82,
-      "tags": [
-        "Godot 4.7.2",
-        "稳定性",
-        "跨平台导出",
-        "维护版本",
-        "4.x兼容"
-      ],
-      "content": [
+      id: "unity-genesis-edition",
+      category: "engine",
+      subcategory: "Unity",
+      title: "Unity 创世版 9 月启动内测：支持 OpenHarmony 与 AliOS 国产系统",
+      summary: "Unity中国引擎首款产品Unity创世版（Genesis Edition）将于9月邀请少量开发者参与内测，10-11月扩大内测范围，12月正式发布。除主流平台外，创世版还将支持信创平台，包括国产操作系统、国产CPU等，是Unity本土化战略的重要一步。",
+      source: "Shulou / CTOnews",
+      date: "2026-09-09",
+      url: "https://www.shulou.com/a597541",
+      image: "",
+      badge: "创世版内测",
+      badgeType: "engine",
+      readTime: "3 分钟",
+      hotScore: 85,
+      tags: ["Unity创世版", "Genesis Edition", "OpenHarmony", "AliOS", "信创", "国产系统"],
+      content: [
         {
-          "title": "版本要点",
-          "type": "list",
-          "items": [
-            "修复4.7.0以来稳定性/易用性bug；",
-            "精炼编辑器与导出管线；",
-            "覆盖Linux/macOS/Windows/Android/iOS/Web；",
-            "不破坏4.x兼容性；",
-            "4.x生产项目推荐升级。"
+          title: "发布节奏",
+          type: "list",
+          items: [
+            "9月邀请少量开发者内测；",
+            "10-11月扩大内测范围；",
+            "12月正式发布；",
+            "支持OpenHarmony与AliOS；",
+            "适配国产CPU与信创平台。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "Godot Engine发布4.7.2维护版本，修复自4.7.0以来报告的稳定性和易用性问题，精炼编辑器与Linux/macOS/Windows/Android/iOS/HTML5导出管线，不破坏与既有4.x版本的兼容性。该版本延续4.7系列「Lights, Camera, Action」的功能主线，是当前4.x生产项目的推荐升级目标。"
+          title: "战略意义",
+          type: "text",
+          text: "Unity创世版支持国产操作系统是跨国引擎厂商本土化战略的关键一步。在信创政策推动下，游戏引擎对国产平台的适配能力将成为国内开发者选型的重要考量。对开发者而言，创世版提供了从Unity项目平滑迁移到国产平台的路径，降低了信创适配的技术门槛。"
         }
       ]
     },
     {
-      "id": "redot-263-beta1",
-      "category": "engine",
-      "subcategory": "Redot",
-      "title": "Redot 26.3 Beta 1 发布：Godot 三大社区高需特性 Structs/Traits/可空静态类型落地",
-      "summary": "Redot发布26.3 Beta 1，自称史上最大发布，新增Godot社区最受期待的五大需求中的三个：Structs（结构体）、Traits（特征）和Nullable Static Types（可空静态类型）。Redot作为Godot的社区分支，聚焦GDScript语言能力增强，Beta版本可在redotengine.org下载体验。",
-      "source": "Redot Engine Blog",
-      "date": "2026-09-01",
-      "url": "https://blog.redotengine.org/2026/09/01/redot-26-3-beta-1-is-here/",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=80",
-      "badge": "Beta发布",
-      "badgeType": "engine",
-      "readTime": "2 分钟",
-      "hotScore": 81,
-      "tags": [
-        "Redot 26.3",
-        "Structs",
-        "Traits",
-        "可空静态类型",
-        "GDScript"
-      ],
-      "content": [
+      id: "nvidia-godot-pathtracing",
+      category: "engine",
+      subcategory: "Godot / NVIDIA",
+      title: "NVIDIA 投资开源 Godot Path-Tracing Fork：MIT 协议全功能路径追踪分支",
+      summary: "NVIDIA在GDC 2026发布了Godot的Path-Tracing Fork，不是专有插件也不是闭源SDK，而是MIT协议的完整GitHub Fork。该分支为Godot带来硬件级路径追踪能力，与Godot主线独立发展的Vulkan Ray-Tracing形成两条技术路线，展示了NVIDIA对开源游戏引擎生态的战略投入。",
+      source: "DEV Community",
+      date: "2026-09-10",
+      url: "https://dev.to/ziva/nvidia-investiert-in-eine-open-source-game-engine-was-die-daten-zeigen-40d6",
+      image: "",
+      badge: "NVIDIA投资",
+      badgeType: "engine",
+      readTime: "3 分钟",
+      hotScore: 86,
+      tags: ["NVIDIA", "Godot", "Path Tracing", "MIT协议", "开源", "光线追踪"],
+      content: [
         {
-          "title": "新特性",
-          "type": "list",
-          "items": [
-            "Structs结构体类型；",
-            "Traits特征组合；",
-            "Nullable Static Types可空静态类型；",
-            "实现Godot社区Top5需求中的三个；",
-            "Redot史上最大发布。"
+          title: "技术路线",
+          type: "list",
+          items: [
+            "NVIDIA发布Godot Path-Tracing Fork；",
+            "MIT协议完整开源，非专有插件；",
+            "硬件级路径追踪能力；",
+            "Godot主线独立发展Vulkan Ray-Tracing；",
+            "两条技术路线并行推进。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "Redot发布26.3 Beta 1，自称史上最大发布，新增Godot社区最受期待的五大需求中的三个：Structs（结构体）、Traits（特征）和Nullable Static Types（可空静态类型）。Redot作为Godot的社区分支，聚焦GDScript语言能力增强，Beta版本可在redotengine.org下载体验。"
+          title: "行业影响",
+          type: "text",
+          text: "NVIDIA以完整Fork而非插件的方式投入Godot生态，表明其对开源引擎的战略重视。这与NVIDIA在UE和Unity中的深度合作形成互补——通过支持Godot，NVIDIA将其RTX技术栈延伸到更广泛的独立开发者群体。对Godot社区而言，NVIDIA的Fork提供了生产级路径追踪参考，但也引发了关于主线是否会吸收这些特性的讨论。"
         }
       ]
     },
     {
-      "id": "godot-47-changelog-guide",
-      "category": "engine",
-      "subcategory": "Godot",
-      "title": "Godot 4.7 更新日志全分类导读：CHANGELOG 与源码交叉验证的升级指南",
-      "summary": "CSDN博主发布Godot 4.7更新日志深度导读，基于CHANGELOG.md逐分类梳理2026-06-18发布的4.7新特性、修复与破坏性变更，并结合tween.cpp、control.cpp、SConstruct等仓库源码交叉验证。重点提示Animation.length从float变为double等迁移影响，帮助升级项目快速定位改动面。",
-      "source": "CSDN",
-      "date": "2026-09-05",
-      "url": "https://blog.csdn.net/gitblog_00171/article/details/160233189",
-      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
-      "badge": "升级指南",
-      "badgeType": "engine",
-      "readTime": "4 分钟",
-      "hotScore": 79,
-      "tags": [
-        "Godot 4.7",
-        "CHANGELOG",
-        "迁移指南",
-        "破坏性变更",
-        "源码验证"
-      ],
-      "content": [
+      id: "jetbrains-gamedev-day-2026",
+      category: "engine",
+      subcategory: "开发者活动",
+      title: "JetBrains GameDev Day 2026 开放注册：AI 辅助 Figma-to-Unity、Godot 程序化世界生成",
+      summary: "JetBrains开放GameDev Day 2026活动注册，今年议程涵盖Unity/UE/Godot/自研引擎的实战分享与技术深潜。亮点包括AI辅助Figma-to-Unity集成、Godot程序化世界生成、ECS迁移实战、跨运行时C#/C++调试、UE性能分析等，是游戏开发者年度技术盛会。",
+      source: "JetBrains 官方博客",
+      date: "2026-09-03",
+      url: "https://blog.jetbrains.com/dotnet/2026/09/03/register-now-for-jetbrains-gamedev-day-2026/",
+      image: "",
+      badge: "开发者大会",
+      badgeType: "event",
+      readTime: "2 分钟",
+      hotScore: 81,
+      tags: ["JetBrains", "GameDev Day", "AI辅助开发", "Figma-to-Unity", "Godot", "ECS"],
+      content: [
         {
-          "title": "导读结构",
-          "type": "list",
-          "items": [
-            "逐分类梳理4.7新特性与修复；",
-            "标注破坏性变更；",
-            "结合源码交叉验证关键条目；",
-            "Animation.length改为double需注意；",
-            "升级项目快速定位影响面。"
+          title: "议程亮点",
+          type: "list",
+          items: [
+            "AI辅助Figma-to-Unity集成；",
+            "Godot程序化世界生成；",
+            "ECS迁移实战分享；",
+            "跨运行时C#/C++调试；",
+            "UE性能分析与CI排障；",
+            "覆盖Unity/UE/Godot/自研引擎。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "CSDN博主发布Godot 4.7更新日志深度导读，基于CHANGELOG.md逐分类梳理2026-06-18发布的4.7新特性、修复与破坏性变更，并结合tween.cpp、control.cpp、SConstruct等仓库源码交叉验证。重点提示Animation.length从float变为double等迁移影响，帮助升级项目快速定位改动面。"
+          title: "摘要速读",
+          type: "text",
+          text: "JetBrains开放GameDev Day 2026活动注册，今年议程涵盖Unity/UE/Godot/自研引擎的实战分享与技术深潜。亮点包括AI辅助Figma-to-Unity集成、Godot程序化世界生成、ECS迁移实战、跨运行时C#/C++调试、UE性能分析等，是游戏开发者年度技术盛会。"
         }
       ]
     },
     {
-      "id": "ue5-agora-realtime-animation",
-      "category": "engine",
-      "subcategory": "Unreal 动画",
-      "title": "Unreal Fest Chicago 2026：Agora Studios 用 UE5 重构实时动画工作流",
-      "summary": "Agora Studios在Unreal Fest Chicago 2026分享基于UE5的实时动画制作流程：从前期预演开始直接在引擎中处理摄影机、场景、灯光、绑定与动画，通过Sequencer完成镜头编辑与精修，大幅减少传统动画流程中的代理模型、反复导入导出与跨软件切换。团队还探讨了为角色开发原生UE rigs与社区分享的可能性。",
-      "source": "Unreal Fest / 抖音",
-      "date": "2026-09-05",
-      "url": "https://www.iesdouyin.com/share/video/7681885433034263842",
-      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
-      "badge": "实时动画",
-      "badgeType": "engine",
-      "readTime": "3 分钟",
-      "hotScore": 83,
-      "tags": [
-        "UE5",
-        "实时动画",
-        "Unreal Fest",
-        "Sequencer",
-        "绑定"
-      ],
-      "content": [
+      id: "ue5-zebra-inside-unreal",
+      category: "engine",
+      subcategory: "Unreal 动画",
+      title: "Inside Unreal 直播：Bringing Zebra to Life——UE 5.8 角色动画实战",
+      summary: "Epic举办Inside Unreal直播「Bringing Zebra to Life: Animating in Unreal Engine 5.8」，展示在UE 5.8中进行角色动画制作的完整工作流。直播涵盖MetaHuman绑定、Sequencer镜头编辑、动画蓝图与状态机、以及UE 5.8新增动画工具的实战应用，是UE动画开发者的重要学习资源。",
+      source: "Epic Developer Community",
+      date: "2026-09-09",
+      url: "https://forums.unrealengine.com/tags/c/general/announcements/49/unreal-engine/705",
+      image: "",
+      badge: "Inside Unreal",
+      badgeType: "engine",
+      readTime: "3 分钟",
+      hotScore: 80,
+      tags: ["UE 5.8", "Inside Unreal", "角色动画", "MetaHuman", "Sequencer"],
+      content: [
         {
-          "title": "工作流变革",
-          "type": "list",
-          "items": [
-            "前期预演直接在引擎内进行；",
-            "摄影机/场景/灯光/绑定统一处理；",
-            "Sequencer完成镜头编辑与精修；",
-            "减少代理模型与跨软件切换；",
-            "探讨原生UE rigs社区化。"
+          title: "直播内容",
+          type: "list",
+          items: [
+            "Bringing Zebra to Life动画实战；",
+            "UE 5.8角色动画完整工作流；",
+            "MetaHuman绑定与Sequencer编辑；",
+            "动画蓝图与状态机实战；",
+            "UE 5.8新增动画工具应用。"
           ]
         },
         {
-          "title": "团队启示",
-          "type": "text",
-          "text": "实时动画工作流的本质是减少「软件间传输损耗」。Agora的路径对中小团队尤其有参考价值：从预演到成片全程留在引擎内，可以显著压缩迭代周期，让导演与动画师在同一场景中协同。"
+          title: "摘要速读",
+          type: "text",
+          text: "Epic举办Inside Unreal直播「Bringing Zebra to Life: Animating in Unreal Engine 5.8」，展示在UE 5.8中进行角色动画制作的完整工作流。直播涵盖MetaHuman绑定、Sequencer镜头编辑、动画蓝图与状态机、以及UE 5.8新增动画工具的实战应用。"
         }
       ]
     },
     {
-      "id": "netease-q2-earnings",
-      "category": "industry",
-      "subcategory": "财报",
-      "title": "网易 2026 Q2：净收入 301 亿元同比增 7.9%，毛利润 212 亿增 17.5%",
-      "summary": "网易发布2026年第二季度财报：净收入301亿元，同比增长7.9%；毛利润212亿元，同比增长17.5%；营业利润121亿元，去年同期91亿元，同比增长33%。上半年净收入607亿元同比增长7%，游戏及相关增值服务仍是营收基本盘，利润增速显著快于收入增速，毛利率持续改善。",
-      "source": "证券时报",
-      "date": "2026-08-21",
-      "url": "https://www.stcn.com/article/detail/4095596.html",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
-      "badge": "Q2财报",
-      "badgeType": "business",
-      "readTime": "2 分钟",
-      "hotScore": 83,
-      "tags": [
-        "网易",
-        "Q2财报",
-        "301亿",
-        "净收入",
-        "毛利率改善"
-      ],
-      "content": [
+      id: "shanghai-ai-arm-gaming",
+      category: "industry",
+      subcategory: "AI与硬件",
+      title: "上海大厂官宣用 AI 变革游戏研发：与 arm 合作神经技术，超分插帧落地移动端",
+      summary: "上海某游戏大厂官宣与arm围绕神经技术展开深度合作，通过引擎原生集成及生态共建，推动超分、插帧等AI图形技术落地。目标是为移动端带来更清晰画面与更流畅帧率，覆盖游戏、车载与工业边缘三类场景，中国开发者卷画质卷性能最终要落到主流机型跑得动。",
+      source: "竞核",
+      date: "2026-09-12",
+      url: "https://cgames.com/contents/2/12353.html",
+      image: "",
+      badge: "AI图形技术",
+      badgeType: "business",
+      readTime: "3 分钟",
+      hotScore: 84,
+      tags: ["AI图形", "arm", "超分", "插帧", "移动端", "神经技术"],
+      content: [
         {
-          "title": "财报要点",
-          "type": "list",
-          "items": [
-            "Q2净收入301亿同比增7.9%；",
-            "毛利润212亿同比增17.5%；",
-            "营业利润121亿同比增33%；",
-            "上半年净收入607亿增7%；",
-            "利润增速快于收入增速。"
+          title: "合作要点",
+          type: "list",
+          items: [
+            "与arm围绕神经技术深度合作；",
+            "引擎原生集成AI超分/插帧；",
+            "目标移动端更清晰画面更流畅帧率；",
+            "覆盖游戏/车载/工业边缘三类场景；",
+            "生态共建推动技术落地。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "网易发布2026年第二季度财报：净收入301亿元，同比增长7.9%；毛利润212亿元，同比增长17.5%；营业利润121亿元，去年同期91亿元，同比增长33%。上半年净收入607亿元同比增长7%，游戏及相关增值服务仍是营收基本盘，利润增速显著快于收入增速，毛利率持续改善。"
-        }
-      ]
-    },
-
-    {
-      "id": "a-share-gaming-h1-summary",
-      "category": "industry",
-      "subcategory": "市场分析",
-      "title": "22 家 A 股游戏公司中报：总营收 645.87 亿增 20.2%，二八效应加剧",
-      "summary": "南方都市报统计22家A股游戏公司2026年中报：总营收达645.87亿元，同比增长20.20%。但「二八效应」加剧——两家头部公司吃掉超九成利润增量，中长尾产品并未普惠，增量高度集中于少数长青产品与平台级新品。头部厂商业绩稳健性及出海能力优势持续凸显。",
-      "source": "南方都市报 / 今日头条",
-      "date": "2026-09-08",
-      "url": "http://m.toutiao.com/group/7682933023653904934/",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
-      "badge": "中报盘点",
-      "badgeType": "business",
-      "readTime": "3 分钟",
-      "hotScore": 84,
-      "tags": [
-        "A股游戏",
-        "中报",
-        "645.87亿",
-        "二八效应",
-        "出海"
-      ],
-      "content": [
-        {
-          "title": "数据要点",
-          "type": "list",
-          "items": [
-            "22家公司总营收645.87亿；",
-            "同比增长20.20%；",
-            "两家头部吃掉超九成利润增量；",
-            "增量集中于长青产品与平台级新品；",
-            "龙头业绩稳健性与出海能力突出。"
-          ]
-        },
-        {
-          "title": "行业判断",
-          "type": "text",
-          "text": "游戏行业整体进入成熟期，竞争格局趋于清晰。结构性增长意味着中长尾产品更难获得普惠增长，对中小团队而言，差异化题材与细分赛道比跟随头部品类更具生存空间。"
+          title: "行业意义",
+          type: "text",
+          text: "AI超分与插帧技术在移动端的引擎级集成，是移动游戏画质提升的重要方向。通过与arm的底层合作，AI图形技术可以更高效地利用移动端NPU算力，降低功耗开销。对开发者而言，引擎级AI图形能力意味着无需自行集成复杂SDK即可获得画质提升，但需关注不同芯片平台的兼容性。"
         }
       ]
     },
     {
-      "id": "gaming-companies-ai-investment",
-      "category": "industry",
-      "subcategory": "投融资",
-      "title": "游戏公司狂投 AI：TOP50 企业上半年 108 宗投资，超 2025 全年",
-      "summary": "伽马数据《2026中国游戏产业AI发展报告》披露：2026年上半年，中国游戏收入TOP50企业累计投资AI企业事件数达108宗，超过2025年全年的89宗，更是2022年全年（52宗）的两倍有余。游戏企业正成为AI产业最活跃的战略投资者之一，广东、上海、北京为主要聚集地。",
-      "source": "伽马数据 / 南方都市报",
-      "date": "2026-09-07",
-      "url": "http://m.toutiao.com/group/7682749756180382250/",
-      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80",
-      "badge": "AI投资",
-      "badgeType": "business",
-      "readTime": "2 分钟",
-      "hotScore": 82,
-      "tags": [
-        "伽马数据",
-        "AI投资",
-        "108宗",
-        "TOP50",
-        "战略投资"
-      ],
-      "content": [
+      id: "gaming-leak-crackdown",
+      category: "industry",
+      subcategory: "行业治理",
+      title: "游戏厂商重拳打击泄密「内鬼」：米哈游、腾讯、叠纸纷纷法律维权",
+      summary: "中国经营报报道，米哈游、腾讯、叠纸游戏等厂商纷纷通过法律手段打击游戏内容泄密行为。上海高院公布了一起《崩坏：星穹铁道》版本泄密案例：玩家获取并破解测试版软件包，将内容发布在社交媒体甚至提供给他人。游戏厂商对未公布内容的保护力度持续加大。",
+      source: "中国经营报 / 今日头条",
+      date: "2026-09-12",
+      url: "http://m.toutiao.com/group/7684372366297760307/",
+      image: "",
+      badge: "行业治理",
+      badgeType: "business",
+      readTime: "2 分钟",
+      hotScore: 82,
+      tags: ["泄密", "米哈游", "腾讯", "叠纸", "法律维权", "星穹铁道"],
+      content: [
         {
-          "title": "报告要点",
-          "type": "list",
-          "items": [
-            "TOP50企业上半年AI投资108宗；",
-            "超过2025全年89宗；",
-            "为2022全年52宗的两倍有余；",
-            "游戏企业成AI最活跃战略投资者；",
-            "广东/上海/北京为主要聚集地。"
+          title: "案例要点",
+          type: "list",
+          items: [
+            "米哈游/腾讯/叠纸纷纷法律维权；",
+            "星穹铁道版本泄密案：玩家破解测试包；",
+            "泄密内容发布社交媒体并传播他人；",
+            "上海高院公布典型案例；",
+            "厂商对未公布内容保护力度加大。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "伽马数据《2026中国游戏产业AI发展报告》披露：2026年上半年，中国游戏收入TOP50企业累计投资AI企业事件数达108宗，超过2025年全年的89宗，更是2022年全年（52宗）的两倍有余。游戏企业正成为AI产业最活跃的战略投资者之一，广东、上海、北京为主要聚集地。"
+          title: "摘要速读",
+          type: "text",
+          text: "中国经营报报道，米哈游、腾讯、叠纸游戏等厂商纷纷通过法律手段打击游戏内容泄密行为。上海高院公布了一起《崩坏：星穹铁道》版本泄密案例：玩家获取并破解测试版软件包，将内容发布在社交媒体甚至提供给他人。游戏厂商对未公布内容的保护力度持续加大。"
         }
       ]
     },
     {
-      "id": "zhangyiming-world-model",
-      "category": "industry",
-      "subcategory": "大厂动向",
-      "title": "传张一鸣复出督战字节「世界模型」：与 Pico 头显打通实时生成视频画面",
-      "summary": "据新浪财经报道，张一鸣复出督战字节跳动「世界模型」项目：目标不再是「生成一段等待播放的视频」，而是能随用户声音和动作实时变化的虚拟环境。字节内部给出的落地方向包括直播、短剧和游戏，并计划与自家Pico头显打通——用户戴上头显移动、转身、开口，眼前画面同步变化。",
-      "source": "新浪财经 / 今日头条",
-      "date": "2026-09-08",
-      "url": "http://m.toutiao.com/group/7682973808919167531/",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
-      "badge": "世界模型",
-      "badgeType": "event",
-      "readTime": "2 分钟",
-      "hotScore": 85,
-      "tags": [
-        "张一鸣",
-        "字节跳动",
-        "世界模型",
-        "Pico",
-        "实时生成"
-      ],
-      "content": [
+      id: "netease-invest-kepler-hit",
+      category: "industry",
+      subcategory: "投融资",
+      title: "网易投资的 Kepler Interactive 跑出黑马：《光与影：33号远征队》Steam 全球畅销榜夺冠",
+      summary: "网易少数股权投资的发行商Kepler Interactive旗下新作《光与影：33号远征队》成为Steam全球畅销榜冠军，被称为「2025年度游戏」大黑马。网易全资收购的草蜢工作室也推出了《罗密欧是个绝命侠》。网易通过投资+收购双轨布局海外精品游戏发行，收获显著成效。",
+      source: "GameLook / 新浪新闻",
+      date: "2026-09-12",
+      url: "https://www.sina.cn/media/1651799567",
+      image: "",
+      badge: "投资回报",
+      badgeType: "business",
+      readTime: "2 分钟",
+      hotScore: 83,
+      tags: ["网易", "Kepler Interactive", "光与影", "Steam畅销榜", "草蜢工作室", "海外投资"],
+      content: [
         {
-          "title": "项目方向",
-          "type": "list",
-          "items": [
-            "张一鸣复出亲自调兵遣将；",
-            "目标为随动作实时变化的虚拟环境；",
-            "落地方向含直播/短剧/游戏；",
-            "与Pico头显打通；",
-            "用户动作驱动画面同步变化。"
+          title: "投资布局",
+          type: "list",
+          items: [
+            "网易少数股权Kepler Interactive；",
+            "《光与影：33号远征队》Steam畅销夺冠；",
+            "被称2025年度游戏大黑马；",
+            "全资收购草蜢工作室；",
+            "《罗密欧是个绝命侠》已上线。"
           ]
         },
         {
-          "title": "行业影响",
-          "type": "text",
-          "text": "世界模型是AI+游戏的下一个战场：实时生成的虚拟环境一旦成熟，将重塑开放世界游戏的场景加载与NPC交互模式，字节以硬件+模型双线布局的思路值得关注。"
-        }
-      ]
-    },
-
-    {
-      "id": "zhongkui-face-cast",
-      "category": "games",
-      "subcategory": "黑神话：钟馗",
-      "title": "《黑神话：钟馗》公布数位角色脸模：国家一级演员李光复饰演鸡腿老者",
-      "summary": "参与《黑神话》系列开发的胡源在社交平台公开《黑神话：钟馗》部分角色脸模信息：主角钟馗脸模由戴智利担任，首支预告中的小厨娘脸模为满月，实机演示里手持鸡腿的老者由国家一级演员、北京人艺老戏骨李光复饰演。真人面部捕捉结合东方志怪角色设计引发玩家热议。",
-      "source": "九游 / 17173",
-      "date": "2026-09-07",
-      "url": "https://a.9game.cn/hshzk/gonglue-0-2/",
-      "image": "https://img1.gamersky.com/upimg/pic/2026/09/06/origin_202609060919593166.png", // 黑神话钟馗·角色脸模配图（游民星空，2026-09-06）
-      "badge": "脸模公布",
-      "badgeType": "game",
-      "readTime": "2 分钟",
-      "hotScore": 87,
-      "tags": [
-        "黑神话钟馗",
-        "脸模",
-        "李光复",
-        "面部捕捉",
-        "戴智利"
-      ],
-      "content": [
-        {
-          "title": "脸模信息",
-          "type": "list",
-          "items": [
-            "主角钟馗脸模为戴智利；",
-            "小厨娘脸模为满月；",
-            "鸡腿老者由李光复饰演；",
-            "国家一级演员/北京人艺；",
-            "真人面部捕捉东方志怪脸谱。"
-          ]
-        },
-        {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "参与《黑神话》系列开发的胡源在社交平台公开《黑神话：钟馗》部分角色脸模信息：主角钟馗脸模由戴智利担任，首支预告中的小厨娘脸模为满月，实机演示里手持鸡腿的老者由国家一级演员、北京人艺老戏骨李光复饰演。真人面部捕捉结合东方志怪角色设计引发玩家热议。"
+          title: "战略解读",
+          type: "text",
+          text: "网易通过少数股权投资+全资收购双轨布局海外精品游戏，正在收获回报。Kepler模式的特点是保留开发团队独立性，网易提供发行和资源支持。这种「轻控制、重赋能」的投资策略与腾讯的少数股权投资模式类似，但网易更聚焦于精品单机和独立游戏领域。"
         }
       ]
     },
     {
-      "id": "zhongkui-dev-philosophy",
-      "category": "games",
-      "subcategory": "黑神话：钟馗",
-      "title": "冯骥杨奇分享黑神话开发心得：内部十条原则，好玩是不可妥协的底线",
-      "summary": "随着《黑神话：钟馗》15分钟全新实机演示公开，游戏科学冯骥、杨奇双双发布长文分享系列新作开发心得。冯骥整理出游戏科学内部十条开发原则，强调「先打动自己再寻求共鸣」「可体验版本胜过纸面文档」「好玩是不可妥协的底线」，并坦言原则来自过往项目的教训沉淀。",
-      "source": "17173 游戏网 / 新浪微博",
-      "date": "2026-09-08",
-      "url": "https://www.sina.cn/media/1893762192",
-      "image": "https://q4.itc.cn/q_70/images03/20260820/9671c7f63d554faaaf2b0fbe942b6a1d.png", // 冯骥杨奇黑神话钟馗开发心得（搜狐，2026-08-20）
-      "badge": "开发心得",
-      "badgeType": "game",
-      "readTime": "3 分钟",
-      "hotScore": 86,
-      "tags": [
-        "黑神话钟馗",
-        "冯骥",
-        "杨奇",
-        "开发原则",
-        "游戏科学"
-      ],
-      "content": [
+      id: "perfect-world-yihuan-2b",
+      category: "industry",
+      subcategory: "财报",
+      title: "完美世界《异环》全球流水破 20 亿，Q3 起逐步释放业绩",
+      summary: "完美世界2026半年报披露，4月底推出的重磅新游《异环》截至8月18日已取得全球累计流水超20亿元，业绩贡献将在Q3起逐步释放。公司长青游戏矩阵持续扩充，电竞业务稳步深化，经营性现金流为正，为长期发展筑牢根基。",
+      source: "完美世界官方网站",
+      date: "2026-08-25",
+      url: "https://www.wanmei.com/wmnews/wmnews2026/20260825/263724.shtml",
+      image: "",
+      badge: "流水破20亿",
+      badgeType: "business",
+      readTime: "2 分钟",
+      hotScore: 82,
+      tags: ["完美世界", "异环", "20亿流水", "Q3业绩", "出海", "长青矩阵"],
+      content: [
         {
-          "title": "十条原则要点",
-          "type": "list",
-          "items": [
-            "先打动自己再寻求共鸣；",
-            "可体验版本胜过纸面文档；",
-            "好玩是不可妥协的底线；",
-            "原则来自过往项目教训；",
-            "强调玩法优先于美术堆料。"
+          title: "业绩要点",
+          type: "list",
+          items: [
+            "《异环》全球累计流水超20亿元；",
+            "截至8月18日数据；",
+            "Q3起逐步释放业绩贡献；",
+            "长青游戏矩阵持续扩充；",
+            "经营性现金流为正。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "随着《黑神话：钟馗》15分钟全新实机演示公开，游戏科学冯骥、杨奇双双发布长文分享系列新作开发心得。冯骥整理出游戏科学内部十条开发原则，强调「先打动自己再寻求共鸣」「可体验版本胜过纸面文档」「好玩是不可妥协的底线」，并坦言原则来自过往项目的教训沉淀。"
+          title: "摘要速读",
+          type: "text",
+          text: "完美世界2026半年报披露，4月底推出的重磅新游《异环》截至8月18日已取得全球累计流水超20亿元，业绩贡献将在Q3起逐步释放。公司长青游戏矩阵持续扩充，电竞业务稳步深化，经营性现金流为正，为长期发展筑牢根基。"
         }
       ]
     },
     {
-      "id": "sept-2026-game-calendar",
-      "category": "games",
-      "subcategory": "新作发售",
-      "title": "2026 年 9 月游戏推荐：秋季游戏攻势开幕，黎明行者之血/金刚狼/鬼武者扎堆",
-      "summary": "A9VG发布2026年9月游戏推荐：前巫师3制作人领衔的《黎明行者之血》9月3日发售（PC/PS5/XSX|S，支持中文）；《鬼武者：剑之道》9月4日发售，时隔20多年的续作回归；《漫威金刚狼》9月15日PS5独占发售；《乐高蝙蝠侠：黑暗骑士遗产》9月24日上线。秋季档大作攻势正式开幕。",
-      "source": "A9VG",
-      "date": "2026-09-01",
-      "url": "https://www.a9vg.com/article/244409",
-      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
-      "badge": "发售日历",
-      "badgeType": "game",
-      "readTime": "3 分钟",
-      "hotScore": 83,
-      "tags": [
-        "9月新作",
-        "黎明行者之血",
-        "鬼武者剑之道",
-        "漫威金刚狼",
-        "发售日历"
-      ],
-      "content": [
+      id: "36kr-ai-gaming-h1",
+      category: "industry",
+      subcategory: "市场分析",
+      title: "36氪深度：AI 改写游戏规则之后，75+ 公司半年报里谁在增长？",
+      summary: "36氪发布深度报道，梳理75+游戏公司2026年半年报，分析AI如何改写游戏行业竞争规则。腾讯上半年游戏总收入1301亿元同比增约10%，《王者荣耀》春节档单月IAP创近2亿美元历史新高；网易上半年游戏收入约507亿元，Q2同比增速近10%。行业分化加剧，AI成为核心变量。",
+      source: "36氪",
+      date: "2026-09-08",
+      url: "https://36kr.com/p/3974631758950662",
+      image: "",
+      badge: "半年报深度",
+      badgeType: "business",
+      readTime: "4 分钟",
+      hotScore: 85,
+      tags: ["36氪", "AI游戏", "半年报", "腾讯", "网易", "行业分化"],
+      content: [
         {
-          "title": "重点作品",
-          "type": "list",
-          "items": [
-            "黎明行者之血9/3发售，前巫师3团队；",
-            "鬼武者剑之道9/4发售，时隔20年续作；",
+          title: "核心数据",
+          type: "list",
+          items: [
+            "腾讯上半年游戏收入1301亿同比增10%；",
+            "王者荣耀春节档单月IAP近2亿美元；",
+            "网易上半年游戏收入507亿，Q2增近10%；",
+            "75+公司半年报全景梳理；",
+            "AI成为行业竞争核心变量。"
+          ]
+        },
+        {
+          title: "分析视角",
+          type: "text",
+          text: "AI正在从三个维度改写游戏行业规则：一是研发效率提升降低中小团队门槛；二是AI NPC和动态内容改变玩家体验；三是AI驱动的用户获取和运营优化重塑流量格局。头部厂商凭借数据和算力优势在AI转型中领先，但AI也为差异化创新的中小团队提供了弯道超车机会。管理层留给游戏团队的窗口期有限，把握不住可能就得让位。"
+        }
+      ]
+    },
+    {
+      id: "netease-harmony-delay",
+      category: "industry",
+      subcategory: "平台生态",
+      title: "网易游戏集体缺席鸿蒙原生版：宣布合作近三年仍仅兼容运行",
+      summary: "网易旗下《蛋仔派对》《逆水寒》手游等主力游戏均未推出鸿蒙原生版本，用户只能通过卓易通兼容运行。网易早在2023年12月就宣布与华为达成鸿蒙生态合作，被称为业内第一家启动鸿蒙原生应用开发的游戏公司，但近三年过去仍未落地原生版本，引发玩家对适配进度的质疑。",
+      source: "今日头条 / 手机小百科",
+      date: "2026-09-12",
+      url: "http://m.toutiao.com/group/7684258869400519191/",
+      image: "",
+      badge: "鸿蒙适配",
+      badgeType: "business",
+      readTime: "2 分钟",
+      hotScore: 79,
+      tags: ["网易", "鸿蒙", "原生应用", "蛋仔派对", "逆水寒", "适配进度"],
+      content: [
+        {
+          title: "现状梳理",
+          type: "list",
+          items: [
+            "网易主力游戏未推鸿蒙原生版；",
+            "仅能通过卓易通兼容运行；",
+            "2023年12月宣布鸿蒙合作；",
+            "曾称业内第一家启动鸿蒙开发；",
+            "近三年未落地原生版本。"
+          ]
+        },
+        {
+          title: "摘要速读",
+          type: "text",
+          text: "网易旗下《蛋仔派对》《逆水寒》手游等主力游戏均未推出鸿蒙原生版本，用户只能通过卓易通兼容运行。网易早在2023年12月就宣布与华为达成鸿蒙生态合作，被称为业内第一家启动鸿蒙原生应用开发的游戏公司，但近三年过去仍未落地原生版本。"
+        }
+      ]
+    },
+    {
+      id: "nhl27-launch",
+      category: "games",
+      subcategory: "新作发售",
+      title: "EA SPORTS NHL 27 正式发售：登陆 Xbox Series X|S 与 PS5",
+      summary: "EA SPORTS NHL 27于9月11日正式发售，登陆Xbox Series X|S和PS5平台。作为EA年度冰球系列新作，NHL 27带来画面升级、玩法改进和全新模式，是体育游戏爱好者秋季档的重要作品。Xbox官方将其列入9月第二周重点新游阵容。",
+      source: "Xbox Wire",
+      date: "2026-09-11",
+      url: "https://news.xbox.com/en-us/2026/09/04/next-week-on-xbox-new-games-for-september-7-to-11/",
+      image: "",
+      badge: "正式发售",
+      badgeType: "game",
+      readTime: "2 分钟",
+      hotScore: 78,
+      tags: ["NHL 27", "EA SPORTS", "冰球", "Xbox Series", "PS5", "体育游戏"],
+      content: [
+        {
+          title: "发售信息",
+          type: "list",
+          items: [
+            "NHL 27于9月11日正式发售；",
+            "登陆Xbox Series X|S和PS5；",
+            "EA年度冰球系列新作；",
+            "画面升级与玩法改进；",
+            "全新模式加入。"
+          ]
+        },
+        {
+          title: "摘要速读",
+          type: "text",
+          text: "EA SPORTS NHL 27于9月11日正式发售，登陆Xbox Series X|S和PS5平台。作为EA年度冰球系列新作，NHL 27带来画面升级、玩法改进和全新模式，是体育游戏爱好者秋季档的重要作品。"
+        }
+      ]
+    },
+    {
+      id: "yihuan-ar-ciftis",
+      category: "games",
+      subcategory: "国产游戏",
+      title: "完美世界《异环》服贸会 AR 展示：把「海特洛市」搬进首钢园",
+      summary: "2026年服贸会上，完美世界自研超自然都市开放世界RPG《异环》将游戏中的「海特洛市」搬到首钢园7号馆。参观者戴上AR眼镜，平面游戏场景瞬间「跃」出屏幕，霓虹楼宇与悬浮轨道仿佛触手可及。该作也是今年国产游戏出海最具代表性的产品之一。",
+      source: "北京日报 / 今日头条",
+      date: "2026-09-11",
+      url: "http://m.toutiao.com/group/7684046995132039734/",
+      image: "",
+      badge: "服贸会AR",
+      badgeType: "game",
+      readTime: "2 分钟",
+      hotScore: 81,
+      tags: ["异环", "完美世界", "服贸会", "AR", "海特洛市", "国产出海"],
+      content: [
+        {
+          title: "展示亮点",
+          type: "list",
+          items: [
+            "《异环》海特洛市搬进首钢园；",
+            "AR眼镜让游戏场景跃出屏幕；",
+            "霓虹楼宇与悬浮轨道可触可感；",
+            "首钢园7号馆北京大视听展区；",
+            "国产游戏出海代表产品。"
+          ]
+        },
+        {
+          title: "摘要速读",
+          type: "text",
+          text: "2026年服贸会上，完美世界自研超自然都市开放世界RPG《异环》将游戏中的「海特洛市」搬到首钢园7号馆。参观者戴上AR眼镜，平面游戏场景瞬间「跃」出屏幕，霓虹楼宇与悬浮轨道仿佛触手可及。该作也是今年国产游戏出海最具代表性的产品之一。"
+        }
+      ]
+    },
+    {
+      id: "nintendo-direct-sep-2026",
+      category: "games",
+      subcategory: "直面会",
+      title: "Nintendo Direct 9 月汇总：Bluey 新游、Cairn 登 Switch 2、弹丸论破合集",
+      summary: "任天堂9月Direct发布会公布多款新作：Bluey's Happy Snaps定档10月15日； critically acclaimed攀岩游戏Cairn将于2027年初登陆Switch 2并提供试玩；弹丸论破2x2合集2027年1月14日登陆全Switch平台。秋季任天堂内容阵容持续丰富。",
+      source: "Indy100",
+      date: "2026-09-11",
+      url: "https://www.indy100.com/gaming/nintendo-direct-news-trailers-announcements-2677840543",
+      image: "",
+      badge: "Nintendo Direct",
+      badgeType: "event",
+      readTime: "3 分钟",
+      hotScore: 82,
+      tags: ["Nintendo Direct", "Switch 2", "Bluey", "Cairn", "弹丸论破", "任天堂"],
+      content: [
+        {
+          title: "发布会重点",
+          type: "list",
+          items: [
+            "Bluey's Happy Snaps定档10月15日；",
+            "Cairn 2027年初登Switch 2，今日试玩；",
+            "弹丸论破2x2合集2027年1月14日；",
+            "全Switch平台支持；",
+            "秋季内容阵容持续丰富。"
+          ]
+        },
+        {
+          title: "摘要速读",
+          type: "text",
+          text: "任天堂9月Direct发布会公布多款新作：Bluey's Happy Snaps定档10月15日；攀岩游戏Cairn将于2027年初登陆Switch 2并提供试玩；弹丸论破2x2合集2027年1月14日登陆全Switch平台。秋季任天堂内容阵容持续丰富。"
+        }
+      ]
+    },
+    {
+      id: "sept-2026-biggest-launches",
+      category: "games",
+      subcategory: "发售日历",
+      title: "2026 年 9 月 15 款大作发售指南：漫威金刚狼、巫师 3 重制版领衔",
+      summary: "GamingBolt发布9月15款最大游戏发售指南：漫威金刚狼9月15日PS5独占发售，Insomniac打造Logan跨多地点动作冒险；巫师3重制版9月29日上线；NBA 2K27等体育年货如期而至；Crimson Moon等新作也在本月登场。秋季游戏旺季正式开启。",
+      source: "GamingBolt",
+      date: "2026-09-02",
+      url: "https://gamingbolt.com/15-biggest-games-launching-in-september-2026",
+      image: "",
+      badge: "发售指南",
+      badgeType: "game",
+      readTime: "3 分钟",
+      hotScore: 83,
+      tags: ["9月大作", "漫威金刚狼", "巫师3重制版", "NBA 2K27", "发售日历", "秋季旺季"],
+      content: [
+        {
+          title: "重点作品",
+          type: "list",
+          items: [
             "漫威金刚狼9/15 PS5独占；",
-            "乐高蝙蝠侠9/24上线；",
-            "秋季档攻势开幕。"
+            "巫师3重制版9/29上线；",
+            "NBA 2K27体育年货如期；",
+            "Crimson Moon等新作登场；",
+            "15款最大游戏全景指南。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "A9VG发布2026年9月游戏推荐：前巫师3制作人领衔的《黎明行者之血》9月3日发售（PC/PS5/XSX|S，支持中文）；《鬼武者：剑之道》9月4日发售，时隔20多年的续作回归；《漫威金刚狼》9月15日PS5独占发售；《乐高蝙蝠侠：黑暗骑士遗产》9月24日上线。秋季档大作攻势正式开幕。"
+          title: "摘要速读",
+          type: "text",
+          text: "GamingBolt发布9月15款最大游戏发售指南：漫威金刚狼9月15日PS5独占发售，Insomniac打造Logan跨多地点动作冒险；巫师3重制版9月29日上线；NBA 2K27等体育年货如期而至；Crimson Moon等新作也在本月登场。秋季游戏旺季正式开启。"
         }
       ]
     },
     {
-      "id": "sony-state-of-play-sep",
-      "category": "games",
-      "subcategory": "展会发布",
-      "title": "索尼 9 月 State of Play 两连播：金刚狼 9/15 发售、羊蹄山之魂完全版",
-      "summary": "索尼9月两场State of Play信息量爆炸：《漫威金刚狼》放出发售预告，展示金刚狼与哨兵机器人、手合会交锋的硬核实机画面，琴·葛蕾、魔形女、艾丽卡等经典角色亮相，9月15日正式发售；《羊蹄山之魂》公布完全版及「关原」新内容。索尼独占阵容秋季发力明显。",
-      "source": "抖音 / 索尼",
-      "date": "2026-09-04",
-      "url": "https://www.iesdouyin.com/share/video/7681536691378687282",
-      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
-      "badge": "State of Play",
-      "badgeType": "event",
-      "readTime": "2 分钟",
-      "hotScore": 82,
-      "tags": [
-        "索尼",
-        "State of Play",
-        "漫威金刚狼",
-        "9月15日",
-        "羊蹄山之魂"
-      ],
-      "content": [
+      id: "epic-free-games-sep10",
+      category: "games",
+      subcategory: "平台福利",
+      title: "Epic Games Store 9 月 10 日起双免费：Astral Ascent + Luftrausers",
+      summary: "Epic Games Store确认9月10日起送出两款免费游戏：Astral Ascent（ roguelite平台动作）和Luftrausers（复古飞行射击），领取持续至9月17日。这是Epic自8月以来首次双免费周，替换此前的Alone With You单免费模式。",
+      source: "GameLuster",
+      date: "2026-09-05",
+      url: "https://gameluster.com/epic-games-store-free-games-2/",
+      image: "",
+      badge: "喜加一",
+      badgeType: "game",
+      readTime: "2 分钟",
+      hotScore: 79,
+      tags: ["Epic Games", "免费游戏", "Astral Ascent", "Luftrausers", "喜加一"],
+      content: [
         {
-          "title": "发布会看点",
-          "type": "list",
-          "items": [
-            "金刚狼9月15日正式发售；",
-            "哨兵机器人/手合会实机交锋；",
-            "琴葛蕾/魔形女/艾丽卡亮相；",
-            "羊蹄山之魂完全版公布；",
-            "电影化趋势风格。"
+          title: "免费信息",
+          type: "list",
+          items: [
+            "9月10日起双免费；",
+            "Astral Ascent roguelite平台动作；",
+            "Luftrausers复古飞行射击；",
+            "领取持续至9月17日；",
+            "8月以来首次双免费周。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "索尼9月两场State of Play信息量爆炸：《漫威金刚狼》放出发售预告，展示金刚狼与哨兵机器人、手合会交锋的硬核实机画面，琴·葛蕾、魔形女、艾丽卡等经典角色亮相，9月15日正式发售；《羊蹄山之魂》公布完全版及「关原」新内容。索尼独占阵容秋季发力明显。"
+          title: "摘要速读",
+          type: "text",
+          text: "Epic Games Store确认9月10日起送出两款免费游戏：Astral Ascent（roguelite平台动作）和Luftrausers（复古飞行射击），领取持续至9月17日。这是Epic自8月以来首次双免费周。"
         }
       ]
     },
     {
-      "id": "nintendo-direct-zelda",
-      "category": "games",
-      "subcategory": "直面会预告",
-      "title": "热点预告：塞尔达传说直面会将到来，《王者万象棋》9 月 10 日上线",
-      "summary": "17173发布本周游戏热点预告：任天堂塞尔达传说直面会临近；《王者万象棋》9月10日正式上线；古墓丽影IP手游《劳拉克劳馥：奥西里斯神庙》9月8日上线，免费试玩第一章、9.99美元解锁完整战役；PS5独占《漫威金刚狼》9月8日开启预载。本周新游与发布会密集。",
-      "source": "17173 / 今日头条",
-      "date": "2026-09-07",
-      "url": "http://m.toutiao.com/group/7682732903939310118/",
-      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
-      "badge": "本周热点",
-      "badgeType": "game",
-      "readTime": "2 分钟",
-      "hotScore": 80,
-      "tags": [
-        "塞尔达直面会",
-        "王者万象棋",
-        "古墓丽影手游",
-        "金刚狼预载",
-        "新游"
-      ],
-      "content": [
+      id: "repo-agent-ecologies",
+      category: "opensource",
+      subcategory: "AI NPC",
+      title: "agent-ecologies：多 Agent OS for Autonomous AI NPCs，9 月 11 日活跃更新",
+      summary: "israriqbal/agent-ecologies是面向自主AI NPC的多智能体操作系统，支持React像素艺术世界、MCP工具调用、多Agent协作、虚拟世界模拟。集成Anthropic和DeepSeek模型，FastAPI后端，9月11日仍有活跃更新。是AI NPC生态系统级别的开源项目。",
+      source: "GitHub",
+      date: "2026-09-11",
+      url: "https://github.com/israriqbal/agent-ecologies",
+      image: "",
+      badge: "多Agent OS",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 84,
+      tags: ["agent-ecologies", "多Agent", "AI NPC", "MCP", "自主智能体", "虚拟世界"],
+      content: [
         {
-          "title": "本周看点",
-          "type": "list",
-          "items": [
-            "塞尔达传说直面会临近；",
-            "王者万象棋9/10上线；",
-            "古墓丽影手游9/8上线；",
-            "漫威金刚狼9/8开启预载；",
-            "新游与发布会密集。"
+          title: "项目特点",
+          type: "list",
+          items: [
+            "多智能体OS for自主AI NPC；",
+            "React像素艺术虚拟世界；",
+            "MCP工具调用与多Agent协作；",
+            "集成Anthropic/DeepSeek模型；",
+            "FastAPI后端，9月11日活跃更新。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "17173发布本周游戏热点预告：任天堂塞尔达传说直面会临近；《王者万象棋》9月10日正式上线；古墓丽影IP手游《劳拉克劳馥：奥西里斯神庙》9月8日上线，免费试玩第一章、9.99美元解锁完整战役；PS5独占《漫威金刚狼》9月8日开启预载。本周新游与发布会密集。"
+          title: "价值判断",
+          type: "text",
+          text: "agent-ecologies的定位是「AI NPC的操作系统」，不仅提供单个NPC的智能，还支持多Agent在共享世界中的协作与生态演化。这种系统级思路比单一NPC框架更接近真实游戏世界的AI需求，适合研究AI社会模拟和动态叙事的开发者关注。"
         }
       ]
     },
-
     {
-      "id": "repo-awesome-gpt6-astra",
-      "category": "opensource",
-      "subcategory": "AI 游戏集",
-      "title": "awesome-gpt-6-astra：GPT-6 Astra 游戏精选合集，含源码与 Demo",
-      "summary": "MartinDelophy/awesome-gpt-6-astra是「用GPT-6 Astra构建的有趣游戏」精选清单，收录游戏源码、在线Demo与提示词，涵盖vibe-coding与AI原生游戏开发实践，9月7日活跃更新。作为GPT-6 Astra生态的社区聚合，是探索AI编程游戏开发的重要资源入口。",
-      "source": "GitHub",
-      "date": "2026-09-07",
-      "url": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
-      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80",
-      "badge": "精选清单",
-      "badgeType": "ai",
-      "readTime": "2 分钟",
-      "hotScore": 82,
-      "tags": [
-        "GPT-6 Astra",
-        "AI游戏",
-        "awesome-list",
-        "vibe-coding",
-        "源码"
-      ],
-      "content": [
+      id: "repo-coreai-unity",
+      category: "opensource",
+      subcategory: "AI NPC",
+      title: "CoreAI：Unity LLM NPC 框架，函数调用+持久记忆+本地 4GB 模型即可运行",
+      summary: "NeoXider/CoreAI是Unity框架，让LLM驱动的NPC和Agent直接调用游戏代码。支持函数调用、工具使用、持久记忆和运行时Lua，可在本地4GB模型或任何OpenAI兼容API上运行。无需云密钥，无需脚本化对话树，9月10日仍有更新。",
+      source: "GitHub",
+      date: "2026-09-10",
+      url: "https://github.com/NeoXider/CoreAI",
+      image: "",
+      badge: "Unity AI框架",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 85,
+      tags: ["CoreAI", "Unity", "LLM NPC", "函数调用", "持久记忆", "本地模型"],
+      content: [
         {
-          "title": "合集内容",
-          "type": "list",
-          "items": [
-            "收录GPT-6 Astra构建的游戏；",
-            "含源码与在线Demo；",
-            "附提示词（prompts）；",
-            "vibe-coding实践案例；",
+          title: "核心能力",
+          type: "list",
+          items: [
+            "LLM驱动NPC直接调用游戏代码；",
+            "函数调用与工具使用；",
+            "持久记忆系统；",
+            "运行时Lua脚本支持；",
+            "本地4GB模型或OpenAI兼容API；",
+            "无需云密钥无需对话树。"
+          ]
+        },
+        {
+          title: "开发者价值",
+          type: "text",
+          text: "CoreAI的核心优势是「NPC能直接操作游戏世界」——通过函数调用，LLM不只是生成对话，还能触发游戏机制、移动角色、改变状态。本地4GB模型可运行意味着隐私敏感项目和离线场景也能使用，是Unity AI NPC领域最成熟的开源方案之一。"
+        }
+      ]
+    },
+    {
+      id: "repo-npc-forge",
+      category: "opensource",
+      subcategory: "AI工具",
+      title: "NPC Forge：AI 角色生成器，RAG 驱动自主 NPC+记忆+语音 UI，9 月 10 日更新",
+      summary: "EthanPerello/npc-forge是面向游戏、桌游RPG和叙事创作的AI角色生成器，可创建含个性、任务、对话、物品和肖像的详细NPC。支持与角色聊天、AI编辑肖像，RAG驱动自主NPC带记忆和语音UI，基于LLaMA 3.3 & Groq实现亚秒级延迟，完全免费开源。",
+      source: "GitHub",
+      date: "2026-09-10",
+      url: "https://github.com/EthanPerello/npc-forge",
+      image: "",
+      badge: "AI角色生成",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 82,
+      tags: ["NPC Forge", "AI角色", "RAG", "语音UI", "LLaMA 3.3", "Groq", "免费开源"],
+      content: [
+        {
+          title: "功能亮点",
+          type: "list",
+          items: [
+            "创建含个性/任务/对话/物品的NPC；",
+            "AI生成角色肖像并可编辑；",
+            "RAG驱动自主NPC带记忆；",
+            "语音UI支持；",
+            "LLaMA 3.3 & Groq亚秒级延迟；",
+            "完全免费开源无账号。"
+          ]
+        },
+        {
+          title: "摘要速读",
+          type: "text",
+          text: "EthanPerello/npc-forge是面向游戏、桌游RPG和叙事创作的AI角色生成器，可创建含个性、任务、对话、物品和肖像的详细NPC。支持与角色聊天、AI编辑肖像，RAG驱动自主NPC带记忆和语音UI，基于LLaMA 3.3 & Groq实现亚秒级延迟，完全免费开源。"
+        }
+      ]
+    },
+    {
+      id: "repo-limboai-godot",
+      category: "opensource",
+      subcategory: "Godot 插件",
+      title: "LimboAI：Godot 4 行为树与状态机插件，9 月 4 日活跃更新",
+      summary: "limbonaut/limboai是为Godot 4设计的行为树（Behavior Trees）和状态机（State Machines）插件，为Godot游戏提供成熟的AI决策框架。支持可视化行为树编辑、状态机转换、黑板数据共享，是Godot生态中最活跃的AI决策插件之一。",
+      source: "GitHub",
+      date: "2026-09-04",
+      url: "https://github.com/limbonaut/limboai",
+      image: "",
+      badge: "Godot AI插件",
+      badgeType: "engine",
+      readTime: "2 分钟",
+      hotScore: 80,
+      tags: ["LimboAI", "Godot 4", "行为树", "状态机", "AI决策", "可视化编辑"],
+      content: [
+        {
+          title: "插件能力",
+          type: "list",
+          items: [
+            "Godot 4行为树与状态机插件；",
+            "可视化行为树编辑器；",
+            "状态机转换管理；",
+            "黑板（Blackboard）数据共享；",
+            "Godot生态最活跃AI决策插件。"
+          ]
+        },
+        {
+          title: "摘要速读",
+          type: "text",
+          text: "limbonaut/limboai是为Godot 4设计的行为树和状态机插件，为Godot游戏提供成熟的AI决策框架。支持可视化行为树编辑、状态机转换、黑板数据共享，是Godot生态中最活跃的AI决策插件之一。"
+        }
+      ]
+    },
+    {
+      id: "repo-gdevelop",
+      category: "opensource",
+      subcategory: "游戏引擎",
+      title: "GDevelop：开源跨平台 2D/3D/多人游戏引擎，vibe-coding 友好，9 月 7 日更新",
+      summary: "4ian/GDevelop是开源跨平台游戏引擎，支持2D/3D/多人游戏开发，无需编程即可通过事件系统构建游戏。项目拥抱vibe-coding趋势，支持AI辅助开发，JavaScript技术栈，9月7日仍有活跃更新。是无代码/低代码游戏开发的主流选择。",
+      source: "GitHub",
+      date: "2026-09-07",
+      url: "https://github.com/4ian/GDevelop",
+      image: "",
+      badge: "开源引擎",
+      badgeType: "engine",
+      readTime: "2 分钟",
+      hotScore: 79,
+      tags: ["GDevelop", "开源引擎", "2D/3D", "无代码", "vibe-coding", "JavaScript"],
+      content: [
+        {
+          title: "引擎特点",
+          type: "list",
+          items: [
+            "开源跨平台2D/3D/多人游戏引擎；",
+            "事件系统无需编程；",
+            "拥抱vibe-coding与AI辅助；",
+            "JavaScript技术栈；",
             "9月7日活跃更新。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "MartinDelophy/awesome-gpt-6-astra是「用GPT-6 Astra构建的有趣游戏」精选清单，收录游戏源码、在线Demo与提示词，涵盖vibe-coding与AI原生游戏开发实践，9月7日活跃更新。作为GPT-6 Astra生态的社区聚合，是探索AI编程游戏开发的重要资源入口。"
+          title: "摘要速读",
+          type: "text",
+          text: "4ian/GDevelop是开源跨平台游戏引擎，支持2D/3D/多人游戏开发，无需编程即可通过事件系统构建游戏。项目拥抱vibe-coding趋势，支持AI辅助开发，JavaScript技术栈，9月7日仍有活跃更新。是无代码/低代码游戏开发的主流选择。"
         }
       ]
     },
     {
-      "id": "repo-unity-dots-sample",
-      "category": "opensource",
-      "subcategory": "Unity 示例",
-      "title": "Unity 官方 DOTSSample 活跃更新：ECS 完整示例工程与编辑器调优指南",
-      "summary": "Unity-Technologies/DOTSSample是Unity官方维护的DOTS完整示例工程，9月5日仍有更新。README给出编辑器内运行优化建议：关闭编辑器attaching、关闭Jobs Leak Detection、关闭Burst Safety Checks与Jobs Debugger可显著提升示例运行性能。是学习ECS大规模实体系统的首选官方参考工程。",
-      "source": "GitHub / Unity Technologies",
-      "date": "2026-09-05",
-      "url": "https://github.com/Unity-Technologies/DOTSSample",
-      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=1200&q=80",
-      "badge": "官方示例",
-      "badgeType": "engine",
-      "readTime": "2 分钟",
-      "hotScore": 79,
-      "tags": [
-        "DOTSSample",
-        "Unity",
-        "ECS示例",
-        "Burst",
-        "性能调优"
-      ],
-      "content": [
+      id: "tut-ollama-local-npc",
+      category: "tutorials",
+      subcategory: "AI集成",
+      title: "零代码实现游戏 NPC 智能对话：Ollama 本地化 AI 集成完整指南",
+      summary: "CSDN发布零代码游戏NPC智能对话教程，基于Ollama本地化运行Llama 2、Mistral、Gemma等大语言模型，实现NPC对话的自然生成与上下文理解。教程涵盖Ollama安装配置、模型选择、游戏集成方案、性能优化，适合希望在本地运行AI NPC的开发者。",
+      source: "CSDN",
+      date: "2026-08-31",
+      url: "https://blog.csdn.net/gitblog_00993/article/details/151809912",
+      image: "",
+      badge: "本地化AI",
+      badgeType: "ai",
+      readTime: "3 分钟",
+      hotScore: 81,
+      tags: ["Ollama", "本地AI", "NPC对话", "零代码", "Llama", "Mistral"],
+      content: [
         {
-          "title": "工程要点",
-          "type": "list",
-          "items": [
-            "Unity官方DOTS完整示例工程；",
-            "9月5日活跃更新；",
-            "编辑器内运行优化建议；",
-            "关闭Burst Safety/Jobs Debugger提速；",
-            "学习ECS大规模实体首选参考。"
+          title: "教程内容",
+          type: "list",
+          items: [
+            "Ollama安装与配置；",
+            "Llama 2/Mistral/Gemma模型选择；",
+            "NPC对话自然生成；",
+            "游戏集成方案；",
+            "本地化性能优化；",
+            "零代码入门路径。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "Unity-Technologies/DOTSSample是Unity官方维护的DOTS完整示例工程，9月5日仍有更新。README给出编辑器内运行优化建议：关闭编辑器attaching、关闭Jobs Leak Detection、关闭Burst Safety Checks与Jobs Debugger可显著提升示例运行性能。是学习ECS大规模实体系统的首选官方参考工程。"
+          title: "摘要速读",
+          type: "text",
+          text: "CSDN发布零代码游戏NPC智能对话教程，基于Ollama本地化运行Llama 2、Mistral、Gemma等大语言模型，实现NPC对话的自然生成与上下文理解。教程涵盖Ollama安装配置、模型选择、游戏集成方案、性能优化，适合希望在本地运行AI NPC的开发者。"
         }
       ]
     },
     {
-      "id": "repo-monogame-update",
-      "category": "opensource",
-      "subcategory": "框架",
-      "title": "MonoGame 活跃迭代：跨平台 C# 游戏框架保持 9 月更新节奏",
-      "summary": "MonoGame/MonoGame作为XNA精神的跨平台C#游戏框架，9月5日仍有活跃提交。支持Windows/Linux/macOS/iOS/Android/主机等全平台，是像素美术与2D游戏开发者的经典选择，在GitHub game-development C#分类中长期居前。社区生态持续稳定。",
-      "source": "GitHub",
-      "date": "2026-09-05",
-      "url": "https://github.com/MonoGame/MonoGame",
-      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
-      "badge": "经典框架",
-      "badgeType": "engine",
-      "readTime": "2 分钟",
-      "hotScore": 78,
-      "tags": [
-        "MonoGame",
-        "XNA",
-        "C#框架",
-        "跨平台",
-        "2D游戏"
-      ],
-      "content": [
+      id: "tut-unity-mcp-integration",
+      category: "tutorials",
+      subcategory: "AI工具",
+      title: "Unity-MCP 编辑器与运行时集成：在游戏中嵌入 AI 功能的完整方案",
+      summary: "CSDN发布Unity-MCP完整集成方案，通过AI技能、MCP工具和CLI命令行界面，为Unity开发者提供完整的AI开发和测试流程。任何C#方法只需一行代码即可转为AI工具，兼容Claude Code、Gemini、Copilot、Cursor等，免费使用，是Unity AI开发工具链的重要拼图。",
+      source: "CSDN",
+      date: "2026-08-30",
+      url: "https://blog.csdn.net/gitblog_00911/article/details/152153648",
+      image: "",
+      badge: "MCP集成",
+      badgeType: "ai",
+      readTime: "3 分钟",
+      hotScore: 83,
+      tags: ["Unity-MCP", "MCP", "AI工具", "C#方法转工具", "Claude Code", "Cursor"],
+      content: [
         {
-          "title": "框架现状",
-          "type": "list",
-          "items": [
-            "XNA精神跨平台C#框架；",
-            "9月5日活跃更新；",
-            "全平台支持；",
-            "2D像素游戏经典选择；",
-            "社区生态持续稳定。"
+          title: "方案要点",
+          type: "list",
+          items: [
+            "AI技能+MCP工具+CLI三合一；",
+            "一行代码将C#方法转为AI工具；",
+            "兼容Claude Code/Gemini/Copilot/Cursor；",
+            "完整AI开发与测试流程；",
+            "免费使用无限制。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "MonoGame/MonoGame作为XNA精神的跨平台C#游戏框架，9月5日仍有活跃提交。支持Windows/Linux/macOS/iOS/Android/主机等全平台，是像素美术与2D游戏开发者的经典选择，在GitHub game-development C#分类中长期居前。社区生态持续稳定。"
+          title: "实战价值",
+          type: "text",
+          text: "Unity-MCP的核心价值是让AI Agent能直接操作Unity编辑器和运行时——通过MCP协议，AI可以调用游戏内方法、查询状态、执行测试。这是AI驱动游戏开发从「写代码」到「操作编辑器」的关键一步，与Ramen Aura等商业产品形成开源替代。"
         }
       ]
     },
     {
-      "id": "repo-epic-lore",
-      "category": "opensource",
-      "subcategory": "版本控制",
-      "title": "Epic 开源 Lore VCS 持续迭代：面向游戏级大二进制资产的版本控制系统",
-      "summary": "epicGames/lore是Epic在State of Unreal 2026开源的新一代版本控制系统，MIT协议、Rust实现，专为代码+大二进制资产混合的项目设计（游戏/娱乐行业），使用内容寻址存储与Merkle树实现按需下载。9月5日仍有活跃提交，pre-1.0阶段持续演进。",
-      "source": "GitHub / Epic Games",
-      "date": "2026-09-05",
-      "url": "https://github.com/epicGames/lore",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
-      "badge": "版本控制",
-      "badgeType": "engine",
-      "readTime": "3 分钟",
-      "hotScore": 83,
-      "tags": [
-        "Lore",
-        "Epic",
-        "版本控制",
-        "二进制资产",
-        "Rust"
-      ],
-      "content": [
+      id: "tut-ue5-nanite-lumen",
+      category: "tutorials",
+      subcategory: "渲染技术",
+      title: "UE5 两大杀器 Nanite 与 Lumen 深度解析：影视级画质与帧率能否兼得？",
+      summary: "什么值得买发布UE5 Nanite与Lumen技术深度解析，从技术定位、开发效率、性能表现三维度对比。Nanite聚焦几何表达力突破实现数十亿多边形实时渲染，Lumen聚焦全动态光影实时计算。开发效率上Nanite让美术资产直接导入无需减面，Lumen让光照迭代从数周缩短至数天。",
+      source: "什么值得买",
+      date: "2026-09-01",
+      url: "https://post.m.smzdm.com/p/aqrg46m7/",
+      image: "",
+      badge: "渲染深析",
+      badgeType: "engine",
+      readTime: "4 分钟",
+      hotScore: 82,
+      tags: ["UE5", "Nanite", "Lumen", "虚拟几何体", "全局光照", "性能分析"],
+      content: [
         {
-          "title": "技术特点",
-          "type": "list",
-          "items": [
-            "MIT协议开源；",
-            "Rust实现；",
-            "面向游戏级大二进制资产；",
-            "内容寻址存储+Merkle树；",
-            "按需下载，pre-1.0持续演进。"
+          title: "对比维度",
+          type: "list",
+          items: [
+            "Nanite：数十亿多边形实时渲染；",
+            "Lumen：全动态光影实时计算；",
+            "Nanite让美术直接导入无需减面；",
+            "Lumen光照迭代从数周缩至数天；",
+            "性能表现需结合硬件评估。"
           ]
         },
         {
-          "title": "价值判断",
-          "type": "text",
-          "text": "Lore定位在Git与Perforce之间：Git处理大资产力不从心，Perforce闭源昂贵。Epic将UEFN背后的VCS开源，对中小工作室是值得评估的替代方案，但pre-1.0状态需谨慎在生产环境试用。"
+          title: "技术解读",
+          type: "text",
+          text: "Nanite和Lumen是UE5的两大核心技术突破，但两者在不同硬件上的性能表现差异较大。Nanite对几何细节的提升是革命性的，但在植被等alpha-tested材质上仍有局限；Lumen的动态光照效果惊艳但在复杂场景下GPU开销显著。开发者需根据目标平台和美术风格做针对性优化，而非默认全开。"
         }
       ]
     },
     {
-      "id": "tut-dots-intro",
-      "category": "tutorials",
-      "subcategory": "Unity DOTS",
-      "title": "Unity 官方 DOTS 入门教程：面向 6.0 的数据导向技术栈全解析",
-      "summary": "Unity Learn更新《Get Acquainted with DOTS》官方教程，面向Unity 6.0版本：讲解CPU与内存性能的关键考量，介绍DOTS作为数据导向技术栈如何让开发者充分利用硬件特性。教程覆盖ECS架构、Burst编译、Job System的核心概念与适用场景判断，是DOTS入门的官方第一课。",
-      "source": "Unity Learn",
-      "date": "2026-09-05",
-      "url": "https://learn.unity.com/tutorial/get-acquainted-with-dots?version=6.0",
-      "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
-      "badge": "官方教程",
-      "badgeType": "engine",
-      "readTime": "3 分钟",
-      "hotScore": 82,
-      "tags": [
-        "Unity DOTS",
-        "ECS",
-        "Burst",
-        "Job System",
-        "数据导向"
-      ],
-      "content": [
+      id: "tut-generative-ai-gamedev",
+      category: "tutorials",
+      subcategory: "AI开发",
+      title: "生成式 AI 正在从内部改变游戏开发：Unity 元数据、UE PCG 与自动化工具的边界",
+      summary: "Urban Splatter发布深度分析，探讨生成式AI如何从内部改变游戏开发。Unity声明AI生成资产含嵌入元数据，开发者仍需负责应用商店声明和使用权验证；UE的PCG框架可生成建筑/生物群系/大世界，但程序化生成不等于生成式AI。自动化工具需要准确标签，生成代码可能行为异常需清理。",
+      source: "Urban Splatter",
+      date: "2026-09-11",
+      url: "https://www.urbansplatter.com/2026/09/why-generative-ai-is-changing-games-from-the-inside-out/",
+      image: "",
+      badge: "AI深度分析",
+      badgeType: "ai",
+      readTime: "3 分钟",
+      hotScore: 80,
+      tags: ["生成式AI", "Unity元数据", "UE PCG", "自动化工具", "资产合规", "开发流程"],
+      content: [
         {
-          "title": "教程内容",
-          "type": "list",
-          "items": [
-            "CPU/内存性能关键考量；",
-            "DOTS数据导向技术栈概述；",
-            "ECS架构核心概念；",
-            "Burst编译与Job System；",
-            "适用场景判断。"
+          title: "核心观点",
+          type: "list",
+          items: [
+            "Unity AI生成资产含嵌入元数据；",
+            "开发者需负责应用商店声明；",
+            "UE PCG程序化生成≠生成式AI；",
+            "自动化工具需准确标签；",
+            "生成代码可能行为异常需清理。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "Unity Learn更新《Get Acquainted with DOTS》官方教程，面向Unity 6.0版本：讲解CPU与内存性能的关键考量，介绍DOTS作为数据导向技术栈如何让开发者充分利用硬件特性。教程覆盖ECS架构、Burst编译、Job System的核心概念与适用场景判断，是DOTS入门的官方第一课。"
+          title: "分析视角",
+          type: "text",
+          text: "生成式AI在游戏开发中的应用正在从「辅助工具」走向「流程嵌入」，但也带来新的治理挑战。Unity的元数据方案试图解决AI资产溯源问题，UE的PCG则坚持程序化生成的确定性路径。开发者需要在效率提升与质量控制、合规风险之间找到平衡，不能盲目信任AI生成内容。"
         }
       ]
     },
     {
-      "id": "tut-dots-inventory",
-      "category": "tutorials",
-      "subcategory": "Unity DOTS",
-      "title": "Unity 官方 DOTS 背包系统教程：ECS 组件架构+高效数据查询实战",
-      "summary": "Unity Learn发布《Create an Inventory System in DOTS》网络研讨会教程：从零构建基于网格机制（灵感来自V Rising）的完整背包系统，覆盖ECS组件架构设计、高效数据查询、UI集成模式、背包管理性能优化技术。Unity版本6.0，中阶难度，是DOTS落地到实际游戏系统的完整案例。",
-      "source": "Unity Learn",
-      "date": "2026-09-05",
-      "url": "https://learn.unity.com/tutorial/create-an-inventory-system-in-dots",
-      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
-      "badge": "实战案例",
-      "badgeType": "engine",
-      "readTime": "3 分钟",
-      "hotScore": 81,
-      "tags": [
-        "DOTS",
-        "背包系统",
-        "ECS",
-        "数据查询",
-        "UI集成"
-      ],
-      "content": [
+      id: "ai-ramen-aura-10",
+      category: "ai",
+      subcategory: "AI开发工具",
+      title: "Ramen 发布 Aura 1.0：面向 Unity/UE 的 AI 开发 Agent，Verification Agent+持久项目记忆",
+      summary: "Ramen正式发布Aura 1.0，其AI开发Agent面向Unity和Unreal Engine开发者。1.0版本带来重新设计的界面、Verification Agent前沿级性能、更快的Blueprint生成、持久项目记忆、多项目支持、Auto模式无限使用，定价低于beta测试，新增Mac支持并登陆Fab商店。",
+      source: "GamesBeat",
+      date: "2026-09-09",
+      url: "https://gamesbeat.com/ramen-launches-aura-1-0-to-push-agentic-ai-in-game-development/",
+      image: "",
+      badge: "Aura 1.0",
+      badgeType: "ai",
+      readTime: "3 分钟",
+      hotScore: 87,
+      tags: ["Ramen", "Aura 1.0", "AI开发Agent", "Unity", "Unreal", "Verification Agent", "Fab"],
+      content: [
         {
-          "title": "课程目标",
-          "type": "list",
-          "items": [
-            "设计物品与背包的ECS组件；",
-            "高效数据查询；",
-            "UI集成模式；",
-            "背包管理性能优化；",
-            "灵感来自V Rising网格机制。"
+          title: "1.0 新特性",
+          type: "list",
+          items: [
+            "重新设计的用户界面；",
+            "Verification Agent前沿级性能；",
+            "更快的Blueprint生成；",
+            "持久项目记忆；",
+            "多项目支持+Auto模式无限使用；",
+            "新增Mac支持，登陆Fab商店。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "Unity Learn发布《Create an Inventory System in DOTS》网络研讨会教程：从零构建基于网格机制（灵感来自V Rising）的完整背包系统，覆盖ECS组件架构设计、高效数据查询、UI集成模式、背包管理性能优化技术。Unity版本6.0，中阶难度，是DOTS落地到实际游戏系统的完整案例。"
+          title: "行业意义",
+          type: "text",
+          text: "Aura 1.0是AI游戏开发Agent领域的重要里程碑——Verification Agent意味着AI生成的代码和蓝图可以自动验证正确性，持久项目记忆让AI理解项目上下文而非每次从零开始。登陆Fab商店也表明Epic对AI开发工具的生态接纳。对开发者而言，这代表AI从「代码补全」进化到「自主开发+验证」的新阶段。"
         }
       ]
     },
     {
-      "id": "tut-dots-best-practices",
-      "category": "tutorials",
-      "subcategory": "Unity DOTS",
-      "title": "Unity 官方 DOTS 最佳实践 Part 3.1：实现基础——Profiler 与 Console 常驻工作流",
-      "summary": "Unity Learn官方DOTS最佳实践课程Part 3.1讲解实现阶段基础：ECS开发时应常驻Unity CPU Profiler（建议Timeline视图）与Console窗口，Console快速提示job安全系统违规或临时native内存泄漏，Profiler定位可能造成性能问题的system。课程还覆盖Burst与Job safety的开发期工作流。",
-      "source": "Unity Learn",
-      "date": "2026-09-05",
-      "url": "https://learn.unity.com/course/dots-best-practices/unit/part-3-implementation-and-optimization/tutorial/part-3-1-implementation-fundamentals",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200&q=80",
-      "badge": "官方最佳实践",
-      "badgeType": "engine",
-      "readTime": "3 分钟",
-      "hotScore": 81,
-      "tags": [
-        "DOTS",
-        "最佳实践",
-        "Profiler",
-        "Job Safety",
-        "Burst"
-      ],
-      "content": [
+      id: "ai-super-npc",
+      category: "ai",
+      subcategory: "AI NPC",
+      title: "Super NPC：通用 AI NPC 系统，几行代码接入，完全本地运行",
+      summary: "Super NPC是通用AI NPC系统，只需几行代码即可为任何游戏添加智能、有情感、带持久记忆的NPC。系统完全在玩家本地硬件上运行，支持语音合成集成和多语言。路线图包括Unity Asset Store包和Godot Asset Library插件，是轻量化本地AI NPC的实用方案。",
+      source: "PyPI",
+      date: "2026-09-06",
+      url: "https://pypi.org/project/supernpc/",
+      image: "",
+      badge: "通用AI NPC",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 80,
+      tags: ["Super NPC", "本地AI", "持久记忆", "情感NPC", "语音合成", "Python"],
+      content: [
         {
-          "title": "开发期工作流",
-          "type": "list",
-          "items": [
-            "CPU Profiler常驻（Timeline视图）；",
-            "Console窗口常开；",
-            "快速提示job安全系统违规；",
-            "识别临时native内存泄漏；",
-            "Profiler定位性能问题system。"
+          title: "系统特点",
+          type: "list",
+          items: [
+            "几行代码接入任何游戏；",
+            "智能有情感带持久记忆的NPC；",
+            "完全本地运行无云依赖；",
+            "语音合成集成；",
+            "多语言支持；",
+            "Unity/Godot插件在路线图中。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "Unity Learn官方DOTS最佳实践课程Part 3.1讲解实现阶段基础：ECS开发时应常驻Unity CPU Profiler（建议Timeline视图）与Console窗口，Console快速提示job安全系统违规或临时native内存泄漏，Profiler定位可能造成性能问题的system。课程还覆盖Burst与Job safety的开发期工作流。"
-        }
-      ]
-    },
-
-    {
-      "id": "ai-fortnite-npc-tool",
-      "category": "ai",
-      "subcategory": "AI NPC",
-      "title": "堡垒之夜推出 AI 驱动 NPC 定制工具：20 行提示词生成自定义 NPC",
-      "summary": "Epic为Fortnite创作者推出AI驱动的NPC定制工具：创作者无需编写复杂分支对话脚本，用约20行自然语言文本即可生成自定义NPC，描述性格设定、知识背景与行为逻辑，AI实时生成具备任务承接、剧情推进与旁白叙述能力的动态NPC。演示NPC等案例已落地UEFN创意生态。",
-      "source": "AI D-A-M-N",
-      "date": "2026-09-05",
-      "url": "https://ai-damn.com/fortnite-unveils-ai-powered-npc-customization-tool-1749081569736",
-      "image": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
-      "badge": "AI工具",
-      "badgeType": "ai",
-      "readTime": "2 分钟",
-      "hotScore": 85,
-      "tags": [
-        "堡垒之夜",
-        "UEFN",
-        "AI NPC",
-        "提示词生成",
-        "Epic"
-      ],
-      "content": [
-        {
-          "title": "工具要点",
-          "type": "list",
-          "items": [
-            "20行提示词生成自定义NPC；",
-            "描述性格/知识/行为逻辑；",
-            "实时生成动态对话NPC；",
-            "支持任务承接与剧情推进；",
-            "面向UEFN创作者开放。"
-          ]
-        },
-        {
-          "title": "意义",
-          "type": "text",
-          "text": "这是引擎厂商将AI NPC能力下沉到创作者生态的标志性动作——从「写代码」到「写提示词」的转变，可能让UGC内容的生产效率与动态性发生质变。"
-        }
-      ]
-    },
-
-    {
-      "id": "ai-playco-playbot",
-      "category": "ai",
-      "subcategory": "AI 开发工具",
-      "title": "Playco 发布 Playbot：基于 OpenAI GPT-6 Astra 的 AI 游戏开发 IDE",
-      "summary": "游戏初创公司Playco推出Playbot——一款利用OpenAI GPT-6 Astra的AI集成开发环境（IDE），旨在简化游戏开发流程，让开发者通过自然语言与AI协作构建游戏。在GPT-6 Astra生态持续扩展的背景下，Playbot代表「AI优先」游戏开发工具的新方向。",
-      "source": "Cryptelio",
-      "date": "2026-09-03",
-      "url": "https://cryptelio.cc/news/playco-launches-playbot-an-ai-development-tool-using-openais-gpt-6-astra",
-      "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=1200&q=80",
-      "badge": "AI IDE",
-      "badgeType": "ai",
-      "readTime": "2 分钟",
-      "hotScore": 81,
-      "tags": [
-        "Playco",
-        "Playbot",
-        "GPT-6 Astra",
-        "AI IDE",
-        "游戏开发"
-      ],
-      "content": [
-        {
-          "title": "工具信息",
-          "type": "list",
-          "items": [
-            "基于GPT-6 Astra的IDE；",
-            "自然语言与AI协作开发；",
-            "简化游戏开发流程；",
-            "AI优先开发工具新方向；",
-            "游戏初创公司Playco推出。"
-          ]
-        },
-        {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "游戏初创公司Playco推出Playbot——一款利用OpenAI GPT-6 Astra的AI集成开发环境（IDE），旨在简化游戏开发流程，让开发者通过自然语言与AI协作构建游戏。在GPT-6 Astra生态持续扩展的背景下，Playbot代表「AI优先」游戏开发工具的新方向。"
+          title: "摘要速读",
+          type: "text",
+          text: "Super NPC是通用AI NPC系统，只需几行代码即可为任何游戏添加智能、有情感、带持久记忆的NPC。系统完全在玩家本地硬件上运行，支持语音合成集成和多语言。路线图包括Unity Asset Store包和Godot Asset Library插件。"
         }
       ]
     },
     {
-      "id": "ai-cdpr-tools",
-      "category": "ai",
-      "subcategory": "大厂态度",
-      "title": "CDPR 明确表态：使用 AI 作为开发工具，但不会完全依赖 AI 制作游戏",
-      "summary": "CD Projekt确认正在将AI作为开发工具使用，但同时明确表示没有意图完全依赖AI制作游戏。公司强调其开发团队仍保持「人主导」的制作方式，在游戏行业AI角色日益重要的背景下，CDPR的表态代表了3A大厂对AI辅助与人类创意边界的审慎态度。",
-      "source": "Ruliweb",
-      "date": "2026-09-03",
-      "url": "https://m.ruliweb.com/pc/board/300007/read/2354406",
-      "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1200&q=80",
-      "badge": "大厂表态",
-      "badgeType": "ai",
-      "readTime": "2 分钟",
-      "hotScore": 80,
-      "tags": [
-        "CDPR",
-        "AI工具",
-        "人主导",
-        "3A态度",
-        "开发流程"
-      ],
-      "content": [
+      id: "ai-character-engine",
+      category: "ai",
+      subcategory: "AI NPC",
+      title: "AI Character Engine：Drop-in AI NPC 框架，三层记忆+动态亲密度，单接口接入任意游戏",
+      summary: "aivrar/ai-character-engine是即插即用AI NPC框架，将LLM驱动的Agent变为可信角色，通过工具调用做出自主决策，构建三层渐隐记忆系统，并发展与玩家的动态亲密度。只需实现一个GamePlugin接口即可接入任何游戏——从酒馆模拟到空间站。",
+      source: "GitHub",
+      date: "2026-09-07",
+      url: "https://github.com/aivrar/ai-character-engine",
+      image: "",
+      badge: "Drop-in框架",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 83,
+      tags: ["AI Character Engine", "Drop-in", "三层记忆", "动态亲密度", "工具调用", "跨游戏"],
+      content: [
         {
-          "title": "表态要点",
-          "type": "list",
-          "items": [
-            "确认使用AI作为开发工具；",
-            "不打算完全依赖AI制作游戏；",
-            "保持人主导的制作方式；",
-            "回应行业AI角色讨论；",
-            "代表3A大厂审慎态度。"
+          title: "框架设计",
+          type: "list",
+          items: [
+            "即插即用AI NPC框架；",
+            "工具调用自主决策；",
+            "三层渐隐记忆系统；",
+            "与玩家动态亲密度；",
+            "单GamePlugin接口接入任意游戏。"
           ]
         },
         {
-          "title": "摘要速读",
-          "type": "text",
-          "text": "CD Projekt确认正在将AI作为开发工具使用，但同时明确表示没有意图完全依赖AI制作游戏。公司强调其开发团队仍保持「人主导」的制作方式，在游戏行业AI角色日益重要的背景下，CDPR的表态代表了3A大厂对AI辅助与人类创意边界的审慎态度。"
+          title: "设计亮点",
+          type: "text",
+          text: "AI Character Engine的设计哲学是「角色可信度」——三层记忆系统让NPC记住重要事件但遗忘细节，动态亲密度让关系随互动演化，工具调用让NPC不只是说话还能行动。GamePlugin接口的抽象设计使其可以快速适配不同游戏引擎和玩法类型，是AI NPC框架中架构最清晰的方案之一。"
+        }
+      ]
+    },
+    {
+      id: "ai-opengameagent",
+      category: "ai",
+      subcategory: "AI Agent",
+      title: "OpenGameAgent：开源 C# Agent 运行时，支持 Unity/Godot/UE 的 AI NPC 与游戏内 Agent",
+      summary: "EricSun0218/OpenGameAgent是开源C# Agent运行时，专为AI NPC和游戏内Agent设计。提供结构化上下文、ReAct工具使用、复杂任务规划、记忆系统和可靠动作执行，原生支持Unity、Godot、Unreal Engine和服务器。是跨引擎AI Agent的开源基础设施。",
+      source: "GitHub",
+      date: "2026-09-08",
+      url: "https://github.com/EricSun0218/OpenGameAgent",
+      image: "",
+      badge: "开源Agent运行时",
+      badgeType: "ai",
+      readTime: "2 分钟",
+      hotScore: 84,
+      tags: ["OpenGameAgent", "C#", "Agent运行时", "ReAct", "Unity", "Godot", "Unreal"],
+      content: [
+        {
+          title: "核心能力",
+          type: "list",
+          items: [
+            "开源C# Agent运行时；",
+            "结构化上下文管理；",
+            "ReAct工具使用范式；",
+            "复杂任务规划与记忆系统；",
+            "可靠动作执行；",
+            "原生支持Unity/Godot/UE/服务器。"
+          ]
+        },
+        {
+          title: "技术价值",
+          type: "text",
+          text: "OpenGameAgent的定位是「游戏AI Agent的.NET标准运行时」——用C#实现意味着与Unity和Godot的C#生态无缝集成，同时通过语言绑定支持UE。ReAct范式让Agent具备推理-行动-观察的循环能力，记忆系统支持长期对话和任务状态追踪，是跨引擎AI Agent基础设施的重要开源项目。"
         }
       ]
     }
   ]
-}
-;
+};
